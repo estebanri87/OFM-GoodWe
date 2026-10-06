@@ -13,3 +13,5 @@
 - ETS-Darstellung der Objektauswahl korrigiert: je Objekt eine normale Parameterzeile mit
   Text und Häkchen statt einer Tabelle mit nur einer Spalte, in der die Häkchen unsichtbar
   waren. Einheiten stehen jetzt im Zeilentext.
+- Objektgruppen auf- und zuklappbar: je Gruppe ein Schalter, erst dann erscheinen die
+  Objektzeilen. Die Auswahl und die KOs hängen nicht davon ab.

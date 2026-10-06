@@ -135,6 +135,32 @@ def bit_param(k):
     return ENABLE_PARAM_BASE + k
 
 
+# Objektgruppen der Kanalseite: (Titel, Familie, Bitnummern). Je Gruppe ein Schalter, der die
+# Objektzeilen aufklappt. Die Reihenfolge bestimmt die Parameternummer des Schalters - nur
+# hinten anhaengen.
+GROUPS = []
+_k = 0
+for _title, _group in SENSOR_GROUPS:
+    _fams = set(s[4] for s in _group)
+    assert len(_fams) == 1, "Gruppe %s mischt Familien" % _title
+    GROUPS.append((_title, _fams.pop(), list(range(_k, _k + len(_group)))))
+    _k += len(_group)
+assert _k == len(SENSORS)
+SENSOR_GROUP_COUNT = len(GROUPS)
+for _fam, _title in (("C", "Einstellungen allgemein"), ("E", "Einstellungen Hybrid"), ("D", "Einstellungen netzgekoppelt")):
+    _bits = [SENSOR_CAPACITY + n for n, st in enumerate(SETTINGS) if st[2] == _fam]
+    if _bits:
+        GROUPS.append((_title, _fam, _bits))
+
+# Gruppenschalter: reine ETS-Anzeige (kein Memory), Parameternummer 500 + Gruppe
+GROUP_PARAM_BASE = 500
+assert len(GROUPS) < 100
+
+
+def group_param(g):
+    return GROUP_PARAM_BASE + g
+
+
 L = []
 A = L.append
 A('<?xml version="1.0" encoding="utf-8"?>')
@@ -156,6 +182,11 @@ A('              <!-- TypeSelect: kein Memory, nur in der ETS; Kanal-Tab, ohne D
 A('              <Parameter Id="%s" Name="CH%sTypeSelect" ParameterType="%sAID%s_PT-GDWTypeSelect" Text="Wechselrichtertyp" Value="1" />' % (pid(11), CH, P, P))
 A('              <!-- Ergebnis von "Wechselrichter auslesen". Nur in der ETS. -->')
 A('              <Parameter Id="%s" Name="CH%sDetected" ParameterType="%sAID%s_PT-GDWInfoText" Text="Erkannt" Value="" op:configTransfer="never" />' % (pid(13), CH, P, P))
+A('              <!-- Gruppenschalter: klappen die Objektzeilen einer Gruppe auf. Nur in der ETS,')
+A('                   ohne Einfluss auf die Auswahl und die KOs. -->')
+for g, (title, fam, bits) in enumerate(GROUPS):
+    A('              <Parameter Id="%s" Name="CH%sShowGroup%02d" ParameterType="%sAID%s_PT-CheckBox" Text="%s" Value="0" />'
+      % (pid(group_param(g)), CH, g, P, P, xml(title)))
 A('              <!-- Haupttyp: Kanalauswahl-Tabelle, mit Deaktiviert -->')
 A('              <Union SizeInBit="8">')
 A('                <Memory CodeSegment="%sMID%s" Offset="%d" BitOffset="0" />' % (P, P, TYPE_OFFSET))
@@ -206,7 +237,7 @@ for k, name, label, fam in BITS:
 A('              </Union>')
 A('            </Parameters>')
 A('            <ParameterRefs>')
-for n in (0, 998, 11, 13):
+for n in [0, 998, 11, 13] + [group_param(g) for g in range(len(GROUPS))]:
     A('              <ParameterRef Id="%s" RefId="%s" />' % (pref(n), pid(n)))
 for n in (10, 12, 1, 2, 3, 4, 5, 6, 7, 8):
     A('              <ParameterRef Id="%s" RefId="%s" />' % (uref(n), uid(n)))
@@ -346,45 +377,39 @@ for n, st in enumerate(SETTINGS):
 A('')
 A('                      <ParameterSeparator Id="%s" Text="Messwerte" UIHint="Headline" />' % PS)
 A('                      <ParameterSeparator Id="%s" Text="Angehakt wird als KO angelegt und gesendet. &quot;Wechselrichter auslesen&quot; hakt alle Objekte an, die das Gerät liefert. Netzleistung, Bezug, Einspeisung und Hausverbrauch sind nur mit angeschlossenem GoodWe-Zähler gültig." UIHint="Information" />' % PS)
+A('                      <ParameterSeparator Id="%s" Text="Gruppe anhaken, um ihre Objekte zu sehen. Zuklappen ändert nichts an der Auswahl." UIHint="Information" />' % PS)
 
 
-# Je Objekt eine normale Parameterzeile unter einer Gruppenueberschrift. Bewusst KEINE
-# Tabelle: ein Layout="Table" mit nur einer Spalte zeigt in der ETS die Haekchen nicht an
-# (die Zeilenkoepfe verdraengen die Spalte), und ohne weitere Spalten bringt es nichts.
-def emit_list(title, bits, fam):
-    """bits: Liste der Bitnummern in Anzeigereihenfolge."""
+# Je Gruppe ein Schalter; nur wenn er angehakt ist, erscheinen die Objektzeilen darunter.
+# Bewusst KEINE Tabelle: ein Layout="Table" mit nur einer Spalte zeigt in der ETS die
+# Haekchen nicht an (die Zeilenkoepfe verdraengen die Spalte).
+def emit_group(g):
+    title, fam, bits = GROUPS[g]
     pad = " " * 22
     if FAM_TEST[fam]:
         A(pad + '<choose ParamRefId="%s">' % TYPEREF)
         A(pad + '  <when test="%s">' % FAM_TEST[fam])
         pad = pad + "    "
-    A(pad + '<ParameterSeparator Id="%s" Text="%s" UIHint="Headline" />' % (PS, xml(title)))
+    A(pad + '<ParameterRefRef IndentLevel="1" RefId="%s" HelpContext="GDW-Objekte" />' % pref(group_param(g)))
+    A(pad + '<choose ParamRefId="%s">' % pref(group_param(g)))
+    A(pad + '  <when test="=1">')
     for k in bits:
-        A(pad + '<ParameterRefRef IndentLevel="1" RefId="%s" HelpContext="GDW-Objekte" />' % uref(bit_param(k)))
+        A(pad + '    <ParameterRefRef IndentLevel="2" RefId="%s" HelpContext="GDW-Objekte" />' % uref(bit_param(k)))
+    A(pad + '  </when>')
+    A(pad + '</choose>')
     if FAM_TEST[fam]:
         A(" " * 22 + '  </when>')
         A(" " * 22 + '</choose>')
 
 
-k = 0
-for title, group in SENSOR_GROUPS:
-    bits = []
-    fams = set()
-    for s in group:
-        bits.append(k)
-        fams.add(s[4])
-        k += 1
-    assert len(fams) == 1, "Gruppe %s mischt Familien" % title
-    emit_list(title, bits, fams.pop())
-assert k == len(SENSORS)
+for g in range(SENSOR_GROUP_COUNT):
+    emit_group(g)
 
 A('')
 A('                      <ParameterSeparator Id="%s" Text="Einstellungen" UIHint="Headline" />' % PS)
 A('                      <ParameterSeparator Id="%s" Text="Diese Objekte schreiben in den Wechselrichter. Sie wirken erst, wenn ein Telegramm eintrifft; beim Start wird nichts geschrieben. Einstellungen ändern den Betrieb der Anlage - mit Bedacht verwenden." UIHint="Information" />' % PS)
-for fam, title in (("C", "Einstellungen allgemein"), ("E", "Einstellungen Hybrid"), ("D", "Einstellungen netzgekoppelt")):
-    bits = [SENSOR_CAPACITY + n for n, st in enumerate(SETTINGS) if st[2] == fam]
-    if bits:
-        emit_list(title, bits, fam)
+for g in range(SENSOR_GROUP_COUNT, len(GROUPS)):
+    emit_group(g)
 
 A('                    </ParameterBlock>')
 A('                  </when>')

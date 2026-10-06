@@ -17,6 +17,29 @@
               <Parameter Id="%AID%_P-%TT%%CC%011" Name="CH%C%TypeSelect" ParameterType="%AID%_PT-GDWTypeSelect" Text="Wechselrichtertyp" Value="1" />
               <!-- Ergebnis von "Wechselrichter auslesen". Nur in der ETS. -->
               <Parameter Id="%AID%_P-%TT%%CC%013" Name="CH%C%Detected" ParameterType="%AID%_PT-GDWInfoText" Text="Erkannt" Value="" op:configTransfer="never" />
+              <!-- Gruppenschalter: klappen die Objektzeilen einer Gruppe auf. Nur in der ETS,
+                   ohne Einfluss auf die Auswahl und die KOs. -->
+              <Parameter Id="%AID%_P-%TT%%CC%500" Name="CH%C%ShowGroup00" ParameterType="%AID%_PT-CheckBox" Text="Status" Value="0" />
+              <Parameter Id="%AID%_P-%TT%%CC%501" Name="CH%C%ShowGroup01" ParameterType="%AID%_PT-CheckBox" Text="Status Hybrid" Value="0" />
+              <Parameter Id="%AID%_P-%TT%%CC%502" Name="CH%C%ShowGroup02" ParameterType="%AID%_PT-CheckBox" Text="Status netzgekoppelt" Value="0" />
+              <Parameter Id="%AID%_P-%TT%%CC%503" Name="CH%C%ShowGroup03" ParameterType="%AID%_PT-CheckBox" Text="PV" Value="0" />
+              <Parameter Id="%AID%_P-%TT%%CC%504" Name="CH%C%ShowGroup04" ParameterType="%AID%_PT-CheckBox" Text="PV Hybrid" Value="0" />
+              <Parameter Id="%AID%_P-%TT%%CC%505" Name="CH%C%ShowGroup05" ParameterType="%AID%_PT-CheckBox" Text="PV netzgekoppelt" Value="0" />
+              <Parameter Id="%AID%_P-%TT%%CC%506" Name="CH%C%ShowGroup06" ParameterType="%AID%_PT-CheckBox" Text="PV erweitert (MPPT-Block)" Value="0" />
+              <Parameter Id="%AID%_P-%TT%%CC%507" Name="CH%C%ShowGroup07" ParameterType="%AID%_PT-CheckBox" Text="Netz" Value="0" />
+              <Parameter Id="%AID%_P-%TT%%CC%508" Name="CH%C%ShowGroup08" ParameterType="%AID%_PT-CheckBox" Text="Netz Hybrid" Value="0" />
+              <Parameter Id="%AID%_P-%TT%%CC%509" Name="CH%C%ShowGroup09" ParameterType="%AID%_PT-CheckBox" Text="Netz netzgekoppelt" Value="0" />
+              <Parameter Id="%AID%_P-%TT%%CC%510" Name="CH%C%ShowGroup10" ParameterType="%AID%_PT-CheckBox" Text="Backup und Last" Value="0" />
+              <Parameter Id="%AID%_P-%TT%%CC%511" Name="CH%C%ShowGroup11" ParameterType="%AID%_PT-CheckBox" Text="Batterie" Value="0" />
+              <Parameter Id="%AID%_P-%TT%%CC%512" Name="CH%C%ShowGroup12" ParameterType="%AID%_PT-CheckBox" Text="Batterie 2" Value="0" />
+              <Parameter Id="%AID%_P-%TT%%CC%513" Name="CH%C%ShowGroup13" ParameterType="%AID%_PT-CheckBox" Text="Energie" Value="0" />
+              <Parameter Id="%AID%_P-%TT%%CC%514" Name="CH%C%ShowGroup14" ParameterType="%AID%_PT-CheckBox" Text="Energie Hybrid" Value="0" />
+              <Parameter Id="%AID%_P-%TT%%CC%515" Name="CH%C%ShowGroup15" ParameterType="%AID%_PT-CheckBox" Text="Zähler" Value="0" />
+              <Parameter Id="%AID%_P-%TT%%CC%516" Name="CH%C%ShowGroup16" ParameterType="%AID%_PT-CheckBox" Text="Zähler Energie je Phase" Value="0" />
+              <Parameter Id="%AID%_P-%TT%%CC%517" Name="CH%C%ShowGroup17" ParameterType="%AID%_PT-CheckBox" Text="BMS-Daten" Value="0" />
+              <Parameter Id="%AID%_P-%TT%%CC%518" Name="CH%C%ShowGroup18" ParameterType="%AID%_PT-CheckBox" Text="Einstellungen allgemein" Value="0" />
+              <Parameter Id="%AID%_P-%TT%%CC%519" Name="CH%C%ShowGroup19" ParameterType="%AID%_PT-CheckBox" Text="Einstellungen Hybrid" Value="0" />
+              <Parameter Id="%AID%_P-%TT%%CC%520" Name="CH%C%ShowGroup20" ParameterType="%AID%_PT-CheckBox" Text="Einstellungen netzgekoppelt" Value="0" />
               <!-- Haupttyp: Kanalauswahl-Tabelle, mit Deaktiviert -->
               <Union SizeInBit="8">
                 <Memory CodeSegment="%MID%" Offset="0" BitOffset="0" />
@@ -363,6 +386,27 @@
               <ParameterRef Id="%AID%_P-%TT%%CC%998_R-%TT%%CC%99801" RefId="%AID%_P-%TT%%CC%998" />
               <ParameterRef Id="%AID%_P-%TT%%CC%011_R-%TT%%CC%01101" RefId="%AID%_P-%TT%%CC%011" />
               <ParameterRef Id="%AID%_P-%TT%%CC%013_R-%TT%%CC%01301" RefId="%AID%_P-%TT%%CC%013" />
+              <ParameterRef Id="%AID%_P-%TT%%CC%500_R-%TT%%CC%50001" RefId="%AID%_P-%TT%%CC%500" />
+              <ParameterRef Id="%AID%_P-%TT%%CC%501_R-%TT%%CC%50101" RefId="%AID%_P-%TT%%CC%501" />
+              <ParameterRef Id="%AID%_P-%TT%%CC%502_R-%TT%%CC%50201" RefId="%AID%_P-%TT%%CC%502" />
+              <ParameterRef Id="%AID%_P-%TT%%CC%503_R-%TT%%CC%50301" RefId="%AID%_P-%TT%%CC%503" />
+              <ParameterRef Id="%AID%_P-%TT%%CC%504_R-%TT%%CC%50401" RefId="%AID%_P-%TT%%CC%504" />
+              <ParameterRef Id="%AID%_P-%TT%%CC%505_R-%TT%%CC%50501" RefId="%AID%_P-%TT%%CC%505" />
+              <ParameterRef Id="%AID%_P-%TT%%CC%506_R-%TT%%CC%50601" RefId="%AID%_P-%TT%%CC%506" />
+              <ParameterRef Id="%AID%_P-%TT%%CC%507_R-%TT%%CC%50701" RefId="%AID%_P-%TT%%CC%507" />
+              <ParameterRef Id="%AID%_P-%TT%%CC%508_R-%TT%%CC%50801" RefId="%AID%_P-%TT%%CC%508" />
+              <ParameterRef Id="%AID%_P-%TT%%CC%509_R-%TT%%CC%50901" RefId="%AID%_P-%TT%%CC%509" />
+              <ParameterRef Id="%AID%_P-%TT%%CC%510_R-%TT%%CC%51001" RefId="%AID%_P-%TT%%CC%510" />
+              <ParameterRef Id="%AID%_P-%TT%%CC%511_R-%TT%%CC%51101" RefId="%AID%_P-%TT%%CC%511" />
+              <ParameterRef Id="%AID%_P-%TT%%CC%512_R-%TT%%CC%51201" RefId="%AID%_P-%TT%%CC%512" />
+              <ParameterRef Id="%AID%_P-%TT%%CC%513_R-%TT%%CC%51301" RefId="%AID%_P-%TT%%CC%513" />
+              <ParameterRef Id="%AID%_P-%TT%%CC%514_R-%TT%%CC%51401" RefId="%AID%_P-%TT%%CC%514" />
+              <ParameterRef Id="%AID%_P-%TT%%CC%515_R-%TT%%CC%51501" RefId="%AID%_P-%TT%%CC%515" />
+              <ParameterRef Id="%AID%_P-%TT%%CC%516_R-%TT%%CC%51601" RefId="%AID%_P-%TT%%CC%516" />
+              <ParameterRef Id="%AID%_P-%TT%%CC%517_R-%TT%%CC%51701" RefId="%AID%_P-%TT%%CC%517" />
+              <ParameterRef Id="%AID%_P-%TT%%CC%518_R-%TT%%CC%51801" RefId="%AID%_P-%TT%%CC%518" />
+              <ParameterRef Id="%AID%_P-%TT%%CC%519_R-%TT%%CC%51901" RefId="%AID%_P-%TT%%CC%519" />
+              <ParameterRef Id="%AID%_P-%TT%%CC%520_R-%TT%%CC%52001" RefId="%AID%_P-%TT%%CC%520" />
               <ParameterRef Id="%AID%_UP-%TT%%CC%010_R-%TT%%CC%01001" RefId="%AID%_UP-%TT%%CC%010" />
               <ParameterRef Id="%AID%_UP-%TT%%CC%012_R-%TT%%CC%01201" RefId="%AID%_UP-%TT%%CC%012" />
               <ParameterRef Id="%AID%_UP-%TT%%CC%001_R-%TT%%CC%00101" RefId="%AID%_UP-%TT%%CC%001" />
@@ -3834,387 +3878,472 @@
 
                       <ParameterSeparator Id="%AID%_PS-nnn" Text="Messwerte" UIHint="Headline" />
                       <ParameterSeparator Id="%AID%_PS-nnn" Text="Angehakt wird als KO angelegt und gesendet. &quot;Wechselrichter auslesen&quot; hakt alle Objekte an, die das Gerät liefert. Netzleistung, Bezug, Einspeisung und Hausverbrauch sind nur mit angeschlossenem GoodWe-Zähler gültig." UIHint="Information" />
-                      <ParameterSeparator Id="%AID%_PS-nnn" Text="Status" UIHint="Headline" />
-                      <ParameterRefRef IndentLevel="1" RefId="%AID%_UP-%TT%%CC%100_R-%TT%%CC%10001" HelpContext="GDW-Objekte" />
-                      <ParameterRefRef IndentLevel="1" RefId="%AID%_UP-%TT%%CC%101_R-%TT%%CC%10101" HelpContext="GDW-Objekte" />
-                      <ParameterRefRef IndentLevel="1" RefId="%AID%_UP-%TT%%CC%102_R-%TT%%CC%10201" HelpContext="GDW-Objekte" />
-                      <ParameterRefRef IndentLevel="1" RefId="%AID%_UP-%TT%%CC%103_R-%TT%%CC%10301" HelpContext="GDW-Objekte" />
-                      <ParameterRefRef IndentLevel="1" RefId="%AID%_UP-%TT%%CC%104_R-%TT%%CC%10401" HelpContext="GDW-Objekte" />
-                      <ParameterRefRef IndentLevel="1" RefId="%AID%_UP-%TT%%CC%105_R-%TT%%CC%10501" HelpContext="GDW-Objekte" />
-                      <ParameterRefRef IndentLevel="1" RefId="%AID%_UP-%TT%%CC%106_R-%TT%%CC%10601" HelpContext="GDW-Objekte" />
-                      <ParameterRefRef IndentLevel="1" RefId="%AID%_UP-%TT%%CC%107_R-%TT%%CC%10701" HelpContext="GDW-Objekte" />
-                      <ParameterRefRef IndentLevel="1" RefId="%AID%_UP-%TT%%CC%108_R-%TT%%CC%10801" HelpContext="GDW-Objekte" />
-                      <ParameterRefRef IndentLevel="1" RefId="%AID%_UP-%TT%%CC%109_R-%TT%%CC%10901" HelpContext="GDW-Objekte" />
-                      <ParameterRefRef IndentLevel="1" RefId="%AID%_UP-%TT%%CC%110_R-%TT%%CC%11001" HelpContext="GDW-Objekte" />
-                      <ParameterRefRef IndentLevel="1" RefId="%AID%_UP-%TT%%CC%111_R-%TT%%CC%11101" HelpContext="GDW-Objekte" />
-                      <ParameterRefRef IndentLevel="1" RefId="%AID%_UP-%TT%%CC%112_R-%TT%%CC%11201" HelpContext="GDW-Objekte" />
-                      <ParameterRefRef IndentLevel="1" RefId="%AID%_UP-%TT%%CC%113_R-%TT%%CC%11301" HelpContext="GDW-Objekte" />
+                      <ParameterSeparator Id="%AID%_PS-nnn" Text="Gruppe anhaken, um ihre Objekte zu sehen. Zuklappen ändert nichts an der Auswahl." UIHint="Information" />
+                      <ParameterRefRef IndentLevel="1" RefId="%AID%_P-%TT%%CC%500_R-%TT%%CC%50001" HelpContext="GDW-Objekte" />
+                      <choose ParamRefId="%AID%_P-%TT%%CC%500_R-%TT%%CC%50001">
+                        <when test="=1">
+                          <ParameterRefRef IndentLevel="2" RefId="%AID%_UP-%TT%%CC%100_R-%TT%%CC%10001" HelpContext="GDW-Objekte" />
+                          <ParameterRefRef IndentLevel="2" RefId="%AID%_UP-%TT%%CC%101_R-%TT%%CC%10101" HelpContext="GDW-Objekte" />
+                          <ParameterRefRef IndentLevel="2" RefId="%AID%_UP-%TT%%CC%102_R-%TT%%CC%10201" HelpContext="GDW-Objekte" />
+                          <ParameterRefRef IndentLevel="2" RefId="%AID%_UP-%TT%%CC%103_R-%TT%%CC%10301" HelpContext="GDW-Objekte" />
+                          <ParameterRefRef IndentLevel="2" RefId="%AID%_UP-%TT%%CC%104_R-%TT%%CC%10401" HelpContext="GDW-Objekte" />
+                          <ParameterRefRef IndentLevel="2" RefId="%AID%_UP-%TT%%CC%105_R-%TT%%CC%10501" HelpContext="GDW-Objekte" />
+                          <ParameterRefRef IndentLevel="2" RefId="%AID%_UP-%TT%%CC%106_R-%TT%%CC%10601" HelpContext="GDW-Objekte" />
+                          <ParameterRefRef IndentLevel="2" RefId="%AID%_UP-%TT%%CC%107_R-%TT%%CC%10701" HelpContext="GDW-Objekte" />
+                          <ParameterRefRef IndentLevel="2" RefId="%AID%_UP-%TT%%CC%108_R-%TT%%CC%10801" HelpContext="GDW-Objekte" />
+                          <ParameterRefRef IndentLevel="2" RefId="%AID%_UP-%TT%%CC%109_R-%TT%%CC%10901" HelpContext="GDW-Objekte" />
+                          <ParameterRefRef IndentLevel="2" RefId="%AID%_UP-%TT%%CC%110_R-%TT%%CC%11001" HelpContext="GDW-Objekte" />
+                          <ParameterRefRef IndentLevel="2" RefId="%AID%_UP-%TT%%CC%111_R-%TT%%CC%11101" HelpContext="GDW-Objekte" />
+                          <ParameterRefRef IndentLevel="2" RefId="%AID%_UP-%TT%%CC%112_R-%TT%%CC%11201" HelpContext="GDW-Objekte" />
+                          <ParameterRefRef IndentLevel="2" RefId="%AID%_UP-%TT%%CC%113_R-%TT%%CC%11301" HelpContext="GDW-Objekte" />
+                        </when>
+                      </choose>
                       <choose ParamRefId="%AID%_UP-%TT%%CC%010_R-%TT%%CC%01001">
                         <when test="1 2">
-                          <ParameterSeparator Id="%AID%_PS-nnn" Text="Status Hybrid" UIHint="Headline" />
-                          <ParameterRefRef IndentLevel="1" RefId="%AID%_UP-%TT%%CC%114_R-%TT%%CC%11401" HelpContext="GDW-Objekte" />
-                          <ParameterRefRef IndentLevel="1" RefId="%AID%_UP-%TT%%CC%115_R-%TT%%CC%11501" HelpContext="GDW-Objekte" />
-                          <ParameterRefRef IndentLevel="1" RefId="%AID%_UP-%TT%%CC%116_R-%TT%%CC%11601" HelpContext="GDW-Objekte" />
-                          <ParameterRefRef IndentLevel="1" RefId="%AID%_UP-%TT%%CC%117_R-%TT%%CC%11701" HelpContext="GDW-Objekte" />
-                          <ParameterRefRef IndentLevel="1" RefId="%AID%_UP-%TT%%CC%118_R-%TT%%CC%11801" HelpContext="GDW-Objekte" />
+                          <ParameterRefRef IndentLevel="1" RefId="%AID%_P-%TT%%CC%501_R-%TT%%CC%50101" HelpContext="GDW-Objekte" />
+                          <choose ParamRefId="%AID%_P-%TT%%CC%501_R-%TT%%CC%50101">
+                            <when test="=1">
+                              <ParameterRefRef IndentLevel="2" RefId="%AID%_UP-%TT%%CC%114_R-%TT%%CC%11401" HelpContext="GDW-Objekte" />
+                              <ParameterRefRef IndentLevel="2" RefId="%AID%_UP-%TT%%CC%115_R-%TT%%CC%11501" HelpContext="GDW-Objekte" />
+                              <ParameterRefRef IndentLevel="2" RefId="%AID%_UP-%TT%%CC%116_R-%TT%%CC%11601" HelpContext="GDW-Objekte" />
+                              <ParameterRefRef IndentLevel="2" RefId="%AID%_UP-%TT%%CC%117_R-%TT%%CC%11701" HelpContext="GDW-Objekte" />
+                              <ParameterRefRef IndentLevel="2" RefId="%AID%_UP-%TT%%CC%118_R-%TT%%CC%11801" HelpContext="GDW-Objekte" />
+                            </when>
+                          </choose>
                         </when>
                       </choose>
                       <choose ParamRefId="%AID%_UP-%TT%%CC%010_R-%TT%%CC%01001">
                         <when test="1 3">
-                          <ParameterSeparator Id="%AID%_PS-nnn" Text="Status netzgekoppelt" UIHint="Headline" />
-                          <ParameterRefRef IndentLevel="1" RefId="%AID%_UP-%TT%%CC%119_R-%TT%%CC%11901" HelpContext="GDW-Objekte" />
-                          <ParameterRefRef IndentLevel="1" RefId="%AID%_UP-%TT%%CC%120_R-%TT%%CC%12001" HelpContext="GDW-Objekte" />
-                          <ParameterRefRef IndentLevel="1" RefId="%AID%_UP-%TT%%CC%121_R-%TT%%CC%12101" HelpContext="GDW-Objekte" />
+                          <ParameterRefRef IndentLevel="1" RefId="%AID%_P-%TT%%CC%502_R-%TT%%CC%50201" HelpContext="GDW-Objekte" />
+                          <choose ParamRefId="%AID%_P-%TT%%CC%502_R-%TT%%CC%50201">
+                            <when test="=1">
+                              <ParameterRefRef IndentLevel="2" RefId="%AID%_UP-%TT%%CC%119_R-%TT%%CC%11901" HelpContext="GDW-Objekte" />
+                              <ParameterRefRef IndentLevel="2" RefId="%AID%_UP-%TT%%CC%120_R-%TT%%CC%12001" HelpContext="GDW-Objekte" />
+                              <ParameterRefRef IndentLevel="2" RefId="%AID%_UP-%TT%%CC%121_R-%TT%%CC%12101" HelpContext="GDW-Objekte" />
+                            </when>
+                          </choose>
                         </when>
                       </choose>
-                      <ParameterSeparator Id="%AID%_PS-nnn" Text="PV" UIHint="Headline" />
-                      <ParameterRefRef IndentLevel="1" RefId="%AID%_UP-%TT%%CC%122_R-%TT%%CC%12201" HelpContext="GDW-Objekte" />
-                      <ParameterRefRef IndentLevel="1" RefId="%AID%_UP-%TT%%CC%123_R-%TT%%CC%12301" HelpContext="GDW-Objekte" />
-                      <ParameterRefRef IndentLevel="1" RefId="%AID%_UP-%TT%%CC%124_R-%TT%%CC%12401" HelpContext="GDW-Objekte" />
-                      <ParameterRefRef IndentLevel="1" RefId="%AID%_UP-%TT%%CC%125_R-%TT%%CC%12501" HelpContext="GDW-Objekte" />
-                      <ParameterRefRef IndentLevel="1" RefId="%AID%_UP-%TT%%CC%126_R-%TT%%CC%12601" HelpContext="GDW-Objekte" />
-                      <ParameterRefRef IndentLevel="1" RefId="%AID%_UP-%TT%%CC%127_R-%TT%%CC%12701" HelpContext="GDW-Objekte" />
-                      <ParameterRefRef IndentLevel="1" RefId="%AID%_UP-%TT%%CC%128_R-%TT%%CC%12801" HelpContext="GDW-Objekte" />
-                      <ParameterRefRef IndentLevel="1" RefId="%AID%_UP-%TT%%CC%129_R-%TT%%CC%12901" HelpContext="GDW-Objekte" />
-                      <ParameterRefRef IndentLevel="1" RefId="%AID%_UP-%TT%%CC%130_R-%TT%%CC%13001" HelpContext="GDW-Objekte" />
-                      <ParameterRefRef IndentLevel="1" RefId="%AID%_UP-%TT%%CC%131_R-%TT%%CC%13101" HelpContext="GDW-Objekte" />
-                      <ParameterRefRef IndentLevel="1" RefId="%AID%_UP-%TT%%CC%132_R-%TT%%CC%13201" HelpContext="GDW-Objekte" />
-                      <ParameterRefRef IndentLevel="1" RefId="%AID%_UP-%TT%%CC%133_R-%TT%%CC%13301" HelpContext="GDW-Objekte" />
-                      <ParameterRefRef IndentLevel="1" RefId="%AID%_UP-%TT%%CC%134_R-%TT%%CC%13401" HelpContext="GDW-Objekte" />
+                      <ParameterRefRef IndentLevel="1" RefId="%AID%_P-%TT%%CC%503_R-%TT%%CC%50301" HelpContext="GDW-Objekte" />
+                      <choose ParamRefId="%AID%_P-%TT%%CC%503_R-%TT%%CC%50301">
+                        <when test="=1">
+                          <ParameterRefRef IndentLevel="2" RefId="%AID%_UP-%TT%%CC%122_R-%TT%%CC%12201" HelpContext="GDW-Objekte" />
+                          <ParameterRefRef IndentLevel="2" RefId="%AID%_UP-%TT%%CC%123_R-%TT%%CC%12301" HelpContext="GDW-Objekte" />
+                          <ParameterRefRef IndentLevel="2" RefId="%AID%_UP-%TT%%CC%124_R-%TT%%CC%12401" HelpContext="GDW-Objekte" />
+                          <ParameterRefRef IndentLevel="2" RefId="%AID%_UP-%TT%%CC%125_R-%TT%%CC%12501" HelpContext="GDW-Objekte" />
+                          <ParameterRefRef IndentLevel="2" RefId="%AID%_UP-%TT%%CC%126_R-%TT%%CC%12601" HelpContext="GDW-Objekte" />
+                          <ParameterRefRef IndentLevel="2" RefId="%AID%_UP-%TT%%CC%127_R-%TT%%CC%12701" HelpContext="GDW-Objekte" />
+                          <ParameterRefRef IndentLevel="2" RefId="%AID%_UP-%TT%%CC%128_R-%TT%%CC%12801" HelpContext="GDW-Objekte" />
+                          <ParameterRefRef IndentLevel="2" RefId="%AID%_UP-%TT%%CC%129_R-%TT%%CC%12901" HelpContext="GDW-Objekte" />
+                          <ParameterRefRef IndentLevel="2" RefId="%AID%_UP-%TT%%CC%130_R-%TT%%CC%13001" HelpContext="GDW-Objekte" />
+                          <ParameterRefRef IndentLevel="2" RefId="%AID%_UP-%TT%%CC%131_R-%TT%%CC%13101" HelpContext="GDW-Objekte" />
+                          <ParameterRefRef IndentLevel="2" RefId="%AID%_UP-%TT%%CC%132_R-%TT%%CC%13201" HelpContext="GDW-Objekte" />
+                          <ParameterRefRef IndentLevel="2" RefId="%AID%_UP-%TT%%CC%133_R-%TT%%CC%13301" HelpContext="GDW-Objekte" />
+                          <ParameterRefRef IndentLevel="2" RefId="%AID%_UP-%TT%%CC%134_R-%TT%%CC%13401" HelpContext="GDW-Objekte" />
+                        </when>
+                      </choose>
                       <choose ParamRefId="%AID%_UP-%TT%%CC%010_R-%TT%%CC%01001">
                         <when test="1 2">
-                          <ParameterSeparator Id="%AID%_PS-nnn" Text="PV Hybrid" UIHint="Headline" />
-                          <ParameterRefRef IndentLevel="1" RefId="%AID%_UP-%TT%%CC%135_R-%TT%%CC%13501" HelpContext="GDW-Objekte" />
-                          <ParameterRefRef IndentLevel="1" RefId="%AID%_UP-%TT%%CC%136_R-%TT%%CC%13601" HelpContext="GDW-Objekte" />
-                          <ParameterRefRef IndentLevel="1" RefId="%AID%_UP-%TT%%CC%137_R-%TT%%CC%13701" HelpContext="GDW-Objekte" />
-                          <ParameterRefRef IndentLevel="1" RefId="%AID%_UP-%TT%%CC%138_R-%TT%%CC%13801" HelpContext="GDW-Objekte" />
+                          <ParameterRefRef IndentLevel="1" RefId="%AID%_P-%TT%%CC%504_R-%TT%%CC%50401" HelpContext="GDW-Objekte" />
+                          <choose ParamRefId="%AID%_P-%TT%%CC%504_R-%TT%%CC%50401">
+                            <when test="=1">
+                              <ParameterRefRef IndentLevel="2" RefId="%AID%_UP-%TT%%CC%135_R-%TT%%CC%13501" HelpContext="GDW-Objekte" />
+                              <ParameterRefRef IndentLevel="2" RefId="%AID%_UP-%TT%%CC%136_R-%TT%%CC%13601" HelpContext="GDW-Objekte" />
+                              <ParameterRefRef IndentLevel="2" RefId="%AID%_UP-%TT%%CC%137_R-%TT%%CC%13701" HelpContext="GDW-Objekte" />
+                              <ParameterRefRef IndentLevel="2" RefId="%AID%_UP-%TT%%CC%138_R-%TT%%CC%13801" HelpContext="GDW-Objekte" />
+                            </when>
+                          </choose>
                         </when>
                       </choose>
                       <choose ParamRefId="%AID%_UP-%TT%%CC%010_R-%TT%%CC%01001">
                         <when test="1 3">
-                          <ParameterSeparator Id="%AID%_PS-nnn" Text="PV netzgekoppelt" UIHint="Headline" />
-                          <ParameterRefRef IndentLevel="1" RefId="%AID%_UP-%TT%%CC%139_R-%TT%%CC%13901" HelpContext="GDW-Objekte" />
+                          <ParameterRefRef IndentLevel="1" RefId="%AID%_P-%TT%%CC%505_R-%TT%%CC%50501" HelpContext="GDW-Objekte" />
+                          <choose ParamRefId="%AID%_P-%TT%%CC%505_R-%TT%%CC%50501">
+                            <when test="=1">
+                              <ParameterRefRef IndentLevel="2" RefId="%AID%_UP-%TT%%CC%139_R-%TT%%CC%13901" HelpContext="GDW-Objekte" />
+                            </when>
+                          </choose>
                         </when>
                       </choose>
                       <choose ParamRefId="%AID%_UP-%TT%%CC%010_R-%TT%%CC%01001">
                         <when test="1 2">
-                          <ParameterSeparator Id="%AID%_PS-nnn" Text="PV erweitert (MPPT-Block)" UIHint="Headline" />
-                          <ParameterRefRef IndentLevel="1" RefId="%AID%_UP-%TT%%CC%140_R-%TT%%CC%14001" HelpContext="GDW-Objekte" />
-                          <ParameterRefRef IndentLevel="1" RefId="%AID%_UP-%TT%%CC%141_R-%TT%%CC%14101" HelpContext="GDW-Objekte" />
-                          <ParameterRefRef IndentLevel="1" RefId="%AID%_UP-%TT%%CC%142_R-%TT%%CC%14201" HelpContext="GDW-Objekte" />
-                          <ParameterRefRef IndentLevel="1" RefId="%AID%_UP-%TT%%CC%143_R-%TT%%CC%14301" HelpContext="GDW-Objekte" />
-                          <ParameterRefRef IndentLevel="1" RefId="%AID%_UP-%TT%%CC%144_R-%TT%%CC%14401" HelpContext="GDW-Objekte" />
-                          <ParameterRefRef IndentLevel="1" RefId="%AID%_UP-%TT%%CC%145_R-%TT%%CC%14501" HelpContext="GDW-Objekte" />
-                          <ParameterRefRef IndentLevel="1" RefId="%AID%_UP-%TT%%CC%146_R-%TT%%CC%14601" HelpContext="GDW-Objekte" />
-                          <ParameterRefRef IndentLevel="1" RefId="%AID%_UP-%TT%%CC%147_R-%TT%%CC%14701" HelpContext="GDW-Objekte" />
-                          <ParameterRefRef IndentLevel="1" RefId="%AID%_UP-%TT%%CC%148_R-%TT%%CC%14801" HelpContext="GDW-Objekte" />
-                          <ParameterRefRef IndentLevel="1" RefId="%AID%_UP-%TT%%CC%149_R-%TT%%CC%14901" HelpContext="GDW-Objekte" />
-                          <ParameterRefRef IndentLevel="1" RefId="%AID%_UP-%TT%%CC%150_R-%TT%%CC%15001" HelpContext="GDW-Objekte" />
-                          <ParameterRefRef IndentLevel="1" RefId="%AID%_UP-%TT%%CC%151_R-%TT%%CC%15101" HelpContext="GDW-Objekte" />
-                          <ParameterRefRef IndentLevel="1" RefId="%AID%_UP-%TT%%CC%152_R-%TT%%CC%15201" HelpContext="GDW-Objekte" />
-                          <ParameterRefRef IndentLevel="1" RefId="%AID%_UP-%TT%%CC%153_R-%TT%%CC%15301" HelpContext="GDW-Objekte" />
-                          <ParameterRefRef IndentLevel="1" RefId="%AID%_UP-%TT%%CC%154_R-%TT%%CC%15401" HelpContext="GDW-Objekte" />
-                          <ParameterRefRef IndentLevel="1" RefId="%AID%_UP-%TT%%CC%155_R-%TT%%CC%15501" HelpContext="GDW-Objekte" />
-                          <ParameterRefRef IndentLevel="1" RefId="%AID%_UP-%TT%%CC%156_R-%TT%%CC%15601" HelpContext="GDW-Objekte" />
-                          <ParameterRefRef IndentLevel="1" RefId="%AID%_UP-%TT%%CC%157_R-%TT%%CC%15701" HelpContext="GDW-Objekte" />
-                          <ParameterRefRef IndentLevel="1" RefId="%AID%_UP-%TT%%CC%158_R-%TT%%CC%15801" HelpContext="GDW-Objekte" />
-                          <ParameterRefRef IndentLevel="1" RefId="%AID%_UP-%TT%%CC%159_R-%TT%%CC%15901" HelpContext="GDW-Objekte" />
-                          <ParameterRefRef IndentLevel="1" RefId="%AID%_UP-%TT%%CC%160_R-%TT%%CC%16001" HelpContext="GDW-Objekte" />
-                          <ParameterRefRef IndentLevel="1" RefId="%AID%_UP-%TT%%CC%161_R-%TT%%CC%16101" HelpContext="GDW-Objekte" />
-                          <ParameterRefRef IndentLevel="1" RefId="%AID%_UP-%TT%%CC%162_R-%TT%%CC%16201" HelpContext="GDW-Objekte" />
-                          <ParameterRefRef IndentLevel="1" RefId="%AID%_UP-%TT%%CC%163_R-%TT%%CC%16301" HelpContext="GDW-Objekte" />
-                          <ParameterRefRef IndentLevel="1" RefId="%AID%_UP-%TT%%CC%164_R-%TT%%CC%16401" HelpContext="GDW-Objekte" />
-                          <ParameterRefRef IndentLevel="1" RefId="%AID%_UP-%TT%%CC%165_R-%TT%%CC%16501" HelpContext="GDW-Objekte" />
-                          <ParameterRefRef IndentLevel="1" RefId="%AID%_UP-%TT%%CC%166_R-%TT%%CC%16601" HelpContext="GDW-Objekte" />
-                          <ParameterRefRef IndentLevel="1" RefId="%AID%_UP-%TT%%CC%167_R-%TT%%CC%16701" HelpContext="GDW-Objekte" />
-                          <ParameterRefRef IndentLevel="1" RefId="%AID%_UP-%TT%%CC%168_R-%TT%%CC%16801" HelpContext="GDW-Objekte" />
-                          <ParameterRefRef IndentLevel="1" RefId="%AID%_UP-%TT%%CC%169_R-%TT%%CC%16901" HelpContext="GDW-Objekte" />
-                          <ParameterRefRef IndentLevel="1" RefId="%AID%_UP-%TT%%CC%170_R-%TT%%CC%17001" HelpContext="GDW-Objekte" />
-                          <ParameterRefRef IndentLevel="1" RefId="%AID%_UP-%TT%%CC%171_R-%TT%%CC%17101" HelpContext="GDW-Objekte" />
-                          <ParameterRefRef IndentLevel="1" RefId="%AID%_UP-%TT%%CC%172_R-%TT%%CC%17201" HelpContext="GDW-Objekte" />
-                          <ParameterRefRef IndentLevel="1" RefId="%AID%_UP-%TT%%CC%173_R-%TT%%CC%17301" HelpContext="GDW-Objekte" />
-                          <ParameterRefRef IndentLevel="1" RefId="%AID%_UP-%TT%%CC%174_R-%TT%%CC%17401" HelpContext="GDW-Objekte" />
-                          <ParameterRefRef IndentLevel="1" RefId="%AID%_UP-%TT%%CC%175_R-%TT%%CC%17501" HelpContext="GDW-Objekte" />
-                          <ParameterRefRef IndentLevel="1" RefId="%AID%_UP-%TT%%CC%176_R-%TT%%CC%17601" HelpContext="GDW-Objekte" />
-                          <ParameterRefRef IndentLevel="1" RefId="%AID%_UP-%TT%%CC%177_R-%TT%%CC%17701" HelpContext="GDW-Objekte" />
-                          <ParameterRefRef IndentLevel="1" RefId="%AID%_UP-%TT%%CC%178_R-%TT%%CC%17801" HelpContext="GDW-Objekte" />
-                          <ParameterRefRef IndentLevel="1" RefId="%AID%_UP-%TT%%CC%179_R-%TT%%CC%17901" HelpContext="GDW-Objekte" />
-                          <ParameterRefRef IndentLevel="1" RefId="%AID%_UP-%TT%%CC%180_R-%TT%%CC%18001" HelpContext="GDW-Objekte" />
-                          <ParameterRefRef IndentLevel="1" RefId="%AID%_UP-%TT%%CC%181_R-%TT%%CC%18101" HelpContext="GDW-Objekte" />
+                          <ParameterRefRef IndentLevel="1" RefId="%AID%_P-%TT%%CC%506_R-%TT%%CC%50601" HelpContext="GDW-Objekte" />
+                          <choose ParamRefId="%AID%_P-%TT%%CC%506_R-%TT%%CC%50601">
+                            <when test="=1">
+                              <ParameterRefRef IndentLevel="2" RefId="%AID%_UP-%TT%%CC%140_R-%TT%%CC%14001" HelpContext="GDW-Objekte" />
+                              <ParameterRefRef IndentLevel="2" RefId="%AID%_UP-%TT%%CC%141_R-%TT%%CC%14101" HelpContext="GDW-Objekte" />
+                              <ParameterRefRef IndentLevel="2" RefId="%AID%_UP-%TT%%CC%142_R-%TT%%CC%14201" HelpContext="GDW-Objekte" />
+                              <ParameterRefRef IndentLevel="2" RefId="%AID%_UP-%TT%%CC%143_R-%TT%%CC%14301" HelpContext="GDW-Objekte" />
+                              <ParameterRefRef IndentLevel="2" RefId="%AID%_UP-%TT%%CC%144_R-%TT%%CC%14401" HelpContext="GDW-Objekte" />
+                              <ParameterRefRef IndentLevel="2" RefId="%AID%_UP-%TT%%CC%145_R-%TT%%CC%14501" HelpContext="GDW-Objekte" />
+                              <ParameterRefRef IndentLevel="2" RefId="%AID%_UP-%TT%%CC%146_R-%TT%%CC%14601" HelpContext="GDW-Objekte" />
+                              <ParameterRefRef IndentLevel="2" RefId="%AID%_UP-%TT%%CC%147_R-%TT%%CC%14701" HelpContext="GDW-Objekte" />
+                              <ParameterRefRef IndentLevel="2" RefId="%AID%_UP-%TT%%CC%148_R-%TT%%CC%14801" HelpContext="GDW-Objekte" />
+                              <ParameterRefRef IndentLevel="2" RefId="%AID%_UP-%TT%%CC%149_R-%TT%%CC%14901" HelpContext="GDW-Objekte" />
+                              <ParameterRefRef IndentLevel="2" RefId="%AID%_UP-%TT%%CC%150_R-%TT%%CC%15001" HelpContext="GDW-Objekte" />
+                              <ParameterRefRef IndentLevel="2" RefId="%AID%_UP-%TT%%CC%151_R-%TT%%CC%15101" HelpContext="GDW-Objekte" />
+                              <ParameterRefRef IndentLevel="2" RefId="%AID%_UP-%TT%%CC%152_R-%TT%%CC%15201" HelpContext="GDW-Objekte" />
+                              <ParameterRefRef IndentLevel="2" RefId="%AID%_UP-%TT%%CC%153_R-%TT%%CC%15301" HelpContext="GDW-Objekte" />
+                              <ParameterRefRef IndentLevel="2" RefId="%AID%_UP-%TT%%CC%154_R-%TT%%CC%15401" HelpContext="GDW-Objekte" />
+                              <ParameterRefRef IndentLevel="2" RefId="%AID%_UP-%TT%%CC%155_R-%TT%%CC%15501" HelpContext="GDW-Objekte" />
+                              <ParameterRefRef IndentLevel="2" RefId="%AID%_UP-%TT%%CC%156_R-%TT%%CC%15601" HelpContext="GDW-Objekte" />
+                              <ParameterRefRef IndentLevel="2" RefId="%AID%_UP-%TT%%CC%157_R-%TT%%CC%15701" HelpContext="GDW-Objekte" />
+                              <ParameterRefRef IndentLevel="2" RefId="%AID%_UP-%TT%%CC%158_R-%TT%%CC%15801" HelpContext="GDW-Objekte" />
+                              <ParameterRefRef IndentLevel="2" RefId="%AID%_UP-%TT%%CC%159_R-%TT%%CC%15901" HelpContext="GDW-Objekte" />
+                              <ParameterRefRef IndentLevel="2" RefId="%AID%_UP-%TT%%CC%160_R-%TT%%CC%16001" HelpContext="GDW-Objekte" />
+                              <ParameterRefRef IndentLevel="2" RefId="%AID%_UP-%TT%%CC%161_R-%TT%%CC%16101" HelpContext="GDW-Objekte" />
+                              <ParameterRefRef IndentLevel="2" RefId="%AID%_UP-%TT%%CC%162_R-%TT%%CC%16201" HelpContext="GDW-Objekte" />
+                              <ParameterRefRef IndentLevel="2" RefId="%AID%_UP-%TT%%CC%163_R-%TT%%CC%16301" HelpContext="GDW-Objekte" />
+                              <ParameterRefRef IndentLevel="2" RefId="%AID%_UP-%TT%%CC%164_R-%TT%%CC%16401" HelpContext="GDW-Objekte" />
+                              <ParameterRefRef IndentLevel="2" RefId="%AID%_UP-%TT%%CC%165_R-%TT%%CC%16501" HelpContext="GDW-Objekte" />
+                              <ParameterRefRef IndentLevel="2" RefId="%AID%_UP-%TT%%CC%166_R-%TT%%CC%16601" HelpContext="GDW-Objekte" />
+                              <ParameterRefRef IndentLevel="2" RefId="%AID%_UP-%TT%%CC%167_R-%TT%%CC%16701" HelpContext="GDW-Objekte" />
+                              <ParameterRefRef IndentLevel="2" RefId="%AID%_UP-%TT%%CC%168_R-%TT%%CC%16801" HelpContext="GDW-Objekte" />
+                              <ParameterRefRef IndentLevel="2" RefId="%AID%_UP-%TT%%CC%169_R-%TT%%CC%16901" HelpContext="GDW-Objekte" />
+                              <ParameterRefRef IndentLevel="2" RefId="%AID%_UP-%TT%%CC%170_R-%TT%%CC%17001" HelpContext="GDW-Objekte" />
+                              <ParameterRefRef IndentLevel="2" RefId="%AID%_UP-%TT%%CC%171_R-%TT%%CC%17101" HelpContext="GDW-Objekte" />
+                              <ParameterRefRef IndentLevel="2" RefId="%AID%_UP-%TT%%CC%172_R-%TT%%CC%17201" HelpContext="GDW-Objekte" />
+                              <ParameterRefRef IndentLevel="2" RefId="%AID%_UP-%TT%%CC%173_R-%TT%%CC%17301" HelpContext="GDW-Objekte" />
+                              <ParameterRefRef IndentLevel="2" RefId="%AID%_UP-%TT%%CC%174_R-%TT%%CC%17401" HelpContext="GDW-Objekte" />
+                              <ParameterRefRef IndentLevel="2" RefId="%AID%_UP-%TT%%CC%175_R-%TT%%CC%17501" HelpContext="GDW-Objekte" />
+                              <ParameterRefRef IndentLevel="2" RefId="%AID%_UP-%TT%%CC%176_R-%TT%%CC%17601" HelpContext="GDW-Objekte" />
+                              <ParameterRefRef IndentLevel="2" RefId="%AID%_UP-%TT%%CC%177_R-%TT%%CC%17701" HelpContext="GDW-Objekte" />
+                              <ParameterRefRef IndentLevel="2" RefId="%AID%_UP-%TT%%CC%178_R-%TT%%CC%17801" HelpContext="GDW-Objekte" />
+                              <ParameterRefRef IndentLevel="2" RefId="%AID%_UP-%TT%%CC%179_R-%TT%%CC%17901" HelpContext="GDW-Objekte" />
+                              <ParameterRefRef IndentLevel="2" RefId="%AID%_UP-%TT%%CC%180_R-%TT%%CC%18001" HelpContext="GDW-Objekte" />
+                              <ParameterRefRef IndentLevel="2" RefId="%AID%_UP-%TT%%CC%181_R-%TT%%CC%18101" HelpContext="GDW-Objekte" />
+                            </when>
+                          </choose>
                         </when>
                       </choose>
-                      <ParameterSeparator Id="%AID%_PS-nnn" Text="Netz" UIHint="Headline" />
-                      <ParameterRefRef IndentLevel="1" RefId="%AID%_UP-%TT%%CC%182_R-%TT%%CC%18201" HelpContext="GDW-Objekte" />
-                      <ParameterRefRef IndentLevel="1" RefId="%AID%_UP-%TT%%CC%183_R-%TT%%CC%18301" HelpContext="GDW-Objekte" />
-                      <ParameterRefRef IndentLevel="1" RefId="%AID%_UP-%TT%%CC%184_R-%TT%%CC%18401" HelpContext="GDW-Objekte" />
-                      <ParameterRefRef IndentLevel="1" RefId="%AID%_UP-%TT%%CC%185_R-%TT%%CC%18501" HelpContext="GDW-Objekte" />
-                      <ParameterRefRef IndentLevel="1" RefId="%AID%_UP-%TT%%CC%186_R-%TT%%CC%18601" HelpContext="GDW-Objekte" />
-                      <ParameterRefRef IndentLevel="1" RefId="%AID%_UP-%TT%%CC%187_R-%TT%%CC%18701" HelpContext="GDW-Objekte" />
-                      <ParameterRefRef IndentLevel="1" RefId="%AID%_UP-%TT%%CC%188_R-%TT%%CC%18801" HelpContext="GDW-Objekte" />
-                      <ParameterRefRef IndentLevel="1" RefId="%AID%_UP-%TT%%CC%189_R-%TT%%CC%18901" HelpContext="GDW-Objekte" />
-                      <ParameterRefRef IndentLevel="1" RefId="%AID%_UP-%TT%%CC%190_R-%TT%%CC%19001" HelpContext="GDW-Objekte" />
-                      <ParameterRefRef IndentLevel="1" RefId="%AID%_UP-%TT%%CC%191_R-%TT%%CC%19101" HelpContext="GDW-Objekte" />
-                      <ParameterRefRef IndentLevel="1" RefId="%AID%_UP-%TT%%CC%192_R-%TT%%CC%19201" HelpContext="GDW-Objekte" />
-                      <ParameterRefRef IndentLevel="1" RefId="%AID%_UP-%TT%%CC%193_R-%TT%%CC%19301" HelpContext="GDW-Objekte" />
-                      <ParameterRefRef IndentLevel="1" RefId="%AID%_UP-%TT%%CC%194_R-%TT%%CC%19401" HelpContext="GDW-Objekte" />
-                      <ParameterRefRef IndentLevel="1" RefId="%AID%_UP-%TT%%CC%195_R-%TT%%CC%19501" HelpContext="GDW-Objekte" />
-                      <ParameterRefRef IndentLevel="1" RefId="%AID%_UP-%TT%%CC%196_R-%TT%%CC%19601" HelpContext="GDW-Objekte" />
-                      <ParameterRefRef IndentLevel="1" RefId="%AID%_UP-%TT%%CC%197_R-%TT%%CC%19701" HelpContext="GDW-Objekte" />
-                      <ParameterRefRef IndentLevel="1" RefId="%AID%_UP-%TT%%CC%198_R-%TT%%CC%19801" HelpContext="GDW-Objekte" />
-                      <ParameterRefRef IndentLevel="1" RefId="%AID%_UP-%TT%%CC%199_R-%TT%%CC%19901" HelpContext="GDW-Objekte" />
-                      <ParameterRefRef IndentLevel="1" RefId="%AID%_UP-%TT%%CC%200_R-%TT%%CC%20001" HelpContext="GDW-Objekte" />
+                      <ParameterRefRef IndentLevel="1" RefId="%AID%_P-%TT%%CC%507_R-%TT%%CC%50701" HelpContext="GDW-Objekte" />
+                      <choose ParamRefId="%AID%_P-%TT%%CC%507_R-%TT%%CC%50701">
+                        <when test="=1">
+                          <ParameterRefRef IndentLevel="2" RefId="%AID%_UP-%TT%%CC%182_R-%TT%%CC%18201" HelpContext="GDW-Objekte" />
+                          <ParameterRefRef IndentLevel="2" RefId="%AID%_UP-%TT%%CC%183_R-%TT%%CC%18301" HelpContext="GDW-Objekte" />
+                          <ParameterRefRef IndentLevel="2" RefId="%AID%_UP-%TT%%CC%184_R-%TT%%CC%18401" HelpContext="GDW-Objekte" />
+                          <ParameterRefRef IndentLevel="2" RefId="%AID%_UP-%TT%%CC%185_R-%TT%%CC%18501" HelpContext="GDW-Objekte" />
+                          <ParameterRefRef IndentLevel="2" RefId="%AID%_UP-%TT%%CC%186_R-%TT%%CC%18601" HelpContext="GDW-Objekte" />
+                          <ParameterRefRef IndentLevel="2" RefId="%AID%_UP-%TT%%CC%187_R-%TT%%CC%18701" HelpContext="GDW-Objekte" />
+                          <ParameterRefRef IndentLevel="2" RefId="%AID%_UP-%TT%%CC%188_R-%TT%%CC%18801" HelpContext="GDW-Objekte" />
+                          <ParameterRefRef IndentLevel="2" RefId="%AID%_UP-%TT%%CC%189_R-%TT%%CC%18901" HelpContext="GDW-Objekte" />
+                          <ParameterRefRef IndentLevel="2" RefId="%AID%_UP-%TT%%CC%190_R-%TT%%CC%19001" HelpContext="GDW-Objekte" />
+                          <ParameterRefRef IndentLevel="2" RefId="%AID%_UP-%TT%%CC%191_R-%TT%%CC%19101" HelpContext="GDW-Objekte" />
+                          <ParameterRefRef IndentLevel="2" RefId="%AID%_UP-%TT%%CC%192_R-%TT%%CC%19201" HelpContext="GDW-Objekte" />
+                          <ParameterRefRef IndentLevel="2" RefId="%AID%_UP-%TT%%CC%193_R-%TT%%CC%19301" HelpContext="GDW-Objekte" />
+                          <ParameterRefRef IndentLevel="2" RefId="%AID%_UP-%TT%%CC%194_R-%TT%%CC%19401" HelpContext="GDW-Objekte" />
+                          <ParameterRefRef IndentLevel="2" RefId="%AID%_UP-%TT%%CC%195_R-%TT%%CC%19501" HelpContext="GDW-Objekte" />
+                          <ParameterRefRef IndentLevel="2" RefId="%AID%_UP-%TT%%CC%196_R-%TT%%CC%19601" HelpContext="GDW-Objekte" />
+                          <ParameterRefRef IndentLevel="2" RefId="%AID%_UP-%TT%%CC%197_R-%TT%%CC%19701" HelpContext="GDW-Objekte" />
+                          <ParameterRefRef IndentLevel="2" RefId="%AID%_UP-%TT%%CC%198_R-%TT%%CC%19801" HelpContext="GDW-Objekte" />
+                          <ParameterRefRef IndentLevel="2" RefId="%AID%_UP-%TT%%CC%199_R-%TT%%CC%19901" HelpContext="GDW-Objekte" />
+                          <ParameterRefRef IndentLevel="2" RefId="%AID%_UP-%TT%%CC%200_R-%TT%%CC%20001" HelpContext="GDW-Objekte" />
+                        </when>
+                      </choose>
                       <choose ParamRefId="%AID%_UP-%TT%%CC%010_R-%TT%%CC%01001">
                         <when test="1 2">
-                          <ParameterSeparator Id="%AID%_PS-nnn" Text="Netz Hybrid" UIHint="Headline" />
-                          <ParameterRefRef IndentLevel="1" RefId="%AID%_UP-%TT%%CC%201_R-%TT%%CC%20101" HelpContext="GDW-Objekte" />
-                          <ParameterRefRef IndentLevel="1" RefId="%AID%_UP-%TT%%CC%202_R-%TT%%CC%20201" HelpContext="GDW-Objekte" />
-                          <ParameterRefRef IndentLevel="1" RefId="%AID%_UP-%TT%%CC%203_R-%TT%%CC%20301" HelpContext="GDW-Objekte" />
-                          <ParameterRefRef IndentLevel="1" RefId="%AID%_UP-%TT%%CC%204_R-%TT%%CC%20401" HelpContext="GDW-Objekte" />
-                          <ParameterRefRef IndentLevel="1" RefId="%AID%_UP-%TT%%CC%205_R-%TT%%CC%20501" HelpContext="GDW-Objekte" />
-                          <ParameterRefRef IndentLevel="1" RefId="%AID%_UP-%TT%%CC%206_R-%TT%%CC%20601" HelpContext="GDW-Objekte" />
+                          <ParameterRefRef IndentLevel="1" RefId="%AID%_P-%TT%%CC%508_R-%TT%%CC%50801" HelpContext="GDW-Objekte" />
+                          <choose ParamRefId="%AID%_P-%TT%%CC%508_R-%TT%%CC%50801">
+                            <when test="=1">
+                              <ParameterRefRef IndentLevel="2" RefId="%AID%_UP-%TT%%CC%201_R-%TT%%CC%20101" HelpContext="GDW-Objekte" />
+                              <ParameterRefRef IndentLevel="2" RefId="%AID%_UP-%TT%%CC%202_R-%TT%%CC%20201" HelpContext="GDW-Objekte" />
+                              <ParameterRefRef IndentLevel="2" RefId="%AID%_UP-%TT%%CC%203_R-%TT%%CC%20301" HelpContext="GDW-Objekte" />
+                              <ParameterRefRef IndentLevel="2" RefId="%AID%_UP-%TT%%CC%204_R-%TT%%CC%20401" HelpContext="GDW-Objekte" />
+                              <ParameterRefRef IndentLevel="2" RefId="%AID%_UP-%TT%%CC%205_R-%TT%%CC%20501" HelpContext="GDW-Objekte" />
+                              <ParameterRefRef IndentLevel="2" RefId="%AID%_UP-%TT%%CC%206_R-%TT%%CC%20601" HelpContext="GDW-Objekte" />
+                            </when>
+                          </choose>
                         </when>
                       </choose>
                       <choose ParamRefId="%AID%_UP-%TT%%CC%010_R-%TT%%CC%01001">
                         <when test="1 3">
-                          <ParameterSeparator Id="%AID%_PS-nnn" Text="Netz netzgekoppelt" UIHint="Headline" />
-                          <ParameterRefRef IndentLevel="1" RefId="%AID%_UP-%TT%%CC%207_R-%TT%%CC%20701" HelpContext="GDW-Objekte" />
-                          <ParameterRefRef IndentLevel="1" RefId="%AID%_UP-%TT%%CC%208_R-%TT%%CC%20801" HelpContext="GDW-Objekte" />
-                          <ParameterRefRef IndentLevel="1" RefId="%AID%_UP-%TT%%CC%209_R-%TT%%CC%20901" HelpContext="GDW-Objekte" />
-                          <ParameterRefRef IndentLevel="1" RefId="%AID%_UP-%TT%%CC%210_R-%TT%%CC%21001" HelpContext="GDW-Objekte" />
+                          <ParameterRefRef IndentLevel="1" RefId="%AID%_P-%TT%%CC%509_R-%TT%%CC%50901" HelpContext="GDW-Objekte" />
+                          <choose ParamRefId="%AID%_P-%TT%%CC%509_R-%TT%%CC%50901">
+                            <when test="=1">
+                              <ParameterRefRef IndentLevel="2" RefId="%AID%_UP-%TT%%CC%207_R-%TT%%CC%20701" HelpContext="GDW-Objekte" />
+                              <ParameterRefRef IndentLevel="2" RefId="%AID%_UP-%TT%%CC%208_R-%TT%%CC%20801" HelpContext="GDW-Objekte" />
+                              <ParameterRefRef IndentLevel="2" RefId="%AID%_UP-%TT%%CC%209_R-%TT%%CC%20901" HelpContext="GDW-Objekte" />
+                              <ParameterRefRef IndentLevel="2" RefId="%AID%_UP-%TT%%CC%210_R-%TT%%CC%21001" HelpContext="GDW-Objekte" />
+                            </when>
+                          </choose>
                         </when>
                       </choose>
                       <choose ParamRefId="%AID%_UP-%TT%%CC%010_R-%TT%%CC%01001">
                         <when test="1 2">
-                          <ParameterSeparator Id="%AID%_PS-nnn" Text="Backup und Last" UIHint="Headline" />
-                          <ParameterRefRef IndentLevel="1" RefId="%AID%_UP-%TT%%CC%211_R-%TT%%CC%21101" HelpContext="GDW-Objekte" />
-                          <ParameterRefRef IndentLevel="1" RefId="%AID%_UP-%TT%%CC%212_R-%TT%%CC%21201" HelpContext="GDW-Objekte" />
-                          <ParameterRefRef IndentLevel="1" RefId="%AID%_UP-%TT%%CC%213_R-%TT%%CC%21301" HelpContext="GDW-Objekte" />
-                          <ParameterRefRef IndentLevel="1" RefId="%AID%_UP-%TT%%CC%214_R-%TT%%CC%21401" HelpContext="GDW-Objekte" />
-                          <ParameterRefRef IndentLevel="1" RefId="%AID%_UP-%TT%%CC%215_R-%TT%%CC%21501" HelpContext="GDW-Objekte" />
-                          <ParameterRefRef IndentLevel="1" RefId="%AID%_UP-%TT%%CC%216_R-%TT%%CC%21601" HelpContext="GDW-Objekte" />
-                          <ParameterRefRef IndentLevel="1" RefId="%AID%_UP-%TT%%CC%217_R-%TT%%CC%21701" HelpContext="GDW-Objekte" />
-                          <ParameterRefRef IndentLevel="1" RefId="%AID%_UP-%TT%%CC%218_R-%TT%%CC%21801" HelpContext="GDW-Objekte" />
-                          <ParameterRefRef IndentLevel="1" RefId="%AID%_UP-%TT%%CC%219_R-%TT%%CC%21901" HelpContext="GDW-Objekte" />
-                          <ParameterRefRef IndentLevel="1" RefId="%AID%_UP-%TT%%CC%220_R-%TT%%CC%22001" HelpContext="GDW-Objekte" />
-                          <ParameterRefRef IndentLevel="1" RefId="%AID%_UP-%TT%%CC%221_R-%TT%%CC%22101" HelpContext="GDW-Objekte" />
-                          <ParameterRefRef IndentLevel="1" RefId="%AID%_UP-%TT%%CC%222_R-%TT%%CC%22201" HelpContext="GDW-Objekte" />
-                          <ParameterRefRef IndentLevel="1" RefId="%AID%_UP-%TT%%CC%223_R-%TT%%CC%22301" HelpContext="GDW-Objekte" />
-                          <ParameterRefRef IndentLevel="1" RefId="%AID%_UP-%TT%%CC%224_R-%TT%%CC%22401" HelpContext="GDW-Objekte" />
-                          <ParameterRefRef IndentLevel="1" RefId="%AID%_UP-%TT%%CC%225_R-%TT%%CC%22501" HelpContext="GDW-Objekte" />
-                          <ParameterRefRef IndentLevel="1" RefId="%AID%_UP-%TT%%CC%226_R-%TT%%CC%22601" HelpContext="GDW-Objekte" />
-                          <ParameterRefRef IndentLevel="1" RefId="%AID%_UP-%TT%%CC%227_R-%TT%%CC%22701" HelpContext="GDW-Objekte" />
-                          <ParameterRefRef IndentLevel="1" RefId="%AID%_UP-%TT%%CC%228_R-%TT%%CC%22801" HelpContext="GDW-Objekte" />
-                          <ParameterRefRef IndentLevel="1" RefId="%AID%_UP-%TT%%CC%229_R-%TT%%CC%22901" HelpContext="GDW-Objekte" />
-                          <ParameterRefRef IndentLevel="1" RefId="%AID%_UP-%TT%%CC%230_R-%TT%%CC%23001" HelpContext="GDW-Objekte" />
-                          <ParameterRefRef IndentLevel="1" RefId="%AID%_UP-%TT%%CC%231_R-%TT%%CC%23101" HelpContext="GDW-Objekte" />
+                          <ParameterRefRef IndentLevel="1" RefId="%AID%_P-%TT%%CC%510_R-%TT%%CC%51001" HelpContext="GDW-Objekte" />
+                          <choose ParamRefId="%AID%_P-%TT%%CC%510_R-%TT%%CC%51001">
+                            <when test="=1">
+                              <ParameterRefRef IndentLevel="2" RefId="%AID%_UP-%TT%%CC%211_R-%TT%%CC%21101" HelpContext="GDW-Objekte" />
+                              <ParameterRefRef IndentLevel="2" RefId="%AID%_UP-%TT%%CC%212_R-%TT%%CC%21201" HelpContext="GDW-Objekte" />
+                              <ParameterRefRef IndentLevel="2" RefId="%AID%_UP-%TT%%CC%213_R-%TT%%CC%21301" HelpContext="GDW-Objekte" />
+                              <ParameterRefRef IndentLevel="2" RefId="%AID%_UP-%TT%%CC%214_R-%TT%%CC%21401" HelpContext="GDW-Objekte" />
+                              <ParameterRefRef IndentLevel="2" RefId="%AID%_UP-%TT%%CC%215_R-%TT%%CC%21501" HelpContext="GDW-Objekte" />
+                              <ParameterRefRef IndentLevel="2" RefId="%AID%_UP-%TT%%CC%216_R-%TT%%CC%21601" HelpContext="GDW-Objekte" />
+                              <ParameterRefRef IndentLevel="2" RefId="%AID%_UP-%TT%%CC%217_R-%TT%%CC%21701" HelpContext="GDW-Objekte" />
+                              <ParameterRefRef IndentLevel="2" RefId="%AID%_UP-%TT%%CC%218_R-%TT%%CC%21801" HelpContext="GDW-Objekte" />
+                              <ParameterRefRef IndentLevel="2" RefId="%AID%_UP-%TT%%CC%219_R-%TT%%CC%21901" HelpContext="GDW-Objekte" />
+                              <ParameterRefRef IndentLevel="2" RefId="%AID%_UP-%TT%%CC%220_R-%TT%%CC%22001" HelpContext="GDW-Objekte" />
+                              <ParameterRefRef IndentLevel="2" RefId="%AID%_UP-%TT%%CC%221_R-%TT%%CC%22101" HelpContext="GDW-Objekte" />
+                              <ParameterRefRef IndentLevel="2" RefId="%AID%_UP-%TT%%CC%222_R-%TT%%CC%22201" HelpContext="GDW-Objekte" />
+                              <ParameterRefRef IndentLevel="2" RefId="%AID%_UP-%TT%%CC%223_R-%TT%%CC%22301" HelpContext="GDW-Objekte" />
+                              <ParameterRefRef IndentLevel="2" RefId="%AID%_UP-%TT%%CC%224_R-%TT%%CC%22401" HelpContext="GDW-Objekte" />
+                              <ParameterRefRef IndentLevel="2" RefId="%AID%_UP-%TT%%CC%225_R-%TT%%CC%22501" HelpContext="GDW-Objekte" />
+                              <ParameterRefRef IndentLevel="2" RefId="%AID%_UP-%TT%%CC%226_R-%TT%%CC%22601" HelpContext="GDW-Objekte" />
+                              <ParameterRefRef IndentLevel="2" RefId="%AID%_UP-%TT%%CC%227_R-%TT%%CC%22701" HelpContext="GDW-Objekte" />
+                              <ParameterRefRef IndentLevel="2" RefId="%AID%_UP-%TT%%CC%228_R-%TT%%CC%22801" HelpContext="GDW-Objekte" />
+                              <ParameterRefRef IndentLevel="2" RefId="%AID%_UP-%TT%%CC%229_R-%TT%%CC%22901" HelpContext="GDW-Objekte" />
+                              <ParameterRefRef IndentLevel="2" RefId="%AID%_UP-%TT%%CC%230_R-%TT%%CC%23001" HelpContext="GDW-Objekte" />
+                              <ParameterRefRef IndentLevel="2" RefId="%AID%_UP-%TT%%CC%231_R-%TT%%CC%23101" HelpContext="GDW-Objekte" />
+                            </when>
+                          </choose>
                         </when>
                       </choose>
                       <choose ParamRefId="%AID%_UP-%TT%%CC%010_R-%TT%%CC%01001">
                         <when test="1 2">
-                          <ParameterSeparator Id="%AID%_PS-nnn" Text="Batterie" UIHint="Headline" />
-                          <ParameterRefRef IndentLevel="1" RefId="%AID%_UP-%TT%%CC%232_R-%TT%%CC%23201" HelpContext="GDW-Objekte" />
-                          <ParameterRefRef IndentLevel="1" RefId="%AID%_UP-%TT%%CC%233_R-%TT%%CC%23301" HelpContext="GDW-Objekte" />
-                          <ParameterRefRef IndentLevel="1" RefId="%AID%_UP-%TT%%CC%234_R-%TT%%CC%23401" HelpContext="GDW-Objekte" />
-                          <ParameterRefRef IndentLevel="1" RefId="%AID%_UP-%TT%%CC%235_R-%TT%%CC%23501" HelpContext="GDW-Objekte" />
-                          <ParameterRefRef IndentLevel="1" RefId="%AID%_UP-%TT%%CC%236_R-%TT%%CC%23601" HelpContext="GDW-Objekte" />
-                          <ParameterRefRef IndentLevel="1" RefId="%AID%_UP-%TT%%CC%237_R-%TT%%CC%23701" HelpContext="GDW-Objekte" />
-                          <ParameterRefRef IndentLevel="1" RefId="%AID%_UP-%TT%%CC%238_R-%TT%%CC%23801" HelpContext="GDW-Objekte" />
-                          <ParameterRefRef IndentLevel="1" RefId="%AID%_UP-%TT%%CC%239_R-%TT%%CC%23901" HelpContext="GDW-Objekte" />
-                          <ParameterRefRef IndentLevel="1" RefId="%AID%_UP-%TT%%CC%240_R-%TT%%CC%24001" HelpContext="GDW-Objekte" />
-                          <ParameterRefRef IndentLevel="1" RefId="%AID%_UP-%TT%%CC%241_R-%TT%%CC%24101" HelpContext="GDW-Objekte" />
-                          <ParameterRefRef IndentLevel="1" RefId="%AID%_UP-%TT%%CC%242_R-%TT%%CC%24201" HelpContext="GDW-Objekte" />
-                          <ParameterRefRef IndentLevel="1" RefId="%AID%_UP-%TT%%CC%243_R-%TT%%CC%24301" HelpContext="GDW-Objekte" />
-                          <ParameterRefRef IndentLevel="1" RefId="%AID%_UP-%TT%%CC%244_R-%TT%%CC%24401" HelpContext="GDW-Objekte" />
-                          <ParameterRefRef IndentLevel="1" RefId="%AID%_UP-%TT%%CC%245_R-%TT%%CC%24501" HelpContext="GDW-Objekte" />
-                          <ParameterRefRef IndentLevel="1" RefId="%AID%_UP-%TT%%CC%246_R-%TT%%CC%24601" HelpContext="GDW-Objekte" />
-                          <ParameterRefRef IndentLevel="1" RefId="%AID%_UP-%TT%%CC%247_R-%TT%%CC%24701" HelpContext="GDW-Objekte" />
-                          <ParameterRefRef IndentLevel="1" RefId="%AID%_UP-%TT%%CC%248_R-%TT%%CC%24801" HelpContext="GDW-Objekte" />
-                          <ParameterRefRef IndentLevel="1" RefId="%AID%_UP-%TT%%CC%249_R-%TT%%CC%24901" HelpContext="GDW-Objekte" />
-                          <ParameterRefRef IndentLevel="1" RefId="%AID%_UP-%TT%%CC%250_R-%TT%%CC%25001" HelpContext="GDW-Objekte" />
-                          <ParameterRefRef IndentLevel="1" RefId="%AID%_UP-%TT%%CC%251_R-%TT%%CC%25101" HelpContext="GDW-Objekte" />
-                          <ParameterRefRef IndentLevel="1" RefId="%AID%_UP-%TT%%CC%252_R-%TT%%CC%25201" HelpContext="GDW-Objekte" />
-                          <ParameterRefRef IndentLevel="1" RefId="%AID%_UP-%TT%%CC%253_R-%TT%%CC%25301" HelpContext="GDW-Objekte" />
-                          <ParameterRefRef IndentLevel="1" RefId="%AID%_UP-%TT%%CC%254_R-%TT%%CC%25401" HelpContext="GDW-Objekte" />
-                          <ParameterRefRef IndentLevel="1" RefId="%AID%_UP-%TT%%CC%255_R-%TT%%CC%25501" HelpContext="GDW-Objekte" />
-                          <ParameterRefRef IndentLevel="1" RefId="%AID%_UP-%TT%%CC%256_R-%TT%%CC%25601" HelpContext="GDW-Objekte" />
-                          <ParameterRefRef IndentLevel="1" RefId="%AID%_UP-%TT%%CC%257_R-%TT%%CC%25701" HelpContext="GDW-Objekte" />
-                          <ParameterRefRef IndentLevel="1" RefId="%AID%_UP-%TT%%CC%258_R-%TT%%CC%25801" HelpContext="GDW-Objekte" />
+                          <ParameterRefRef IndentLevel="1" RefId="%AID%_P-%TT%%CC%511_R-%TT%%CC%51101" HelpContext="GDW-Objekte" />
+                          <choose ParamRefId="%AID%_P-%TT%%CC%511_R-%TT%%CC%51101">
+                            <when test="=1">
+                              <ParameterRefRef IndentLevel="2" RefId="%AID%_UP-%TT%%CC%232_R-%TT%%CC%23201" HelpContext="GDW-Objekte" />
+                              <ParameterRefRef IndentLevel="2" RefId="%AID%_UP-%TT%%CC%233_R-%TT%%CC%23301" HelpContext="GDW-Objekte" />
+                              <ParameterRefRef IndentLevel="2" RefId="%AID%_UP-%TT%%CC%234_R-%TT%%CC%23401" HelpContext="GDW-Objekte" />
+                              <ParameterRefRef IndentLevel="2" RefId="%AID%_UP-%TT%%CC%235_R-%TT%%CC%23501" HelpContext="GDW-Objekte" />
+                              <ParameterRefRef IndentLevel="2" RefId="%AID%_UP-%TT%%CC%236_R-%TT%%CC%23601" HelpContext="GDW-Objekte" />
+                              <ParameterRefRef IndentLevel="2" RefId="%AID%_UP-%TT%%CC%237_R-%TT%%CC%23701" HelpContext="GDW-Objekte" />
+                              <ParameterRefRef IndentLevel="2" RefId="%AID%_UP-%TT%%CC%238_R-%TT%%CC%23801" HelpContext="GDW-Objekte" />
+                              <ParameterRefRef IndentLevel="2" RefId="%AID%_UP-%TT%%CC%239_R-%TT%%CC%23901" HelpContext="GDW-Objekte" />
+                              <ParameterRefRef IndentLevel="2" RefId="%AID%_UP-%TT%%CC%240_R-%TT%%CC%24001" HelpContext="GDW-Objekte" />
+                              <ParameterRefRef IndentLevel="2" RefId="%AID%_UP-%TT%%CC%241_R-%TT%%CC%24101" HelpContext="GDW-Objekte" />
+                              <ParameterRefRef IndentLevel="2" RefId="%AID%_UP-%TT%%CC%242_R-%TT%%CC%24201" HelpContext="GDW-Objekte" />
+                              <ParameterRefRef IndentLevel="2" RefId="%AID%_UP-%TT%%CC%243_R-%TT%%CC%24301" HelpContext="GDW-Objekte" />
+                              <ParameterRefRef IndentLevel="2" RefId="%AID%_UP-%TT%%CC%244_R-%TT%%CC%24401" HelpContext="GDW-Objekte" />
+                              <ParameterRefRef IndentLevel="2" RefId="%AID%_UP-%TT%%CC%245_R-%TT%%CC%24501" HelpContext="GDW-Objekte" />
+                              <ParameterRefRef IndentLevel="2" RefId="%AID%_UP-%TT%%CC%246_R-%TT%%CC%24601" HelpContext="GDW-Objekte" />
+                              <ParameterRefRef IndentLevel="2" RefId="%AID%_UP-%TT%%CC%247_R-%TT%%CC%24701" HelpContext="GDW-Objekte" />
+                              <ParameterRefRef IndentLevel="2" RefId="%AID%_UP-%TT%%CC%248_R-%TT%%CC%24801" HelpContext="GDW-Objekte" />
+                              <ParameterRefRef IndentLevel="2" RefId="%AID%_UP-%TT%%CC%249_R-%TT%%CC%24901" HelpContext="GDW-Objekte" />
+                              <ParameterRefRef IndentLevel="2" RefId="%AID%_UP-%TT%%CC%250_R-%TT%%CC%25001" HelpContext="GDW-Objekte" />
+                              <ParameterRefRef IndentLevel="2" RefId="%AID%_UP-%TT%%CC%251_R-%TT%%CC%25101" HelpContext="GDW-Objekte" />
+                              <ParameterRefRef IndentLevel="2" RefId="%AID%_UP-%TT%%CC%252_R-%TT%%CC%25201" HelpContext="GDW-Objekte" />
+                              <ParameterRefRef IndentLevel="2" RefId="%AID%_UP-%TT%%CC%253_R-%TT%%CC%25301" HelpContext="GDW-Objekte" />
+                              <ParameterRefRef IndentLevel="2" RefId="%AID%_UP-%TT%%CC%254_R-%TT%%CC%25401" HelpContext="GDW-Objekte" />
+                              <ParameterRefRef IndentLevel="2" RefId="%AID%_UP-%TT%%CC%255_R-%TT%%CC%25501" HelpContext="GDW-Objekte" />
+                              <ParameterRefRef IndentLevel="2" RefId="%AID%_UP-%TT%%CC%256_R-%TT%%CC%25601" HelpContext="GDW-Objekte" />
+                              <ParameterRefRef IndentLevel="2" RefId="%AID%_UP-%TT%%CC%257_R-%TT%%CC%25701" HelpContext="GDW-Objekte" />
+                              <ParameterRefRef IndentLevel="2" RefId="%AID%_UP-%TT%%CC%258_R-%TT%%CC%25801" HelpContext="GDW-Objekte" />
+                            </when>
+                          </choose>
                         </when>
                       </choose>
                       <choose ParamRefId="%AID%_UP-%TT%%CC%010_R-%TT%%CC%01001">
                         <when test="1 2">
-                          <ParameterSeparator Id="%AID%_PS-nnn" Text="Batterie 2" UIHint="Headline" />
-                          <ParameterRefRef IndentLevel="1" RefId="%AID%_UP-%TT%%CC%259_R-%TT%%CC%25901" HelpContext="GDW-Objekte" />
-                          <ParameterRefRef IndentLevel="1" RefId="%AID%_UP-%TT%%CC%260_R-%TT%%CC%26001" HelpContext="GDW-Objekte" />
-                          <ParameterRefRef IndentLevel="1" RefId="%AID%_UP-%TT%%CC%261_R-%TT%%CC%26101" HelpContext="GDW-Objekte" />
-                          <ParameterRefRef IndentLevel="1" RefId="%AID%_UP-%TT%%CC%262_R-%TT%%CC%26201" HelpContext="GDW-Objekte" />
-                          <ParameterRefRef IndentLevel="1" RefId="%AID%_UP-%TT%%CC%263_R-%TT%%CC%26301" HelpContext="GDW-Objekte" />
-                          <ParameterRefRef IndentLevel="1" RefId="%AID%_UP-%TT%%CC%264_R-%TT%%CC%26401" HelpContext="GDW-Objekte" />
-                          <ParameterRefRef IndentLevel="1" RefId="%AID%_UP-%TT%%CC%265_R-%TT%%CC%26501" HelpContext="GDW-Objekte" />
-                          <ParameterRefRef IndentLevel="1" RefId="%AID%_UP-%TT%%CC%266_R-%TT%%CC%26601" HelpContext="GDW-Objekte" />
-                          <ParameterRefRef IndentLevel="1" RefId="%AID%_UP-%TT%%CC%267_R-%TT%%CC%26701" HelpContext="GDW-Objekte" />
-                          <ParameterRefRef IndentLevel="1" RefId="%AID%_UP-%TT%%CC%268_R-%TT%%CC%26801" HelpContext="GDW-Objekte" />
-                          <ParameterRefRef IndentLevel="1" RefId="%AID%_UP-%TT%%CC%269_R-%TT%%CC%26901" HelpContext="GDW-Objekte" />
-                          <ParameterRefRef IndentLevel="1" RefId="%AID%_UP-%TT%%CC%270_R-%TT%%CC%27001" HelpContext="GDW-Objekte" />
-                          <ParameterRefRef IndentLevel="1" RefId="%AID%_UP-%TT%%CC%271_R-%TT%%CC%27101" HelpContext="GDW-Objekte" />
-                          <ParameterRefRef IndentLevel="1" RefId="%AID%_UP-%TT%%CC%272_R-%TT%%CC%27201" HelpContext="GDW-Objekte" />
-                          <ParameterRefRef IndentLevel="1" RefId="%AID%_UP-%TT%%CC%273_R-%TT%%CC%27301" HelpContext="GDW-Objekte" />
-                          <ParameterRefRef IndentLevel="1" RefId="%AID%_UP-%TT%%CC%274_R-%TT%%CC%27401" HelpContext="GDW-Objekte" />
-                          <ParameterRefRef IndentLevel="1" RefId="%AID%_UP-%TT%%CC%275_R-%TT%%CC%27501" HelpContext="GDW-Objekte" />
-                          <ParameterRefRef IndentLevel="1" RefId="%AID%_UP-%TT%%CC%276_R-%TT%%CC%27601" HelpContext="GDW-Objekte" />
-                          <ParameterRefRef IndentLevel="1" RefId="%AID%_UP-%TT%%CC%277_R-%TT%%CC%27701" HelpContext="GDW-Objekte" />
-                          <ParameterRefRef IndentLevel="1" RefId="%AID%_UP-%TT%%CC%278_R-%TT%%CC%27801" HelpContext="GDW-Objekte" />
-                          <ParameterRefRef IndentLevel="1" RefId="%AID%_UP-%TT%%CC%279_R-%TT%%CC%27901" HelpContext="GDW-Objekte" />
-                          <ParameterRefRef IndentLevel="1" RefId="%AID%_UP-%TT%%CC%280_R-%TT%%CC%28001" HelpContext="GDW-Objekte" />
-                          <ParameterRefRef IndentLevel="1" RefId="%AID%_UP-%TT%%CC%281_R-%TT%%CC%28101" HelpContext="GDW-Objekte" />
-                          <ParameterRefRef IndentLevel="1" RefId="%AID%_UP-%TT%%CC%282_R-%TT%%CC%28201" HelpContext="GDW-Objekte" />
+                          <ParameterRefRef IndentLevel="1" RefId="%AID%_P-%TT%%CC%512_R-%TT%%CC%51201" HelpContext="GDW-Objekte" />
+                          <choose ParamRefId="%AID%_P-%TT%%CC%512_R-%TT%%CC%51201">
+                            <when test="=1">
+                              <ParameterRefRef IndentLevel="2" RefId="%AID%_UP-%TT%%CC%259_R-%TT%%CC%25901" HelpContext="GDW-Objekte" />
+                              <ParameterRefRef IndentLevel="2" RefId="%AID%_UP-%TT%%CC%260_R-%TT%%CC%26001" HelpContext="GDW-Objekte" />
+                              <ParameterRefRef IndentLevel="2" RefId="%AID%_UP-%TT%%CC%261_R-%TT%%CC%26101" HelpContext="GDW-Objekte" />
+                              <ParameterRefRef IndentLevel="2" RefId="%AID%_UP-%TT%%CC%262_R-%TT%%CC%26201" HelpContext="GDW-Objekte" />
+                              <ParameterRefRef IndentLevel="2" RefId="%AID%_UP-%TT%%CC%263_R-%TT%%CC%26301" HelpContext="GDW-Objekte" />
+                              <ParameterRefRef IndentLevel="2" RefId="%AID%_UP-%TT%%CC%264_R-%TT%%CC%26401" HelpContext="GDW-Objekte" />
+                              <ParameterRefRef IndentLevel="2" RefId="%AID%_UP-%TT%%CC%265_R-%TT%%CC%26501" HelpContext="GDW-Objekte" />
+                              <ParameterRefRef IndentLevel="2" RefId="%AID%_UP-%TT%%CC%266_R-%TT%%CC%26601" HelpContext="GDW-Objekte" />
+                              <ParameterRefRef IndentLevel="2" RefId="%AID%_UP-%TT%%CC%267_R-%TT%%CC%26701" HelpContext="GDW-Objekte" />
+                              <ParameterRefRef IndentLevel="2" RefId="%AID%_UP-%TT%%CC%268_R-%TT%%CC%26801" HelpContext="GDW-Objekte" />
+                              <ParameterRefRef IndentLevel="2" RefId="%AID%_UP-%TT%%CC%269_R-%TT%%CC%26901" HelpContext="GDW-Objekte" />
+                              <ParameterRefRef IndentLevel="2" RefId="%AID%_UP-%TT%%CC%270_R-%TT%%CC%27001" HelpContext="GDW-Objekte" />
+                              <ParameterRefRef IndentLevel="2" RefId="%AID%_UP-%TT%%CC%271_R-%TT%%CC%27101" HelpContext="GDW-Objekte" />
+                              <ParameterRefRef IndentLevel="2" RefId="%AID%_UP-%TT%%CC%272_R-%TT%%CC%27201" HelpContext="GDW-Objekte" />
+                              <ParameterRefRef IndentLevel="2" RefId="%AID%_UP-%TT%%CC%273_R-%TT%%CC%27301" HelpContext="GDW-Objekte" />
+                              <ParameterRefRef IndentLevel="2" RefId="%AID%_UP-%TT%%CC%274_R-%TT%%CC%27401" HelpContext="GDW-Objekte" />
+                              <ParameterRefRef IndentLevel="2" RefId="%AID%_UP-%TT%%CC%275_R-%TT%%CC%27501" HelpContext="GDW-Objekte" />
+                              <ParameterRefRef IndentLevel="2" RefId="%AID%_UP-%TT%%CC%276_R-%TT%%CC%27601" HelpContext="GDW-Objekte" />
+                              <ParameterRefRef IndentLevel="2" RefId="%AID%_UP-%TT%%CC%277_R-%TT%%CC%27701" HelpContext="GDW-Objekte" />
+                              <ParameterRefRef IndentLevel="2" RefId="%AID%_UP-%TT%%CC%278_R-%TT%%CC%27801" HelpContext="GDW-Objekte" />
+                              <ParameterRefRef IndentLevel="2" RefId="%AID%_UP-%TT%%CC%279_R-%TT%%CC%27901" HelpContext="GDW-Objekte" />
+                              <ParameterRefRef IndentLevel="2" RefId="%AID%_UP-%TT%%CC%280_R-%TT%%CC%28001" HelpContext="GDW-Objekte" />
+                              <ParameterRefRef IndentLevel="2" RefId="%AID%_UP-%TT%%CC%281_R-%TT%%CC%28101" HelpContext="GDW-Objekte" />
+                              <ParameterRefRef IndentLevel="2" RefId="%AID%_UP-%TT%%CC%282_R-%TT%%CC%28201" HelpContext="GDW-Objekte" />
+                            </when>
+                          </choose>
                         </when>
                       </choose>
-                      <ParameterSeparator Id="%AID%_PS-nnn" Text="Energie" UIHint="Headline" />
-                      <ParameterRefRef IndentLevel="1" RefId="%AID%_UP-%TT%%CC%283_R-%TT%%CC%28301" HelpContext="GDW-Objekte" />
-                      <ParameterRefRef IndentLevel="1" RefId="%AID%_UP-%TT%%CC%284_R-%TT%%CC%28401" HelpContext="GDW-Objekte" />
-                      <ParameterRefRef IndentLevel="1" RefId="%AID%_UP-%TT%%CC%285_R-%TT%%CC%28501" HelpContext="GDW-Objekte" />
-                      <ParameterRefRef IndentLevel="1" RefId="%AID%_UP-%TT%%CC%286_R-%TT%%CC%28601" HelpContext="GDW-Objekte" />
-                      <choose ParamRefId="%AID%_UP-%TT%%CC%010_R-%TT%%CC%01001">
-                        <when test="1 2">
-                          <ParameterSeparator Id="%AID%_PS-nnn" Text="Energie Hybrid" UIHint="Headline" />
-                          <ParameterRefRef IndentLevel="1" RefId="%AID%_UP-%TT%%CC%287_R-%TT%%CC%28701" HelpContext="GDW-Objekte" />
-                          <ParameterRefRef IndentLevel="1" RefId="%AID%_UP-%TT%%CC%288_R-%TT%%CC%28801" HelpContext="GDW-Objekte" />
-                          <ParameterRefRef IndentLevel="1" RefId="%AID%_UP-%TT%%CC%289_R-%TT%%CC%28901" HelpContext="GDW-Objekte" />
-                          <ParameterRefRef IndentLevel="1" RefId="%AID%_UP-%TT%%CC%290_R-%TT%%CC%29001" HelpContext="GDW-Objekte" />
-                          <ParameterRefRef IndentLevel="1" RefId="%AID%_UP-%TT%%CC%291_R-%TT%%CC%29101" HelpContext="GDW-Objekte" />
-                          <ParameterRefRef IndentLevel="1" RefId="%AID%_UP-%TT%%CC%292_R-%TT%%CC%29201" HelpContext="GDW-Objekte" />
-                          <ParameterRefRef IndentLevel="1" RefId="%AID%_UP-%TT%%CC%293_R-%TT%%CC%29301" HelpContext="GDW-Objekte" />
-                          <ParameterRefRef IndentLevel="1" RefId="%AID%_UP-%TT%%CC%294_R-%TT%%CC%29401" HelpContext="GDW-Objekte" />
-                          <ParameterRefRef IndentLevel="1" RefId="%AID%_UP-%TT%%CC%295_R-%TT%%CC%29501" HelpContext="GDW-Objekte" />
-                          <ParameterRefRef IndentLevel="1" RefId="%AID%_UP-%TT%%CC%296_R-%TT%%CC%29601" HelpContext="GDW-Objekte" />
+                      <ParameterRefRef IndentLevel="1" RefId="%AID%_P-%TT%%CC%513_R-%TT%%CC%51301" HelpContext="GDW-Objekte" />
+                      <choose ParamRefId="%AID%_P-%TT%%CC%513_R-%TT%%CC%51301">
+                        <when test="=1">
+                          <ParameterRefRef IndentLevel="2" RefId="%AID%_UP-%TT%%CC%283_R-%TT%%CC%28301" HelpContext="GDW-Objekte" />
+                          <ParameterRefRef IndentLevel="2" RefId="%AID%_UP-%TT%%CC%284_R-%TT%%CC%28401" HelpContext="GDW-Objekte" />
+                          <ParameterRefRef IndentLevel="2" RefId="%AID%_UP-%TT%%CC%285_R-%TT%%CC%28501" HelpContext="GDW-Objekte" />
+                          <ParameterRefRef IndentLevel="2" RefId="%AID%_UP-%TT%%CC%286_R-%TT%%CC%28601" HelpContext="GDW-Objekte" />
                         </when>
                       </choose>
                       <choose ParamRefId="%AID%_UP-%TT%%CC%010_R-%TT%%CC%01001">
                         <when test="1 2">
-                          <ParameterSeparator Id="%AID%_PS-nnn" Text="Zähler" UIHint="Headline" />
-                          <ParameterRefRef IndentLevel="1" RefId="%AID%_UP-%TT%%CC%297_R-%TT%%CC%29701" HelpContext="GDW-Objekte" />
-                          <ParameterRefRef IndentLevel="1" RefId="%AID%_UP-%TT%%CC%298_R-%TT%%CC%29801" HelpContext="GDW-Objekte" />
-                          <ParameterRefRef IndentLevel="1" RefId="%AID%_UP-%TT%%CC%299_R-%TT%%CC%29901" HelpContext="GDW-Objekte" />
-                          <ParameterRefRef IndentLevel="1" RefId="%AID%_UP-%TT%%CC%300_R-%TT%%CC%30001" HelpContext="GDW-Objekte" />
-                          <ParameterRefRef IndentLevel="1" RefId="%AID%_UP-%TT%%CC%301_R-%TT%%CC%30101" HelpContext="GDW-Objekte" />
-                          <ParameterRefRef IndentLevel="1" RefId="%AID%_UP-%TT%%CC%302_R-%TT%%CC%30201" HelpContext="GDW-Objekte" />
-                          <ParameterRefRef IndentLevel="1" RefId="%AID%_UP-%TT%%CC%303_R-%TT%%CC%30301" HelpContext="GDW-Objekte" />
-                          <ParameterRefRef IndentLevel="1" RefId="%AID%_UP-%TT%%CC%304_R-%TT%%CC%30401" HelpContext="GDW-Objekte" />
-                          <ParameterRefRef IndentLevel="1" RefId="%AID%_UP-%TT%%CC%305_R-%TT%%CC%30501" HelpContext="GDW-Objekte" />
-                          <ParameterRefRef IndentLevel="1" RefId="%AID%_UP-%TT%%CC%306_R-%TT%%CC%30601" HelpContext="GDW-Objekte" />
-                          <ParameterRefRef IndentLevel="1" RefId="%AID%_UP-%TT%%CC%307_R-%TT%%CC%30701" HelpContext="GDW-Objekte" />
-                          <ParameterRefRef IndentLevel="1" RefId="%AID%_UP-%TT%%CC%308_R-%TT%%CC%30801" HelpContext="GDW-Objekte" />
-                          <ParameterRefRef IndentLevel="1" RefId="%AID%_UP-%TT%%CC%309_R-%TT%%CC%30901" HelpContext="GDW-Objekte" />
-                          <ParameterRefRef IndentLevel="1" RefId="%AID%_UP-%TT%%CC%310_R-%TT%%CC%31001" HelpContext="GDW-Objekte" />
-                          <ParameterRefRef IndentLevel="1" RefId="%AID%_UP-%TT%%CC%311_R-%TT%%CC%31101" HelpContext="GDW-Objekte" />
-                          <ParameterRefRef IndentLevel="1" RefId="%AID%_UP-%TT%%CC%312_R-%TT%%CC%31201" HelpContext="GDW-Objekte" />
-                          <ParameterRefRef IndentLevel="1" RefId="%AID%_UP-%TT%%CC%313_R-%TT%%CC%31301" HelpContext="GDW-Objekte" />
-                          <ParameterRefRef IndentLevel="1" RefId="%AID%_UP-%TT%%CC%314_R-%TT%%CC%31401" HelpContext="GDW-Objekte" />
-                          <ParameterRefRef IndentLevel="1" RefId="%AID%_UP-%TT%%CC%315_R-%TT%%CC%31501" HelpContext="GDW-Objekte" />
-                          <ParameterRefRef IndentLevel="1" RefId="%AID%_UP-%TT%%CC%316_R-%TT%%CC%31601" HelpContext="GDW-Objekte" />
-                          <ParameterRefRef IndentLevel="1" RefId="%AID%_UP-%TT%%CC%317_R-%TT%%CC%31701" HelpContext="GDW-Objekte" />
-                          <ParameterRefRef IndentLevel="1" RefId="%AID%_UP-%TT%%CC%318_R-%TT%%CC%31801" HelpContext="GDW-Objekte" />
-                          <ParameterRefRef IndentLevel="1" RefId="%AID%_UP-%TT%%CC%319_R-%TT%%CC%31901" HelpContext="GDW-Objekte" />
-                          <ParameterRefRef IndentLevel="1" RefId="%AID%_UP-%TT%%CC%320_R-%TT%%CC%32001" HelpContext="GDW-Objekte" />
-                          <ParameterRefRef IndentLevel="1" RefId="%AID%_UP-%TT%%CC%321_R-%TT%%CC%32101" HelpContext="GDW-Objekte" />
-                          <ParameterRefRef IndentLevel="1" RefId="%AID%_UP-%TT%%CC%322_R-%TT%%CC%32201" HelpContext="GDW-Objekte" />
-                          <ParameterRefRef IndentLevel="1" RefId="%AID%_UP-%TT%%CC%323_R-%TT%%CC%32301" HelpContext="GDW-Objekte" />
-                          <ParameterRefRef IndentLevel="1" RefId="%AID%_UP-%TT%%CC%324_R-%TT%%CC%32401" HelpContext="GDW-Objekte" />
-                          <ParameterRefRef IndentLevel="1" RefId="%AID%_UP-%TT%%CC%325_R-%TT%%CC%32501" HelpContext="GDW-Objekte" />
-                          <ParameterRefRef IndentLevel="1" RefId="%AID%_UP-%TT%%CC%326_R-%TT%%CC%32601" HelpContext="GDW-Objekte" />
-                          <ParameterRefRef IndentLevel="1" RefId="%AID%_UP-%TT%%CC%327_R-%TT%%CC%32701" HelpContext="GDW-Objekte" />
-                          <ParameterRefRef IndentLevel="1" RefId="%AID%_UP-%TT%%CC%328_R-%TT%%CC%32801" HelpContext="GDW-Objekte" />
-                          <ParameterRefRef IndentLevel="1" RefId="%AID%_UP-%TT%%CC%329_R-%TT%%CC%32901" HelpContext="GDW-Objekte" />
-                          <ParameterRefRef IndentLevel="1" RefId="%AID%_UP-%TT%%CC%330_R-%TT%%CC%33001" HelpContext="GDW-Objekte" />
-                          <ParameterRefRef IndentLevel="1" RefId="%AID%_UP-%TT%%CC%331_R-%TT%%CC%33101" HelpContext="GDW-Objekte" />
-                          <ParameterRefRef IndentLevel="1" RefId="%AID%_UP-%TT%%CC%332_R-%TT%%CC%33201" HelpContext="GDW-Objekte" />
-                          <ParameterRefRef IndentLevel="1" RefId="%AID%_UP-%TT%%CC%333_R-%TT%%CC%33301" HelpContext="GDW-Objekte" />
+                          <ParameterRefRef IndentLevel="1" RefId="%AID%_P-%TT%%CC%514_R-%TT%%CC%51401" HelpContext="GDW-Objekte" />
+                          <choose ParamRefId="%AID%_P-%TT%%CC%514_R-%TT%%CC%51401">
+                            <when test="=1">
+                              <ParameterRefRef IndentLevel="2" RefId="%AID%_UP-%TT%%CC%287_R-%TT%%CC%28701" HelpContext="GDW-Objekte" />
+                              <ParameterRefRef IndentLevel="2" RefId="%AID%_UP-%TT%%CC%288_R-%TT%%CC%28801" HelpContext="GDW-Objekte" />
+                              <ParameterRefRef IndentLevel="2" RefId="%AID%_UP-%TT%%CC%289_R-%TT%%CC%28901" HelpContext="GDW-Objekte" />
+                              <ParameterRefRef IndentLevel="2" RefId="%AID%_UP-%TT%%CC%290_R-%TT%%CC%29001" HelpContext="GDW-Objekte" />
+                              <ParameterRefRef IndentLevel="2" RefId="%AID%_UP-%TT%%CC%291_R-%TT%%CC%29101" HelpContext="GDW-Objekte" />
+                              <ParameterRefRef IndentLevel="2" RefId="%AID%_UP-%TT%%CC%292_R-%TT%%CC%29201" HelpContext="GDW-Objekte" />
+                              <ParameterRefRef IndentLevel="2" RefId="%AID%_UP-%TT%%CC%293_R-%TT%%CC%29301" HelpContext="GDW-Objekte" />
+                              <ParameterRefRef IndentLevel="2" RefId="%AID%_UP-%TT%%CC%294_R-%TT%%CC%29401" HelpContext="GDW-Objekte" />
+                              <ParameterRefRef IndentLevel="2" RefId="%AID%_UP-%TT%%CC%295_R-%TT%%CC%29501" HelpContext="GDW-Objekte" />
+                              <ParameterRefRef IndentLevel="2" RefId="%AID%_UP-%TT%%CC%296_R-%TT%%CC%29601" HelpContext="GDW-Objekte" />
+                            </when>
+                          </choose>
                         </when>
                       </choose>
                       <choose ParamRefId="%AID%_UP-%TT%%CC%010_R-%TT%%CC%01001">
                         <when test="1 2">
-                          <ParameterSeparator Id="%AID%_PS-nnn" Text="Zähler Energie je Phase" UIHint="Headline" />
-                          <ParameterRefRef IndentLevel="1" RefId="%AID%_UP-%TT%%CC%334_R-%TT%%CC%33401" HelpContext="GDW-Objekte" />
-                          <ParameterRefRef IndentLevel="1" RefId="%AID%_UP-%TT%%CC%335_R-%TT%%CC%33501" HelpContext="GDW-Objekte" />
-                          <ParameterRefRef IndentLevel="1" RefId="%AID%_UP-%TT%%CC%336_R-%TT%%CC%33601" HelpContext="GDW-Objekte" />
-                          <ParameterRefRef IndentLevel="1" RefId="%AID%_UP-%TT%%CC%337_R-%TT%%CC%33701" HelpContext="GDW-Objekte" />
-                          <ParameterRefRef IndentLevel="1" RefId="%AID%_UP-%TT%%CC%338_R-%TT%%CC%33801" HelpContext="GDW-Objekte" />
-                          <ParameterRefRef IndentLevel="1" RefId="%AID%_UP-%TT%%CC%339_R-%TT%%CC%33901" HelpContext="GDW-Objekte" />
-                          <ParameterRefRef IndentLevel="1" RefId="%AID%_UP-%TT%%CC%340_R-%TT%%CC%34001" HelpContext="GDW-Objekte" />
-                          <ParameterRefRef IndentLevel="1" RefId="%AID%_UP-%TT%%CC%341_R-%TT%%CC%34101" HelpContext="GDW-Objekte" />
+                          <ParameterRefRef IndentLevel="1" RefId="%AID%_P-%TT%%CC%515_R-%TT%%CC%51501" HelpContext="GDW-Objekte" />
+                          <choose ParamRefId="%AID%_P-%TT%%CC%515_R-%TT%%CC%51501">
+                            <when test="=1">
+                              <ParameterRefRef IndentLevel="2" RefId="%AID%_UP-%TT%%CC%297_R-%TT%%CC%29701" HelpContext="GDW-Objekte" />
+                              <ParameterRefRef IndentLevel="2" RefId="%AID%_UP-%TT%%CC%298_R-%TT%%CC%29801" HelpContext="GDW-Objekte" />
+                              <ParameterRefRef IndentLevel="2" RefId="%AID%_UP-%TT%%CC%299_R-%TT%%CC%29901" HelpContext="GDW-Objekte" />
+                              <ParameterRefRef IndentLevel="2" RefId="%AID%_UP-%TT%%CC%300_R-%TT%%CC%30001" HelpContext="GDW-Objekte" />
+                              <ParameterRefRef IndentLevel="2" RefId="%AID%_UP-%TT%%CC%301_R-%TT%%CC%30101" HelpContext="GDW-Objekte" />
+                              <ParameterRefRef IndentLevel="2" RefId="%AID%_UP-%TT%%CC%302_R-%TT%%CC%30201" HelpContext="GDW-Objekte" />
+                              <ParameterRefRef IndentLevel="2" RefId="%AID%_UP-%TT%%CC%303_R-%TT%%CC%30301" HelpContext="GDW-Objekte" />
+                              <ParameterRefRef IndentLevel="2" RefId="%AID%_UP-%TT%%CC%304_R-%TT%%CC%30401" HelpContext="GDW-Objekte" />
+                              <ParameterRefRef IndentLevel="2" RefId="%AID%_UP-%TT%%CC%305_R-%TT%%CC%30501" HelpContext="GDW-Objekte" />
+                              <ParameterRefRef IndentLevel="2" RefId="%AID%_UP-%TT%%CC%306_R-%TT%%CC%30601" HelpContext="GDW-Objekte" />
+                              <ParameterRefRef IndentLevel="2" RefId="%AID%_UP-%TT%%CC%307_R-%TT%%CC%30701" HelpContext="GDW-Objekte" />
+                              <ParameterRefRef IndentLevel="2" RefId="%AID%_UP-%TT%%CC%308_R-%TT%%CC%30801" HelpContext="GDW-Objekte" />
+                              <ParameterRefRef IndentLevel="2" RefId="%AID%_UP-%TT%%CC%309_R-%TT%%CC%30901" HelpContext="GDW-Objekte" />
+                              <ParameterRefRef IndentLevel="2" RefId="%AID%_UP-%TT%%CC%310_R-%TT%%CC%31001" HelpContext="GDW-Objekte" />
+                              <ParameterRefRef IndentLevel="2" RefId="%AID%_UP-%TT%%CC%311_R-%TT%%CC%31101" HelpContext="GDW-Objekte" />
+                              <ParameterRefRef IndentLevel="2" RefId="%AID%_UP-%TT%%CC%312_R-%TT%%CC%31201" HelpContext="GDW-Objekte" />
+                              <ParameterRefRef IndentLevel="2" RefId="%AID%_UP-%TT%%CC%313_R-%TT%%CC%31301" HelpContext="GDW-Objekte" />
+                              <ParameterRefRef IndentLevel="2" RefId="%AID%_UP-%TT%%CC%314_R-%TT%%CC%31401" HelpContext="GDW-Objekte" />
+                              <ParameterRefRef IndentLevel="2" RefId="%AID%_UP-%TT%%CC%315_R-%TT%%CC%31501" HelpContext="GDW-Objekte" />
+                              <ParameterRefRef IndentLevel="2" RefId="%AID%_UP-%TT%%CC%316_R-%TT%%CC%31601" HelpContext="GDW-Objekte" />
+                              <ParameterRefRef IndentLevel="2" RefId="%AID%_UP-%TT%%CC%317_R-%TT%%CC%31701" HelpContext="GDW-Objekte" />
+                              <ParameterRefRef IndentLevel="2" RefId="%AID%_UP-%TT%%CC%318_R-%TT%%CC%31801" HelpContext="GDW-Objekte" />
+                              <ParameterRefRef IndentLevel="2" RefId="%AID%_UP-%TT%%CC%319_R-%TT%%CC%31901" HelpContext="GDW-Objekte" />
+                              <ParameterRefRef IndentLevel="2" RefId="%AID%_UP-%TT%%CC%320_R-%TT%%CC%32001" HelpContext="GDW-Objekte" />
+                              <ParameterRefRef IndentLevel="2" RefId="%AID%_UP-%TT%%CC%321_R-%TT%%CC%32101" HelpContext="GDW-Objekte" />
+                              <ParameterRefRef IndentLevel="2" RefId="%AID%_UP-%TT%%CC%322_R-%TT%%CC%32201" HelpContext="GDW-Objekte" />
+                              <ParameterRefRef IndentLevel="2" RefId="%AID%_UP-%TT%%CC%323_R-%TT%%CC%32301" HelpContext="GDW-Objekte" />
+                              <ParameterRefRef IndentLevel="2" RefId="%AID%_UP-%TT%%CC%324_R-%TT%%CC%32401" HelpContext="GDW-Objekte" />
+                              <ParameterRefRef IndentLevel="2" RefId="%AID%_UP-%TT%%CC%325_R-%TT%%CC%32501" HelpContext="GDW-Objekte" />
+                              <ParameterRefRef IndentLevel="2" RefId="%AID%_UP-%TT%%CC%326_R-%TT%%CC%32601" HelpContext="GDW-Objekte" />
+                              <ParameterRefRef IndentLevel="2" RefId="%AID%_UP-%TT%%CC%327_R-%TT%%CC%32701" HelpContext="GDW-Objekte" />
+                              <ParameterRefRef IndentLevel="2" RefId="%AID%_UP-%TT%%CC%328_R-%TT%%CC%32801" HelpContext="GDW-Objekte" />
+                              <ParameterRefRef IndentLevel="2" RefId="%AID%_UP-%TT%%CC%329_R-%TT%%CC%32901" HelpContext="GDW-Objekte" />
+                              <ParameterRefRef IndentLevel="2" RefId="%AID%_UP-%TT%%CC%330_R-%TT%%CC%33001" HelpContext="GDW-Objekte" />
+                              <ParameterRefRef IndentLevel="2" RefId="%AID%_UP-%TT%%CC%331_R-%TT%%CC%33101" HelpContext="GDW-Objekte" />
+                              <ParameterRefRef IndentLevel="2" RefId="%AID%_UP-%TT%%CC%332_R-%TT%%CC%33201" HelpContext="GDW-Objekte" />
+                              <ParameterRefRef IndentLevel="2" RefId="%AID%_UP-%TT%%CC%333_R-%TT%%CC%33301" HelpContext="GDW-Objekte" />
+                            </when>
+                          </choose>
                         </when>
                       </choose>
                       <choose ParamRefId="%AID%_UP-%TT%%CC%010_R-%TT%%CC%01001">
                         <when test="1 2">
-                          <ParameterSeparator Id="%AID%_PS-nnn" Text="BMS-Daten" UIHint="Headline" />
-                          <ParameterRefRef IndentLevel="1" RefId="%AID%_UP-%TT%%CC%342_R-%TT%%CC%34201" HelpContext="GDW-Objekte" />
-                          <ParameterRefRef IndentLevel="1" RefId="%AID%_UP-%TT%%CC%343_R-%TT%%CC%34301" HelpContext="GDW-Objekte" />
-                          <ParameterRefRef IndentLevel="1" RefId="%AID%_UP-%TT%%CC%344_R-%TT%%CC%34401" HelpContext="GDW-Objekte" />
-                          <ParameterRefRef IndentLevel="1" RefId="%AID%_UP-%TT%%CC%345_R-%TT%%CC%34501" HelpContext="GDW-Objekte" />
-                          <ParameterRefRef IndentLevel="1" RefId="%AID%_UP-%TT%%CC%346_R-%TT%%CC%34601" HelpContext="GDW-Objekte" />
-                          <ParameterRefRef IndentLevel="1" RefId="%AID%_UP-%TT%%CC%347_R-%TT%%CC%34701" HelpContext="GDW-Objekte" />
-                          <ParameterRefRef IndentLevel="1" RefId="%AID%_UP-%TT%%CC%348_R-%TT%%CC%34801" HelpContext="GDW-Objekte" />
-                          <ParameterRefRef IndentLevel="1" RefId="%AID%_UP-%TT%%CC%349_R-%TT%%CC%34901" HelpContext="GDW-Objekte" />
-                          <ParameterRefRef IndentLevel="1" RefId="%AID%_UP-%TT%%CC%350_R-%TT%%CC%35001" HelpContext="GDW-Objekte" />
-                          <ParameterRefRef IndentLevel="1" RefId="%AID%_UP-%TT%%CC%351_R-%TT%%CC%35101" HelpContext="GDW-Objekte" />
-                          <ParameterRefRef IndentLevel="1" RefId="%AID%_UP-%TT%%CC%352_R-%TT%%CC%35201" HelpContext="GDW-Objekte" />
-                          <ParameterRefRef IndentLevel="1" RefId="%AID%_UP-%TT%%CC%353_R-%TT%%CC%35301" HelpContext="GDW-Objekte" />
-                          <ParameterRefRef IndentLevel="1" RefId="%AID%_UP-%TT%%CC%354_R-%TT%%CC%35401" HelpContext="GDW-Objekte" />
-                          <ParameterRefRef IndentLevel="1" RefId="%AID%_UP-%TT%%CC%355_R-%TT%%CC%35501" HelpContext="GDW-Objekte" />
-                          <ParameterRefRef IndentLevel="1" RefId="%AID%_UP-%TT%%CC%356_R-%TT%%CC%35601" HelpContext="GDW-Objekte" />
-                          <ParameterRefRef IndentLevel="1" RefId="%AID%_UP-%TT%%CC%357_R-%TT%%CC%35701" HelpContext="GDW-Objekte" />
-                          <ParameterRefRef IndentLevel="1" RefId="%AID%_UP-%TT%%CC%358_R-%TT%%CC%35801" HelpContext="GDW-Objekte" />
-                          <ParameterRefRef IndentLevel="1" RefId="%AID%_UP-%TT%%CC%359_R-%TT%%CC%35901" HelpContext="GDW-Objekte" />
-                          <ParameterRefRef IndentLevel="1" RefId="%AID%_UP-%TT%%CC%360_R-%TT%%CC%36001" HelpContext="GDW-Objekte" />
-                          <ParameterRefRef IndentLevel="1" RefId="%AID%_UP-%TT%%CC%361_R-%TT%%CC%36101" HelpContext="GDW-Objekte" />
-                          <ParameterRefRef IndentLevel="1" RefId="%AID%_UP-%TT%%CC%362_R-%TT%%CC%36201" HelpContext="GDW-Objekte" />
-                          <ParameterRefRef IndentLevel="1" RefId="%AID%_UP-%TT%%CC%363_R-%TT%%CC%36301" HelpContext="GDW-Objekte" />
-                          <ParameterRefRef IndentLevel="1" RefId="%AID%_UP-%TT%%CC%364_R-%TT%%CC%36401" HelpContext="GDW-Objekte" />
-                          <ParameterRefRef IndentLevel="1" RefId="%AID%_UP-%TT%%CC%365_R-%TT%%CC%36501" HelpContext="GDW-Objekte" />
-                          <ParameterRefRef IndentLevel="1" RefId="%AID%_UP-%TT%%CC%366_R-%TT%%CC%36601" HelpContext="GDW-Objekte" />
-                          <ParameterRefRef IndentLevel="1" RefId="%AID%_UP-%TT%%CC%367_R-%TT%%CC%36701" HelpContext="GDW-Objekte" />
-                          <ParameterRefRef IndentLevel="1" RefId="%AID%_UP-%TT%%CC%368_R-%TT%%CC%36801" HelpContext="GDW-Objekte" />
-                          <ParameterRefRef IndentLevel="1" RefId="%AID%_UP-%TT%%CC%369_R-%TT%%CC%36901" HelpContext="GDW-Objekte" />
-                          <ParameterRefRef IndentLevel="1" RefId="%AID%_UP-%TT%%CC%370_R-%TT%%CC%37001" HelpContext="GDW-Objekte" />
-                          <ParameterRefRef IndentLevel="1" RefId="%AID%_UP-%TT%%CC%371_R-%TT%%CC%37101" HelpContext="GDW-Objekte" />
-                          <ParameterRefRef IndentLevel="1" RefId="%AID%_UP-%TT%%CC%372_R-%TT%%CC%37201" HelpContext="GDW-Objekte" />
-                          <ParameterRefRef IndentLevel="1" RefId="%AID%_UP-%TT%%CC%373_R-%TT%%CC%37301" HelpContext="GDW-Objekte" />
+                          <ParameterRefRef IndentLevel="1" RefId="%AID%_P-%TT%%CC%516_R-%TT%%CC%51601" HelpContext="GDW-Objekte" />
+                          <choose ParamRefId="%AID%_P-%TT%%CC%516_R-%TT%%CC%51601">
+                            <when test="=1">
+                              <ParameterRefRef IndentLevel="2" RefId="%AID%_UP-%TT%%CC%334_R-%TT%%CC%33401" HelpContext="GDW-Objekte" />
+                              <ParameterRefRef IndentLevel="2" RefId="%AID%_UP-%TT%%CC%335_R-%TT%%CC%33501" HelpContext="GDW-Objekte" />
+                              <ParameterRefRef IndentLevel="2" RefId="%AID%_UP-%TT%%CC%336_R-%TT%%CC%33601" HelpContext="GDW-Objekte" />
+                              <ParameterRefRef IndentLevel="2" RefId="%AID%_UP-%TT%%CC%337_R-%TT%%CC%33701" HelpContext="GDW-Objekte" />
+                              <ParameterRefRef IndentLevel="2" RefId="%AID%_UP-%TT%%CC%338_R-%TT%%CC%33801" HelpContext="GDW-Objekte" />
+                              <ParameterRefRef IndentLevel="2" RefId="%AID%_UP-%TT%%CC%339_R-%TT%%CC%33901" HelpContext="GDW-Objekte" />
+                              <ParameterRefRef IndentLevel="2" RefId="%AID%_UP-%TT%%CC%340_R-%TT%%CC%34001" HelpContext="GDW-Objekte" />
+                              <ParameterRefRef IndentLevel="2" RefId="%AID%_UP-%TT%%CC%341_R-%TT%%CC%34101" HelpContext="GDW-Objekte" />
+                            </when>
+                          </choose>
+                        </when>
+                      </choose>
+                      <choose ParamRefId="%AID%_UP-%TT%%CC%010_R-%TT%%CC%01001">
+                        <when test="1 2">
+                          <ParameterRefRef IndentLevel="1" RefId="%AID%_P-%TT%%CC%517_R-%TT%%CC%51701" HelpContext="GDW-Objekte" />
+                          <choose ParamRefId="%AID%_P-%TT%%CC%517_R-%TT%%CC%51701">
+                            <when test="=1">
+                              <ParameterRefRef IndentLevel="2" RefId="%AID%_UP-%TT%%CC%342_R-%TT%%CC%34201" HelpContext="GDW-Objekte" />
+                              <ParameterRefRef IndentLevel="2" RefId="%AID%_UP-%TT%%CC%343_R-%TT%%CC%34301" HelpContext="GDW-Objekte" />
+                              <ParameterRefRef IndentLevel="2" RefId="%AID%_UP-%TT%%CC%344_R-%TT%%CC%34401" HelpContext="GDW-Objekte" />
+                              <ParameterRefRef IndentLevel="2" RefId="%AID%_UP-%TT%%CC%345_R-%TT%%CC%34501" HelpContext="GDW-Objekte" />
+                              <ParameterRefRef IndentLevel="2" RefId="%AID%_UP-%TT%%CC%346_R-%TT%%CC%34601" HelpContext="GDW-Objekte" />
+                              <ParameterRefRef IndentLevel="2" RefId="%AID%_UP-%TT%%CC%347_R-%TT%%CC%34701" HelpContext="GDW-Objekte" />
+                              <ParameterRefRef IndentLevel="2" RefId="%AID%_UP-%TT%%CC%348_R-%TT%%CC%34801" HelpContext="GDW-Objekte" />
+                              <ParameterRefRef IndentLevel="2" RefId="%AID%_UP-%TT%%CC%349_R-%TT%%CC%34901" HelpContext="GDW-Objekte" />
+                              <ParameterRefRef IndentLevel="2" RefId="%AID%_UP-%TT%%CC%350_R-%TT%%CC%35001" HelpContext="GDW-Objekte" />
+                              <ParameterRefRef IndentLevel="2" RefId="%AID%_UP-%TT%%CC%351_R-%TT%%CC%35101" HelpContext="GDW-Objekte" />
+                              <ParameterRefRef IndentLevel="2" RefId="%AID%_UP-%TT%%CC%352_R-%TT%%CC%35201" HelpContext="GDW-Objekte" />
+                              <ParameterRefRef IndentLevel="2" RefId="%AID%_UP-%TT%%CC%353_R-%TT%%CC%35301" HelpContext="GDW-Objekte" />
+                              <ParameterRefRef IndentLevel="2" RefId="%AID%_UP-%TT%%CC%354_R-%TT%%CC%35401" HelpContext="GDW-Objekte" />
+                              <ParameterRefRef IndentLevel="2" RefId="%AID%_UP-%TT%%CC%355_R-%TT%%CC%35501" HelpContext="GDW-Objekte" />
+                              <ParameterRefRef IndentLevel="2" RefId="%AID%_UP-%TT%%CC%356_R-%TT%%CC%35601" HelpContext="GDW-Objekte" />
+                              <ParameterRefRef IndentLevel="2" RefId="%AID%_UP-%TT%%CC%357_R-%TT%%CC%35701" HelpContext="GDW-Objekte" />
+                              <ParameterRefRef IndentLevel="2" RefId="%AID%_UP-%TT%%CC%358_R-%TT%%CC%35801" HelpContext="GDW-Objekte" />
+                              <ParameterRefRef IndentLevel="2" RefId="%AID%_UP-%TT%%CC%359_R-%TT%%CC%35901" HelpContext="GDW-Objekte" />
+                              <ParameterRefRef IndentLevel="2" RefId="%AID%_UP-%TT%%CC%360_R-%TT%%CC%36001" HelpContext="GDW-Objekte" />
+                              <ParameterRefRef IndentLevel="2" RefId="%AID%_UP-%TT%%CC%361_R-%TT%%CC%36101" HelpContext="GDW-Objekte" />
+                              <ParameterRefRef IndentLevel="2" RefId="%AID%_UP-%TT%%CC%362_R-%TT%%CC%36201" HelpContext="GDW-Objekte" />
+                              <ParameterRefRef IndentLevel="2" RefId="%AID%_UP-%TT%%CC%363_R-%TT%%CC%36301" HelpContext="GDW-Objekte" />
+                              <ParameterRefRef IndentLevel="2" RefId="%AID%_UP-%TT%%CC%364_R-%TT%%CC%36401" HelpContext="GDW-Objekte" />
+                              <ParameterRefRef IndentLevel="2" RefId="%AID%_UP-%TT%%CC%365_R-%TT%%CC%36501" HelpContext="GDW-Objekte" />
+                              <ParameterRefRef IndentLevel="2" RefId="%AID%_UP-%TT%%CC%366_R-%TT%%CC%36601" HelpContext="GDW-Objekte" />
+                              <ParameterRefRef IndentLevel="2" RefId="%AID%_UP-%TT%%CC%367_R-%TT%%CC%36701" HelpContext="GDW-Objekte" />
+                              <ParameterRefRef IndentLevel="2" RefId="%AID%_UP-%TT%%CC%368_R-%TT%%CC%36801" HelpContext="GDW-Objekte" />
+                              <ParameterRefRef IndentLevel="2" RefId="%AID%_UP-%TT%%CC%369_R-%TT%%CC%36901" HelpContext="GDW-Objekte" />
+                              <ParameterRefRef IndentLevel="2" RefId="%AID%_UP-%TT%%CC%370_R-%TT%%CC%37001" HelpContext="GDW-Objekte" />
+                              <ParameterRefRef IndentLevel="2" RefId="%AID%_UP-%TT%%CC%371_R-%TT%%CC%37101" HelpContext="GDW-Objekte" />
+                              <ParameterRefRef IndentLevel="2" RefId="%AID%_UP-%TT%%CC%372_R-%TT%%CC%37201" HelpContext="GDW-Objekte" />
+                              <ParameterRefRef IndentLevel="2" RefId="%AID%_UP-%TT%%CC%373_R-%TT%%CC%37301" HelpContext="GDW-Objekte" />
+                            </when>
+                          </choose>
                         </when>
                       </choose>
 
                       <ParameterSeparator Id="%AID%_PS-nnn" Text="Einstellungen" UIHint="Headline" />
                       <ParameterSeparator Id="%AID%_PS-nnn" Text="Diese Objekte schreiben in den Wechselrichter. Sie wirken erst, wenn ein Telegramm eintrifft; beim Start wird nichts geschrieben. Einstellungen ändern den Betrieb der Anlage - mit Bedacht verwenden." UIHint="Information" />
-                      <ParameterSeparator Id="%AID%_PS-nnn" Text="Einstellungen allgemein" UIHint="Headline" />
-                      <ParameterRefRef IndentLevel="1" RefId="%AID%_UP-%TT%%CC%403_R-%TT%%CC%40301" HelpContext="GDW-Objekte" />
-                      <ParameterRefRef IndentLevel="1" RefId="%AID%_UP-%TT%%CC%404_R-%TT%%CC%40401" HelpContext="GDW-Objekte" />
-                      <ParameterRefRef IndentLevel="1" RefId="%AID%_UP-%TT%%CC%418_R-%TT%%CC%41801" HelpContext="GDW-Objekte" />
+                      <ParameterRefRef IndentLevel="1" RefId="%AID%_P-%TT%%CC%518_R-%TT%%CC%51801" HelpContext="GDW-Objekte" />
+                      <choose ParamRefId="%AID%_P-%TT%%CC%518_R-%TT%%CC%51801">
+                        <when test="=1">
+                          <ParameterRefRef IndentLevel="2" RefId="%AID%_UP-%TT%%CC%403_R-%TT%%CC%40301" HelpContext="GDW-Objekte" />
+                          <ParameterRefRef IndentLevel="2" RefId="%AID%_UP-%TT%%CC%404_R-%TT%%CC%40401" HelpContext="GDW-Objekte" />
+                          <ParameterRefRef IndentLevel="2" RefId="%AID%_UP-%TT%%CC%418_R-%TT%%CC%41801" HelpContext="GDW-Objekte" />
+                        </when>
+                      </choose>
                       <choose ParamRefId="%AID%_UP-%TT%%CC%010_R-%TT%%CC%01001">
                         <when test="1 2">
-                          <ParameterSeparator Id="%AID%_PS-nnn" Text="Einstellungen Hybrid" UIHint="Headline" />
-                          <ParameterRefRef IndentLevel="1" RefId="%AID%_UP-%TT%%CC%400_R-%TT%%CC%40001" HelpContext="GDW-Objekte" />
-                          <ParameterRefRef IndentLevel="1" RefId="%AID%_UP-%TT%%CC%401_R-%TT%%CC%40101" HelpContext="GDW-Objekte" />
-                          <ParameterRefRef IndentLevel="1" RefId="%AID%_UP-%TT%%CC%402_R-%TT%%CC%40201" HelpContext="GDW-Objekte" />
-                          <ParameterRefRef IndentLevel="1" RefId="%AID%_UP-%TT%%CC%406_R-%TT%%CC%40601" HelpContext="GDW-Objekte" />
-                          <ParameterRefRef IndentLevel="1" RefId="%AID%_UP-%TT%%CC%407_R-%TT%%CC%40701" HelpContext="GDW-Objekte" />
-                          <ParameterRefRef IndentLevel="1" RefId="%AID%_UP-%TT%%CC%408_R-%TT%%CC%40801" HelpContext="GDW-Objekte" />
-                          <ParameterRefRef IndentLevel="1" RefId="%AID%_UP-%TT%%CC%409_R-%TT%%CC%40901" HelpContext="GDW-Objekte" />
-                          <ParameterRefRef IndentLevel="1" RefId="%AID%_UP-%TT%%CC%410_R-%TT%%CC%41001" HelpContext="GDW-Objekte" />
-                          <ParameterRefRef IndentLevel="1" RefId="%AID%_UP-%TT%%CC%411_R-%TT%%CC%41101" HelpContext="GDW-Objekte" />
-                          <ParameterRefRef IndentLevel="1" RefId="%AID%_UP-%TT%%CC%412_R-%TT%%CC%41201" HelpContext="GDW-Objekte" />
-                          <ParameterRefRef IndentLevel="1" RefId="%AID%_UP-%TT%%CC%413_R-%TT%%CC%41301" HelpContext="GDW-Objekte" />
-                          <ParameterRefRef IndentLevel="1" RefId="%AID%_UP-%TT%%CC%414_R-%TT%%CC%41401" HelpContext="GDW-Objekte" />
-                          <ParameterRefRef IndentLevel="1" RefId="%AID%_UP-%TT%%CC%415_R-%TT%%CC%41501" HelpContext="GDW-Objekte" />
-                          <ParameterRefRef IndentLevel="1" RefId="%AID%_UP-%TT%%CC%416_R-%TT%%CC%41601" HelpContext="GDW-Objekte" />
-                          <ParameterRefRef IndentLevel="1" RefId="%AID%_UP-%TT%%CC%417_R-%TT%%CC%41701" HelpContext="GDW-Objekte" />
+                          <ParameterRefRef IndentLevel="1" RefId="%AID%_P-%TT%%CC%519_R-%TT%%CC%51901" HelpContext="GDW-Objekte" />
+                          <choose ParamRefId="%AID%_P-%TT%%CC%519_R-%TT%%CC%51901">
+                            <when test="=1">
+                              <ParameterRefRef IndentLevel="2" RefId="%AID%_UP-%TT%%CC%400_R-%TT%%CC%40001" HelpContext="GDW-Objekte" />
+                              <ParameterRefRef IndentLevel="2" RefId="%AID%_UP-%TT%%CC%401_R-%TT%%CC%40101" HelpContext="GDW-Objekte" />
+                              <ParameterRefRef IndentLevel="2" RefId="%AID%_UP-%TT%%CC%402_R-%TT%%CC%40201" HelpContext="GDW-Objekte" />
+                              <ParameterRefRef IndentLevel="2" RefId="%AID%_UP-%TT%%CC%406_R-%TT%%CC%40601" HelpContext="GDW-Objekte" />
+                              <ParameterRefRef IndentLevel="2" RefId="%AID%_UP-%TT%%CC%407_R-%TT%%CC%40701" HelpContext="GDW-Objekte" />
+                              <ParameterRefRef IndentLevel="2" RefId="%AID%_UP-%TT%%CC%408_R-%TT%%CC%40801" HelpContext="GDW-Objekte" />
+                              <ParameterRefRef IndentLevel="2" RefId="%AID%_UP-%TT%%CC%409_R-%TT%%CC%40901" HelpContext="GDW-Objekte" />
+                              <ParameterRefRef IndentLevel="2" RefId="%AID%_UP-%TT%%CC%410_R-%TT%%CC%41001" HelpContext="GDW-Objekte" />
+                              <ParameterRefRef IndentLevel="2" RefId="%AID%_UP-%TT%%CC%411_R-%TT%%CC%41101" HelpContext="GDW-Objekte" />
+                              <ParameterRefRef IndentLevel="2" RefId="%AID%_UP-%TT%%CC%412_R-%TT%%CC%41201" HelpContext="GDW-Objekte" />
+                              <ParameterRefRef IndentLevel="2" RefId="%AID%_UP-%TT%%CC%413_R-%TT%%CC%41301" HelpContext="GDW-Objekte" />
+                              <ParameterRefRef IndentLevel="2" RefId="%AID%_UP-%TT%%CC%414_R-%TT%%CC%41401" HelpContext="GDW-Objekte" />
+                              <ParameterRefRef IndentLevel="2" RefId="%AID%_UP-%TT%%CC%415_R-%TT%%CC%41501" HelpContext="GDW-Objekte" />
+                              <ParameterRefRef IndentLevel="2" RefId="%AID%_UP-%TT%%CC%416_R-%TT%%CC%41601" HelpContext="GDW-Objekte" />
+                              <ParameterRefRef IndentLevel="2" RefId="%AID%_UP-%TT%%CC%417_R-%TT%%CC%41701" HelpContext="GDW-Objekte" />
+                            </when>
+                          </choose>
                         </when>
                       </choose>
                       <choose ParamRefId="%AID%_UP-%TT%%CC%010_R-%TT%%CC%01001">
                         <when test="1 3">
-                          <ParameterSeparator Id="%AID%_PS-nnn" Text="Einstellungen netzgekoppelt" UIHint="Headline" />
-                          <ParameterRefRef IndentLevel="1" RefId="%AID%_UP-%TT%%CC%405_R-%TT%%CC%40501" HelpContext="GDW-Objekte" />
-                          <ParameterRefRef IndentLevel="1" RefId="%AID%_UP-%TT%%CC%419_R-%TT%%CC%41901" HelpContext="GDW-Objekte" />
-                          <ParameterRefRef IndentLevel="1" RefId="%AID%_UP-%TT%%CC%420_R-%TT%%CC%42001" HelpContext="GDW-Objekte" />
+                          <ParameterRefRef IndentLevel="1" RefId="%AID%_P-%TT%%CC%520_R-%TT%%CC%52001" HelpContext="GDW-Objekte" />
+                          <choose ParamRefId="%AID%_P-%TT%%CC%520_R-%TT%%CC%52001">
+                            <when test="=1">
+                              <ParameterRefRef IndentLevel="2" RefId="%AID%_UP-%TT%%CC%405_R-%TT%%CC%40501" HelpContext="GDW-Objekte" />
+                              <ParameterRefRef IndentLevel="2" RefId="%AID%_UP-%TT%%CC%419_R-%TT%%CC%41901" HelpContext="GDW-Objekte" />
+                              <ParameterRefRef IndentLevel="2" RefId="%AID%_UP-%TT%%CC%420_R-%TT%%CC%42001" HelpContext="GDW-Objekte" />
+                            </when>
+                          </choose>
                         </when>
                       </choose>
                     </ParameterBlock>

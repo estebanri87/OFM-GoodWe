@@ -143,7 +143,9 @@ Nach dem Start wird jeder Wert einmal gesendet, sobald er gelesen wurde.
 ## Objekte
 
 Jedes Objekt hat ein eigenes Häkchen. Nur angehakte Objekte werden als KO angelegt und
-gesendet. Die Gruppen entsprechen den Daten der goodwe-Bibliothek:
+gesendet. Die Objekte sind in Gruppen eingeteilt; erst wenn der Gruppenschalter angehakt
+ist, erscheinen ihre Zeilen. Zuklappen ändert nichts an der Auswahl - angehakte Objekte
+bleiben als KO erhalten. Die Gruppen entsprechen den Daten der goodwe-Bibliothek:
 
 * **Status**: Arbeitsmodus, Fehler, Warnungen, Temperaturen, Betriebsstunden, Gerätezeit
 * **PV**: Spannung, Strom und Leistung je String, PV-Leistung gesamt
