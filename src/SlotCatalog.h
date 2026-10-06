@@ -22,8 +22,8 @@ namespace GoodWe
         TypeTEMP,
         TypeTS,
         TypeBITS22,
-        TypeCALC,
-        TypeCALCUI,
+        TypeCalc,
+        TypeCalcUI,
     };
 
     enum CalcId : uint8_t

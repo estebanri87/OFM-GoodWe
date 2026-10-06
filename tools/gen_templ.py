@@ -460,7 +460,7 @@ B('    enum ValueType : uint8_t')
 B('    {')
 B('        TypeNone = 0,')
 for t in TYPES:
-    B('        Type%s,' % t)
+    B('        Type%s,' % {"CALC": "Calc", "CALCUI": "CalcUI"}.get(t, t))
 B('    };')
 B('')
 B('    enum CalcId : uint8_t')
