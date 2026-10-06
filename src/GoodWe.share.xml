@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-model href="../../Organization/knxprod-support/knx_project_14/knx-editor.xsd" type="application/xml" schematypens="http://www.w3.org/2001/XMLSchema"?>
+<KNX xmlns:op="http://github.com/OpenKNX/OpenKNXproducer" xmlns="http://knx.org/xml/project/14" CreatedBy="KNX MT" ToolVersion="5.1.255.16695">
+  <!-- Hilfsfunktionen des Skripts: sie werden aus anderen Funktionen aufgerufen, nicht aus
+       einem EventHandler der XML. Ohne diese Ausnahmen meldet der Producer WARN 003. -->
+  <op:nowarn id="3" regex="GDW_sleep" />
+  <op:nowarn id="3" regex="GDW_ip4" />
+  <op:nowarn id="3" regex="GDW_text" />
+  <op:nowarn id="3" regex="GDW_setParam" />
+  <ManufacturerData>
+    <Manufacturer>
+      <ApplicationPrograms>
+        <ApplicationProgram>
+          <Static>
+            <ParameterTypes>
+              <!-- Haupttyp (Kanalauswahl-Tabelle, mit Deaktiviert) -->
+              <ParameterType Id="%AID%_PT-GDWChannelType" Name="GDWChannelType">
+                <TypeRestriction Base="Value" SizeInBit="8" UIHint="DropDown">
+                  <Enumeration Text="Deaktiviert" Value="0" Id="%AID%_PT-GDWChannelType_EN-0" />
+                  <Enumeration Text="Automatisch erkennen" Value="1" Id="%AID%_PT-GDWChannelType_EN-1" />
+                  <Enumeration Text="Hybrid (ET, EH, BT, BH, ES-G2)" Value="2" Id="%AID%_PT-GDWChannelType_EN-2" />
+                  <Enumeration Text="Netzgekoppelt (DT, MS, D-NS, XS)" Value="3" Id="%AID%_PT-GDWChannelType_EN-3" />
+                </TypeRestriction>
+              </ParameterType>
+              <!-- TypeSelect (Kanal-Tab, ohne Deaktiviert) -->
+              <ParameterType Id="%AID%_PT-GDWTypeSelect" Name="GDWTypeSelect">
+                <TypeRestriction Base="Value" SizeInBit="8" UIHint="DropDown">
+                  <Enumeration Text="Automatisch erkennen" Value="1" Id="%AID%_PT-GDWTypeSelect_EN-1" />
+                  <Enumeration Text="Hybrid (ET, EH, BT, BH, ES-G2)" Value="2" Id="%AID%_PT-GDWTypeSelect_EN-2" />
+                  <Enumeration Text="Netzgekoppelt (DT, MS, D-NS, XS)" Value="3" Id="%AID%_PT-GDWTypeSelect_EN-3" />
+                </TypeRestriction>
+              </ParameterType>
+              <!-- Nur IPv4-Literale: eine Namensauflösung würde die Firmware blockieren. -->
+              <ParameterType Id="%AID%_PT-GDWIp" Name="GDWIp">
+                <TypeText SizeInBit="128" Pattern="^$|^([0-9]{1,3}\.){3}[0-9]{1,3}$" />
+              </ParameterType>
+              <ParameterType Id="%AID%_PT-GDWPort" Name="GDWPort">
+                <TypeNumber SizeInBit="16" Type="unsignedInt" minInclusive="1" maxInclusive="65535" />
+              </ParameterType>
+              <ParameterType Id="%AID%_PT-GDWProtocol" Name="GDWProtocol">
+                <TypeRestriction Base="Value" SizeInBit="8" UIHint="DropDown">
+                  <Enumeration Text="UDP (WiFi/LAN-Kit, Port 8899)" Value="0" Id="%AID%_PT-GDWProtocol_EN-0" />
+                  <Enumeration Text="Modbus TCP (LAN-Kit V2.0 / Kit-20, Port 502)" Value="1" Id="%AID%_PT-GDWProtocol_EN-1" />
+                </TypeRestriction>
+              </ParameterType>
+              <ParameterType Id="%AID%_PT-GDWAddress" Name="GDWAddress">
+                <TypeNumber SizeInBit="8" Type="unsignedInt" minInclusive="1" maxInclusive="247" />
+              </ParameterType>
+              <!-- Untergrenze 10 s: schnellere Abfragen bringen manche Dongles zum Absturz und
+                   stoppen die Übertragung an die SEMS-Cloud. -->
+              <ParameterType Id="%AID%_PT-GDWInterval" Name="GDWInterval">
+                <TypeNumber SizeInBit="16" Type="unsignedInt" minInclusive="10" maxInclusive="3600" />
+              </ParameterType>
+              <ParameterType Id="%AID%_PT-GDWPercent" Name="GDWPercent">
+                <TypeNumber SizeInBit="8" Type="unsignedInt" minInclusive="0" maxInclusive="100" />
+              </ParameterType>
+              <!-- Ergebnis des Assistenten, nur Anzeige -->
+              <ParameterType Id="%AID%_PT-GDWInfoText" Name="GDWInfoText">
+                <TypeText SizeInBit="640" />
+              </ParameterType>
+            </ParameterTypes>
+
+            <Parameters>
+              <!-- Modulweite Einstellungen. Offsets sind modulrelativ. -->
+              <Union SizeInBit="8">
+                <Memory CodeSegment="%MID%" Offset="0" BitOffset="0" />
+                <Parameter Id="%AID%_UP-%TT%00010" Name="GDWUseDiag" ParameterType="%AID%_PT-CheckBox" Offset="0" BitOffset="1" Text="Diagnose-Meldungstext" Value="0" />
+              </Union>
+              <!-- Offsets 1..7 bleiben frei (Reserve für spätere Parameter). -->
+            </Parameters>
+
+            <ParameterRefs>
+              <ParameterRef Id="%AID%_UP-%TT%00010_R-%TT%0001001" RefId="%AID%_UP-%TT%00010" />
+            </ParameterRefs>
+
+            <ComObjectTable>
+              <ComObject Id="%AID%_O-%TT%00000" Number="0" Name="GDWDiag" Text="Diagnose" FunctionText="GoodWe: Ausgang, Meldungstext" ObjectSize="14 Bytes" DatapointType="DPST-16-1" ReadFlag="Enabled" WriteFlag="Disabled" CommunicationFlag="Enabled" TransmitFlag="Enabled" UpdateFlag="Disabled" ReadOnInitFlag="Disabled" />
+            </ComObjectTable>
+
+            <ComObjectRefs>
+              <ComObjectRef Id="%AID%_O-%TT%00000_R-%TT%0000001" RefId="%AID%_O-%TT%00000" />
+            </ComObjectRefs>
+
+            <Script>
+              <op:include href="GoodWe.script.js" prefix="GDW" type="script" />
+            </Script>
+          </Static>
+
+          <Dynamic>
+            <Channel Name="MainChannel%TT%" Text="GoodWe" Number="%PREFIX%" Id="%AID%_CH-%TT%" Icon="white-balance-sunny">
+              <ParameterBlock Id="%AID%_PB-nnn" Name="GDWSettings" Text="Allgemein" Icon="cog-outline" HelpContext="GDW-Allgemein">
+                <ParameterSeparator Id="%AID%_PS-nnn" Text="GoodWe-Wechselrichter" UIHint="Headline" />
+                <ParameterSeparator Id="%AID%_PS-nnn" Text="Version: %ModuleVersion%" />
+                <ParameterSeparator Id="%AID%_PS-nnn" Text="" UIHint="HorizontalRuler" />
+                <ParameterSeparator Id="%AID%_PS-nnn" Text="GoodWe-Wechselrichter der Hybrid-Familie (ET, EH, BT, BH, ES-G2) und der netzgekoppelten Familie (DT, MS, D-NS, XS) werden lokal über den WiFi/LAN-Dongle angesprochen, ohne Cloud. Je Wechselrichter wird ein Kanal angelegt." UIHint="Information" />
+                <ParameterSeparator Id="%AID%_PS-nnn" Text="Der Dongle verträgt nur einen Client zuverlässig. Läuft parallel eine andere Abfrage (etwa Home Assistant), kommt es zu Aussetzern." UIHint="Information" />
+                <ParameterSeparator Id="%AID%_PS-nnn" Text="Objekte" UIHint="Headline" />
+                <ParameterRefRef IndentLevel="1" RefId="%AID%_UP-%TT%00010_R-%TT%0001001" HelpContext="GDW-Diagnose" />
+                <choose ParamRefId="%AID%_UP-%TT%00010_R-%TT%0001001">
+                  <when test="=1">
+                    <ComObjectRefRef RefId="%AID%_O-%TT%00000_R-%TT%0000001" />
+                  </when>
+                </choose>
+              </ParameterBlock>
+
+              <!-- Kanalauswahl: je Kanal eine einzeilige Tabelle (OpenKNX-Standard, Typ-Variante) -->
+              <ParameterBlock Id="%AID%_PB-nnn" Name="GDWChannelSelect" Text="Kanalauswahl" Icon="format-list-bulleted-type" HelpContext="BASE-ChannelSelect">
+                <ParameterBlock Id="%AID%_PB-nnn" Inline="true" Layout="Grid">
+                  <Rows>
+                    <Row Id="%AID%_PB-nnn_R-1" />
+                  </Rows>
+                  <Columns>
+                    <Column Id="%AID%_PB-nnn_C-1" Width="20%" />
+                    <Column Id="%AID%_PB-nnn_C-2" Width="30%" />
+                    <Column Id="%AID%_PB-nnn_C-3" Width="50%" />
+                  </Columns>
+                  <ParameterSeparator Id="%AID%_PS-nnn" Cell="1,1" UIHint="Headline" Text="Kanal" />
+                  <ParameterSeparator Id="%AID%_PS-nnn" Cell="1,2" UIHint="Headline" Text="Wechselrichtertyp" />
+                  <ParameterSeparator Id="%AID%_PS-nnn" Cell="1,3" UIHint="Headline" Text="Beschreibung" />
+                </ParameterBlock>
+                <op:include href="GoodWe.templ.xml" xpath="//Dynamic/ChannelIndependentBlock/ParameterBlock[@Name='Settings']/*" type="template" prefix="GDW" IsInner="true" />
+              </ParameterBlock>
+
+              <!-- Kanal-Tabs (nur aktivierte Kanäle) -->
+              <op:include href="GoodWe.templ.xml" xpath="//Dynamic/ChannelIndependentBlock/ParameterBlock[@Name='Channel']/*" type="template" prefix="GDW" IsInner="true" />
+            </Channel>
+          </Dynamic>
+        </ApplicationProgram>
+      </ApplicationPrograms>
+      <Baggages>
+        <Baggage TargetPath="" Name="Help_de.zip" Id="%FILE-HELP-de%">
+          <FileInfo TimeInfo="%DATETIME%" />
+        </Baggage>
+      </Baggages>
+    </Manufacturer>
+  </ManufacturerData>
+</KNX>

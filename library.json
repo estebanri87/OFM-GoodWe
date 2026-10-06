@@ -1,0 +1,19 @@
+{
+    "name": "OFM-GoodWe",
+    "version": "0.1.0",
+    "description": "Local GoodWe inverter client (ET/EH/BT/BH and DT/MS/D-NS/XS families, UDP 8899 or Modbus TCP 502) exposing measurements and settings on the KNX bus",
+    "homepage": "https://openknx.de",
+    "authors": {
+        "name": "OpenKNX",
+        "email": "info@openknx.de",
+        "url": "https://openknx.de",
+        "maintainer": true
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/estebanri87/OFM-GoodWe"
+    },
+    "build": {
+        "srcFilter": "+<*> -<main.cpp>"
+    }
+}

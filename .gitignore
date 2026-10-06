@@ -1,0 +1,7 @@
+.pio/
+.vscode/*
+!.vscode/tasks.json
+*.knxprod
+include/knxprod.h
+include/versions.h
+tools/__pycache__/
