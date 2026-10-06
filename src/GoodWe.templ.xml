@@ -67,141 +67,141 @@
                 <Parameter Id="%AID%_UP-%TT%%CC%103" Name="CH%C%UseWarningCode" ParameterType="%AID%_PT-CheckBox" Offset="0" BitOffset="3" Text="Warnungscode" Value="0" />
                 <Parameter Id="%AID%_UP-%TT%%CC%104" Name="CH%C%UseSafetyCountry" ParameterType="%AID%_PT-CheckBox" Offset="0" BitOffset="4" Text="Ländereinstellung" Value="0" />
                 <Parameter Id="%AID%_UP-%TT%%CC%105" Name="CH%C%UseFunctionBit" ParameterType="%AID%_PT-CheckBox" Offset="0" BitOffset="5" Text="Funktionsbits" Value="0" />
-                <Parameter Id="%AID%_UP-%TT%%CC%106" Name="CH%C%UseHoursTotal" ParameterType="%AID%_PT-CheckBox" Offset="0" BitOffset="6" Text="Betriebsstunden" Value="0" />
+                <Parameter Id="%AID%_UP-%TT%%CC%106" Name="CH%C%UseHoursTotal" ParameterType="%AID%_PT-CheckBox" Offset="0" BitOffset="6" Text="Betriebsstunden (h)" Value="0" />
                 <Parameter Id="%AID%_UP-%TT%%CC%107" Name="CH%C%UseTimestamp" ParameterType="%AID%_PT-CheckBox" Offset="0" BitOffset="7" Text="Gerätezeit" Value="0" />
-                <Parameter Id="%AID%_UP-%TT%%CC%108" Name="CH%C%UseTemperature" ParameterType="%AID%_PT-CheckBox" Offset="1" BitOffset="0" Text="Temperatur Wechselrichter" Value="0" />
-                <Parameter Id="%AID%_UP-%TT%%CC%109" Name="CH%C%UseBusVoltage" ParameterType="%AID%_PT-CheckBox" Offset="1" BitOffset="1" Text="Busspannung" Value="0" />
-                <Parameter Id="%AID%_UP-%TT%%CC%110" Name="CH%C%UseNBusVoltage" ParameterType="%AID%_PT-CheckBox" Offset="1" BitOffset="2" Text="N-Busspannung" Value="0" />
+                <Parameter Id="%AID%_UP-%TT%%CC%108" Name="CH%C%UseTemperature" ParameterType="%AID%_PT-CheckBox" Offset="1" BitOffset="0" Text="Temperatur Wechselrichter (°C)" Value="0" />
+                <Parameter Id="%AID%_UP-%TT%%CC%109" Name="CH%C%UseBusVoltage" ParameterType="%AID%_PT-CheckBox" Offset="1" BitOffset="1" Text="Busspannung (V)" Value="0" />
+                <Parameter Id="%AID%_UP-%TT%%CC%110" Name="CH%C%UseNBusVoltage" ParameterType="%AID%_PT-CheckBox" Offset="1" BitOffset="2" Text="N-Busspannung (V)" Value="0" />
                 <Parameter Id="%AID%_UP-%TT%%CC%111" Name="CH%C%UseGridInOut" ParameterType="%AID%_PT-CheckBox" Offset="1" BitOffset="3" Text="Netzrichtung" Value="0" />
                 <Parameter Id="%AID%_UP-%TT%%CC%112" Name="CH%C%UseRssi" ParameterType="%AID%_PT-CheckBox" Offset="1" BitOffset="4" Text="Signalstärke" Value="0" />
                 <Parameter Id="%AID%_UP-%TT%%CC%113" Name="CH%C%UseMeterCommStatus" ParameterType="%AID%_PT-CheckBox" Offset="1" BitOffset="5" Text="Zähler Kommunikationsstatus" Value="0" />
                 <Parameter Id="%AID%_UP-%TT%%CC%114" Name="CH%C%UseGridMode" ParameterType="%AID%_PT-CheckBox" Offset="1" BitOffset="6" Text="Netzstatus" Value="0" />
                 <Parameter Id="%AID%_UP-%TT%%CC%115" Name="CH%C%UseOperationCode" ParameterType="%AID%_PT-CheckBox" Offset="1" BitOffset="7" Text="Betriebsart" Value="0" />
                 <Parameter Id="%AID%_UP-%TT%%CC%116" Name="CH%C%UseDiagStatus" ParameterType="%AID%_PT-CheckBox" Offset="2" BitOffset="0" Text="Diagnosestatus" Value="0" />
-                <Parameter Id="%AID%_UP-%TT%%CC%117" Name="CH%C%UseTempAir" ParameterType="%AID%_PT-CheckBox" Offset="2" BitOffset="1" Text="Temperatur Luft" Value="0" />
-                <Parameter Id="%AID%_UP-%TT%%CC%118" Name="CH%C%UseTempModule" ParameterType="%AID%_PT-CheckBox" Offset="2" BitOffset="2" Text="Temperatur Modul" Value="0" />
-                <Parameter Id="%AID%_UP-%TT%%CC%119" Name="CH%C%UseTempHeatsink" ParameterType="%AID%_PT-CheckBox" Offset="2" BitOffset="3" Text="Temperatur Kühlkörper" Value="0" />
+                <Parameter Id="%AID%_UP-%TT%%CC%117" Name="CH%C%UseTempAir" ParameterType="%AID%_PT-CheckBox" Offset="2" BitOffset="1" Text="Temperatur Luft (°C)" Value="0" />
+                <Parameter Id="%AID%_UP-%TT%%CC%118" Name="CH%C%UseTempModule" ParameterType="%AID%_PT-CheckBox" Offset="2" BitOffset="2" Text="Temperatur Modul (°C)" Value="0" />
+                <Parameter Id="%AID%_UP-%TT%%CC%119" Name="CH%C%UseTempHeatsink" ParameterType="%AID%_PT-CheckBox" Offset="2" BitOffset="3" Text="Temperatur Kühlkörper (°C)" Value="0" />
                 <Parameter Id="%AID%_UP-%TT%%CC%120" Name="CH%C%UseDeratingMode" ParameterType="%AID%_PT-CheckBox" Offset="2" BitOffset="4" Text="Leistungsreduzierung" Value="0" />
-                <Parameter Id="%AID%_UP-%TT%%CC%121" Name="CH%C%UseLeakageCurrent" ParameterType="%AID%_PT-CheckBox" Offset="2" BitOffset="5" Text="Ableitstrom" Value="0" />
-                <Parameter Id="%AID%_UP-%TT%%CC%122" Name="CH%C%UsePvPower" ParameterType="%AID%_PT-CheckBox" Offset="2" BitOffset="6" Text="PV-Leistung gesamt" Value="0" />
-                <Parameter Id="%AID%_UP-%TT%%CC%123" Name="CH%C%UsePv1Voltage" ParameterType="%AID%_PT-CheckBox" Offset="2" BitOffset="7" Text="PV1 Spannung" Value="0" />
-                <Parameter Id="%AID%_UP-%TT%%CC%124" Name="CH%C%UsePv1Current" ParameterType="%AID%_PT-CheckBox" Offset="3" BitOffset="0" Text="PV1 Strom" Value="0" />
-                <Parameter Id="%AID%_UP-%TT%%CC%125" Name="CH%C%UsePv1Power" ParameterType="%AID%_PT-CheckBox" Offset="3" BitOffset="1" Text="PV1 Leistung" Value="0" />
-                <Parameter Id="%AID%_UP-%TT%%CC%126" Name="CH%C%UsePv2Voltage" ParameterType="%AID%_PT-CheckBox" Offset="3" BitOffset="2" Text="PV2 Spannung" Value="0" />
-                <Parameter Id="%AID%_UP-%TT%%CC%127" Name="CH%C%UsePv2Current" ParameterType="%AID%_PT-CheckBox" Offset="3" BitOffset="3" Text="PV2 Strom" Value="0" />
-                <Parameter Id="%AID%_UP-%TT%%CC%128" Name="CH%C%UsePv2Power" ParameterType="%AID%_PT-CheckBox" Offset="3" BitOffset="4" Text="PV2 Leistung" Value="0" />
-                <Parameter Id="%AID%_UP-%TT%%CC%129" Name="CH%C%UsePv3Voltage" ParameterType="%AID%_PT-CheckBox" Offset="3" BitOffset="5" Text="PV3 Spannung" Value="0" />
-                <Parameter Id="%AID%_UP-%TT%%CC%130" Name="CH%C%UsePv3Current" ParameterType="%AID%_PT-CheckBox" Offset="3" BitOffset="6" Text="PV3 Strom" Value="0" />
-                <Parameter Id="%AID%_UP-%TT%%CC%131" Name="CH%C%UsePv3Power" ParameterType="%AID%_PT-CheckBox" Offset="3" BitOffset="7" Text="PV3 Leistung" Value="0" />
-                <Parameter Id="%AID%_UP-%TT%%CC%132" Name="CH%C%UsePv4Voltage" ParameterType="%AID%_PT-CheckBox" Offset="4" BitOffset="0" Text="PV4 Spannung" Value="0" />
-                <Parameter Id="%AID%_UP-%TT%%CC%133" Name="CH%C%UsePv4Current" ParameterType="%AID%_PT-CheckBox" Offset="4" BitOffset="1" Text="PV4 Strom" Value="0" />
-                <Parameter Id="%AID%_UP-%TT%%CC%134" Name="CH%C%UsePv4Power" ParameterType="%AID%_PT-CheckBox" Offset="4" BitOffset="2" Text="PV4 Leistung" Value="0" />
+                <Parameter Id="%AID%_UP-%TT%%CC%121" Name="CH%C%UseLeakageCurrent" ParameterType="%AID%_PT-CheckBox" Offset="2" BitOffset="5" Text="Ableitstrom (A)" Value="0" />
+                <Parameter Id="%AID%_UP-%TT%%CC%122" Name="CH%C%UsePvPower" ParameterType="%AID%_PT-CheckBox" Offset="2" BitOffset="6" Text="PV-Leistung gesamt (W)" Value="0" />
+                <Parameter Id="%AID%_UP-%TT%%CC%123" Name="CH%C%UsePv1Voltage" ParameterType="%AID%_PT-CheckBox" Offset="2" BitOffset="7" Text="PV1 Spannung (V)" Value="0" />
+                <Parameter Id="%AID%_UP-%TT%%CC%124" Name="CH%C%UsePv1Current" ParameterType="%AID%_PT-CheckBox" Offset="3" BitOffset="0" Text="PV1 Strom (A)" Value="0" />
+                <Parameter Id="%AID%_UP-%TT%%CC%125" Name="CH%C%UsePv1Power" ParameterType="%AID%_PT-CheckBox" Offset="3" BitOffset="1" Text="PV1 Leistung (W)" Value="0" />
+                <Parameter Id="%AID%_UP-%TT%%CC%126" Name="CH%C%UsePv2Voltage" ParameterType="%AID%_PT-CheckBox" Offset="3" BitOffset="2" Text="PV2 Spannung (V)" Value="0" />
+                <Parameter Id="%AID%_UP-%TT%%CC%127" Name="CH%C%UsePv2Current" ParameterType="%AID%_PT-CheckBox" Offset="3" BitOffset="3" Text="PV2 Strom (A)" Value="0" />
+                <Parameter Id="%AID%_UP-%TT%%CC%128" Name="CH%C%UsePv2Power" ParameterType="%AID%_PT-CheckBox" Offset="3" BitOffset="4" Text="PV2 Leistung (W)" Value="0" />
+                <Parameter Id="%AID%_UP-%TT%%CC%129" Name="CH%C%UsePv3Voltage" ParameterType="%AID%_PT-CheckBox" Offset="3" BitOffset="5" Text="PV3 Spannung (V)" Value="0" />
+                <Parameter Id="%AID%_UP-%TT%%CC%130" Name="CH%C%UsePv3Current" ParameterType="%AID%_PT-CheckBox" Offset="3" BitOffset="6" Text="PV3 Strom (A)" Value="0" />
+                <Parameter Id="%AID%_UP-%TT%%CC%131" Name="CH%C%UsePv3Power" ParameterType="%AID%_PT-CheckBox" Offset="3" BitOffset="7" Text="PV3 Leistung (W)" Value="0" />
+                <Parameter Id="%AID%_UP-%TT%%CC%132" Name="CH%C%UsePv4Voltage" ParameterType="%AID%_PT-CheckBox" Offset="4" BitOffset="0" Text="PV4 Spannung (V)" Value="0" />
+                <Parameter Id="%AID%_UP-%TT%%CC%133" Name="CH%C%UsePv4Current" ParameterType="%AID%_PT-CheckBox" Offset="4" BitOffset="1" Text="PV4 Strom (A)" Value="0" />
+                <Parameter Id="%AID%_UP-%TT%%CC%134" Name="CH%C%UsePv4Power" ParameterType="%AID%_PT-CheckBox" Offset="4" BitOffset="2" Text="PV4 Leistung (W)" Value="0" />
                 <Parameter Id="%AID%_UP-%TT%%CC%135" Name="CH%C%UsePv1Mode" ParameterType="%AID%_PT-CheckBox" Offset="4" BitOffset="3" Text="PV1 Modus" Value="0" />
                 <Parameter Id="%AID%_UP-%TT%%CC%136" Name="CH%C%UsePv2Mode" ParameterType="%AID%_PT-CheckBox" Offset="4" BitOffset="4" Text="PV2 Modus" Value="0" />
                 <Parameter Id="%AID%_UP-%TT%%CC%137" Name="CH%C%UsePv3Mode" ParameterType="%AID%_PT-CheckBox" Offset="4" BitOffset="5" Text="PV3 Modus" Value="0" />
                 <Parameter Id="%AID%_UP-%TT%%CC%138" Name="CH%C%UsePv4Mode" ParameterType="%AID%_PT-CheckBox" Offset="4" BitOffset="6" Text="PV4 Modus" Value="0" />
-                <Parameter Id="%AID%_UP-%TT%%CC%139" Name="CH%C%UseTotalInputPower" ParameterType="%AID%_PT-CheckBox" Offset="4" BitOffset="7" Text="Eingangsleistung gesamt" Value="0" />
+                <Parameter Id="%AID%_UP-%TT%%CC%139" Name="CH%C%UseTotalInputPower" ParameterType="%AID%_PT-CheckBox" Offset="4" BitOffset="7" Text="Eingangsleistung gesamt (W)" Value="0" />
                 <Parameter Id="%AID%_UP-%TT%%CC%140" Name="CH%C%UsePvPowerTotalExt" ParameterType="%AID%_PT-CheckBox" Offset="5" BitOffset="0" Text="PV-Leistung gesamt (MPPT-Block)" Value="0" />
                 <Parameter Id="%AID%_UP-%TT%%CC%141" Name="CH%C%UsePvChannel" ParameterType="%AID%_PT-CheckBox" Offset="5" BitOffset="1" Text="Anzahl PV-Kanäle" Value="0" />
-                <Parameter Id="%AID%_UP-%TT%%CC%142" Name="CH%C%UsePv5Voltage" ParameterType="%AID%_PT-CheckBox" Offset="5" BitOffset="2" Text="PV5 Spannung" Value="0" />
-                <Parameter Id="%AID%_UP-%TT%%CC%143" Name="CH%C%UsePv5Current" ParameterType="%AID%_PT-CheckBox" Offset="5" BitOffset="3" Text="PV5 Strom" Value="0" />
-                <Parameter Id="%AID%_UP-%TT%%CC%144" Name="CH%C%UsePv6Voltage" ParameterType="%AID%_PT-CheckBox" Offset="5" BitOffset="4" Text="PV6 Spannung" Value="0" />
-                <Parameter Id="%AID%_UP-%TT%%CC%145" Name="CH%C%UsePv6Current" ParameterType="%AID%_PT-CheckBox" Offset="5" BitOffset="5" Text="PV6 Strom" Value="0" />
-                <Parameter Id="%AID%_UP-%TT%%CC%146" Name="CH%C%UsePv7Voltage" ParameterType="%AID%_PT-CheckBox" Offset="5" BitOffset="6" Text="PV7 Spannung" Value="0" />
-                <Parameter Id="%AID%_UP-%TT%%CC%147" Name="CH%C%UsePv7Current" ParameterType="%AID%_PT-CheckBox" Offset="5" BitOffset="7" Text="PV7 Strom" Value="0" />
-                <Parameter Id="%AID%_UP-%TT%%CC%148" Name="CH%C%UsePv8Voltage" ParameterType="%AID%_PT-CheckBox" Offset="6" BitOffset="0" Text="PV8 Spannung" Value="0" />
-                <Parameter Id="%AID%_UP-%TT%%CC%149" Name="CH%C%UsePv8Current" ParameterType="%AID%_PT-CheckBox" Offset="6" BitOffset="1" Text="PV8 Strom" Value="0" />
-                <Parameter Id="%AID%_UP-%TT%%CC%150" Name="CH%C%UsePv9Voltage" ParameterType="%AID%_PT-CheckBox" Offset="6" BitOffset="2" Text="PV9 Spannung" Value="0" />
-                <Parameter Id="%AID%_UP-%TT%%CC%151" Name="CH%C%UsePv9Current" ParameterType="%AID%_PT-CheckBox" Offset="6" BitOffset="3" Text="PV9 Strom" Value="0" />
-                <Parameter Id="%AID%_UP-%TT%%CC%152" Name="CH%C%UsePv10Voltage" ParameterType="%AID%_PT-CheckBox" Offset="6" BitOffset="4" Text="PV10 Spannung" Value="0" />
-                <Parameter Id="%AID%_UP-%TT%%CC%153" Name="CH%C%UsePv10Current" ParameterType="%AID%_PT-CheckBox" Offset="6" BitOffset="5" Text="PV10 Strom" Value="0" />
-                <Parameter Id="%AID%_UP-%TT%%CC%154" Name="CH%C%UsePv11Voltage" ParameterType="%AID%_PT-CheckBox" Offset="6" BitOffset="6" Text="PV11 Spannung" Value="0" />
-                <Parameter Id="%AID%_UP-%TT%%CC%155" Name="CH%C%UsePv11Current" ParameterType="%AID%_PT-CheckBox" Offset="6" BitOffset="7" Text="PV11 Strom" Value="0" />
-                <Parameter Id="%AID%_UP-%TT%%CC%156" Name="CH%C%UsePv12Voltage" ParameterType="%AID%_PT-CheckBox" Offset="7" BitOffset="0" Text="PV12 Spannung" Value="0" />
-                <Parameter Id="%AID%_UP-%TT%%CC%157" Name="CH%C%UsePv12Current" ParameterType="%AID%_PT-CheckBox" Offset="7" BitOffset="1" Text="PV12 Strom" Value="0" />
-                <Parameter Id="%AID%_UP-%TT%%CC%158" Name="CH%C%UsePv13Voltage" ParameterType="%AID%_PT-CheckBox" Offset="7" BitOffset="2" Text="PV13 Spannung" Value="0" />
-                <Parameter Id="%AID%_UP-%TT%%CC%159" Name="CH%C%UsePv13Current" ParameterType="%AID%_PT-CheckBox" Offset="7" BitOffset="3" Text="PV13 Strom" Value="0" />
-                <Parameter Id="%AID%_UP-%TT%%CC%160" Name="CH%C%UsePv14Voltage" ParameterType="%AID%_PT-CheckBox" Offset="7" BitOffset="4" Text="PV14 Spannung" Value="0" />
-                <Parameter Id="%AID%_UP-%TT%%CC%161" Name="CH%C%UsePv14Current" ParameterType="%AID%_PT-CheckBox" Offset="7" BitOffset="5" Text="PV14 Strom" Value="0" />
-                <Parameter Id="%AID%_UP-%TT%%CC%162" Name="CH%C%UsePv15Voltage" ParameterType="%AID%_PT-CheckBox" Offset="7" BitOffset="6" Text="PV15 Spannung" Value="0" />
-                <Parameter Id="%AID%_UP-%TT%%CC%163" Name="CH%C%UsePv15Current" ParameterType="%AID%_PT-CheckBox" Offset="7" BitOffset="7" Text="PV15 Strom" Value="0" />
-                <Parameter Id="%AID%_UP-%TT%%CC%164" Name="CH%C%UsePv16Voltage" ParameterType="%AID%_PT-CheckBox" Offset="8" BitOffset="0" Text="PV16 Spannung" Value="0" />
-                <Parameter Id="%AID%_UP-%TT%%CC%165" Name="CH%C%UsePv16Current" ParameterType="%AID%_PT-CheckBox" Offset="8" BitOffset="1" Text="PV16 Strom" Value="0" />
-                <Parameter Id="%AID%_UP-%TT%%CC%166" Name="CH%C%UseMppt1Power" ParameterType="%AID%_PT-CheckBox" Offset="8" BitOffset="2" Text="MPPT1 Leistung" Value="0" />
-                <Parameter Id="%AID%_UP-%TT%%CC%167" Name="CH%C%UseMppt2Power" ParameterType="%AID%_PT-CheckBox" Offset="8" BitOffset="3" Text="MPPT2 Leistung" Value="0" />
-                <Parameter Id="%AID%_UP-%TT%%CC%168" Name="CH%C%UseMppt3Power" ParameterType="%AID%_PT-CheckBox" Offset="8" BitOffset="4" Text="MPPT3 Leistung" Value="0" />
-                <Parameter Id="%AID%_UP-%TT%%CC%169" Name="CH%C%UseMppt4Power" ParameterType="%AID%_PT-CheckBox" Offset="8" BitOffset="5" Text="MPPT4 Leistung" Value="0" />
-                <Parameter Id="%AID%_UP-%TT%%CC%170" Name="CH%C%UseMppt5Power" ParameterType="%AID%_PT-CheckBox" Offset="8" BitOffset="6" Text="MPPT5 Leistung" Value="0" />
-                <Parameter Id="%AID%_UP-%TT%%CC%171" Name="CH%C%UseMppt6Power" ParameterType="%AID%_PT-CheckBox" Offset="8" BitOffset="7" Text="MPPT6 Leistung" Value="0" />
-                <Parameter Id="%AID%_UP-%TT%%CC%172" Name="CH%C%UseMppt7Power" ParameterType="%AID%_PT-CheckBox" Offset="9" BitOffset="0" Text="MPPT7 Leistung" Value="0" />
-                <Parameter Id="%AID%_UP-%TT%%CC%173" Name="CH%C%UseMppt8Power" ParameterType="%AID%_PT-CheckBox" Offset="9" BitOffset="1" Text="MPPT8 Leistung" Value="0" />
-                <Parameter Id="%AID%_UP-%TT%%CC%174" Name="CH%C%UseMppt1Current" ParameterType="%AID%_PT-CheckBox" Offset="9" BitOffset="2" Text="MPPT1 Strom" Value="0" />
-                <Parameter Id="%AID%_UP-%TT%%CC%175" Name="CH%C%UseMppt2Current" ParameterType="%AID%_PT-CheckBox" Offset="9" BitOffset="3" Text="MPPT2 Strom" Value="0" />
-                <Parameter Id="%AID%_UP-%TT%%CC%176" Name="CH%C%UseMppt3Current" ParameterType="%AID%_PT-CheckBox" Offset="9" BitOffset="4" Text="MPPT3 Strom" Value="0" />
-                <Parameter Id="%AID%_UP-%TT%%CC%177" Name="CH%C%UseMppt4Current" ParameterType="%AID%_PT-CheckBox" Offset="9" BitOffset="5" Text="MPPT4 Strom" Value="0" />
-                <Parameter Id="%AID%_UP-%TT%%CC%178" Name="CH%C%UseMppt5Current" ParameterType="%AID%_PT-CheckBox" Offset="9" BitOffset="6" Text="MPPT5 Strom" Value="0" />
-                <Parameter Id="%AID%_UP-%TT%%CC%179" Name="CH%C%UseMppt6Current" ParameterType="%AID%_PT-CheckBox" Offset="9" BitOffset="7" Text="MPPT6 Strom" Value="0" />
-                <Parameter Id="%AID%_UP-%TT%%CC%180" Name="CH%C%UseMppt7Current" ParameterType="%AID%_PT-CheckBox" Offset="10" BitOffset="0" Text="MPPT7 Strom" Value="0" />
-                <Parameter Id="%AID%_UP-%TT%%CC%181" Name="CH%C%UseMppt8Current" ParameterType="%AID%_PT-CheckBox" Offset="10" BitOffset="1" Text="MPPT8 Strom" Value="0" />
-                <Parameter Id="%AID%_UP-%TT%%CC%182" Name="CH%C%UseGridVoltageL1" ParameterType="%AID%_PT-CheckBox" Offset="10" BitOffset="2" Text="Netzspannung L1" Value="0" />
-                <Parameter Id="%AID%_UP-%TT%%CC%183" Name="CH%C%UseGridCurrentL1" ParameterType="%AID%_PT-CheckBox" Offset="10" BitOffset="3" Text="Netzstrom L1" Value="0" />
-                <Parameter Id="%AID%_UP-%TT%%CC%184" Name="CH%C%UseGridFrequencyL1" ParameterType="%AID%_PT-CheckBox" Offset="10" BitOffset="4" Text="Netzfrequenz L1" Value="0" />
-                <Parameter Id="%AID%_UP-%TT%%CC%185" Name="CH%C%UseGridPowerL1" ParameterType="%AID%_PT-CheckBox" Offset="10" BitOffset="5" Text="Leistung L1" Value="0" />
-                <Parameter Id="%AID%_UP-%TT%%CC%186" Name="CH%C%UseGridVoltageL2" ParameterType="%AID%_PT-CheckBox" Offset="10" BitOffset="6" Text="Netzspannung L2" Value="0" />
-                <Parameter Id="%AID%_UP-%TT%%CC%187" Name="CH%C%UseGridCurrentL2" ParameterType="%AID%_PT-CheckBox" Offset="10" BitOffset="7" Text="Netzstrom L2" Value="0" />
-                <Parameter Id="%AID%_UP-%TT%%CC%188" Name="CH%C%UseGridFrequencyL2" ParameterType="%AID%_PT-CheckBox" Offset="11" BitOffset="0" Text="Netzfrequenz L2" Value="0" />
-                <Parameter Id="%AID%_UP-%TT%%CC%189" Name="CH%C%UseGridPowerL2" ParameterType="%AID%_PT-CheckBox" Offset="11" BitOffset="1" Text="Leistung L2" Value="0" />
-                <Parameter Id="%AID%_UP-%TT%%CC%190" Name="CH%C%UseGridVoltageL3" ParameterType="%AID%_PT-CheckBox" Offset="11" BitOffset="2" Text="Netzspannung L3" Value="0" />
-                <Parameter Id="%AID%_UP-%TT%%CC%191" Name="CH%C%UseGridCurrentL3" ParameterType="%AID%_PT-CheckBox" Offset="11" BitOffset="3" Text="Netzstrom L3" Value="0" />
-                <Parameter Id="%AID%_UP-%TT%%CC%192" Name="CH%C%UseGridFrequencyL3" ParameterType="%AID%_PT-CheckBox" Offset="11" BitOffset="4" Text="Netzfrequenz L3" Value="0" />
-                <Parameter Id="%AID%_UP-%TT%%CC%193" Name="CH%C%UseGridPowerL3" ParameterType="%AID%_PT-CheckBox" Offset="11" BitOffset="5" Text="Leistung L3" Value="0" />
-                <Parameter Id="%AID%_UP-%TT%%CC%194" Name="CH%C%UseInverterPower" ParameterType="%AID%_PT-CheckBox" Offset="11" BitOffset="6" Text="Wechselrichterleistung" Value="0" />
+                <Parameter Id="%AID%_UP-%TT%%CC%142" Name="CH%C%UsePv5Voltage" ParameterType="%AID%_PT-CheckBox" Offset="5" BitOffset="2" Text="PV5 Spannung (V)" Value="0" />
+                <Parameter Id="%AID%_UP-%TT%%CC%143" Name="CH%C%UsePv5Current" ParameterType="%AID%_PT-CheckBox" Offset="5" BitOffset="3" Text="PV5 Strom (A)" Value="0" />
+                <Parameter Id="%AID%_UP-%TT%%CC%144" Name="CH%C%UsePv6Voltage" ParameterType="%AID%_PT-CheckBox" Offset="5" BitOffset="4" Text="PV6 Spannung (V)" Value="0" />
+                <Parameter Id="%AID%_UP-%TT%%CC%145" Name="CH%C%UsePv6Current" ParameterType="%AID%_PT-CheckBox" Offset="5" BitOffset="5" Text="PV6 Strom (A)" Value="0" />
+                <Parameter Id="%AID%_UP-%TT%%CC%146" Name="CH%C%UsePv7Voltage" ParameterType="%AID%_PT-CheckBox" Offset="5" BitOffset="6" Text="PV7 Spannung (V)" Value="0" />
+                <Parameter Id="%AID%_UP-%TT%%CC%147" Name="CH%C%UsePv7Current" ParameterType="%AID%_PT-CheckBox" Offset="5" BitOffset="7" Text="PV7 Strom (A)" Value="0" />
+                <Parameter Id="%AID%_UP-%TT%%CC%148" Name="CH%C%UsePv8Voltage" ParameterType="%AID%_PT-CheckBox" Offset="6" BitOffset="0" Text="PV8 Spannung (V)" Value="0" />
+                <Parameter Id="%AID%_UP-%TT%%CC%149" Name="CH%C%UsePv8Current" ParameterType="%AID%_PT-CheckBox" Offset="6" BitOffset="1" Text="PV8 Strom (A)" Value="0" />
+                <Parameter Id="%AID%_UP-%TT%%CC%150" Name="CH%C%UsePv9Voltage" ParameterType="%AID%_PT-CheckBox" Offset="6" BitOffset="2" Text="PV9 Spannung (V)" Value="0" />
+                <Parameter Id="%AID%_UP-%TT%%CC%151" Name="CH%C%UsePv9Current" ParameterType="%AID%_PT-CheckBox" Offset="6" BitOffset="3" Text="PV9 Strom (A)" Value="0" />
+                <Parameter Id="%AID%_UP-%TT%%CC%152" Name="CH%C%UsePv10Voltage" ParameterType="%AID%_PT-CheckBox" Offset="6" BitOffset="4" Text="PV10 Spannung (V)" Value="0" />
+                <Parameter Id="%AID%_UP-%TT%%CC%153" Name="CH%C%UsePv10Current" ParameterType="%AID%_PT-CheckBox" Offset="6" BitOffset="5" Text="PV10 Strom (A)" Value="0" />
+                <Parameter Id="%AID%_UP-%TT%%CC%154" Name="CH%C%UsePv11Voltage" ParameterType="%AID%_PT-CheckBox" Offset="6" BitOffset="6" Text="PV11 Spannung (V)" Value="0" />
+                <Parameter Id="%AID%_UP-%TT%%CC%155" Name="CH%C%UsePv11Current" ParameterType="%AID%_PT-CheckBox" Offset="6" BitOffset="7" Text="PV11 Strom (A)" Value="0" />
+                <Parameter Id="%AID%_UP-%TT%%CC%156" Name="CH%C%UsePv12Voltage" ParameterType="%AID%_PT-CheckBox" Offset="7" BitOffset="0" Text="PV12 Spannung (V)" Value="0" />
+                <Parameter Id="%AID%_UP-%TT%%CC%157" Name="CH%C%UsePv12Current" ParameterType="%AID%_PT-CheckBox" Offset="7" BitOffset="1" Text="PV12 Strom (A)" Value="0" />
+                <Parameter Id="%AID%_UP-%TT%%CC%158" Name="CH%C%UsePv13Voltage" ParameterType="%AID%_PT-CheckBox" Offset="7" BitOffset="2" Text="PV13 Spannung (V)" Value="0" />
+                <Parameter Id="%AID%_UP-%TT%%CC%159" Name="CH%C%UsePv13Current" ParameterType="%AID%_PT-CheckBox" Offset="7" BitOffset="3" Text="PV13 Strom (A)" Value="0" />
+                <Parameter Id="%AID%_UP-%TT%%CC%160" Name="CH%C%UsePv14Voltage" ParameterType="%AID%_PT-CheckBox" Offset="7" BitOffset="4" Text="PV14 Spannung (V)" Value="0" />
+                <Parameter Id="%AID%_UP-%TT%%CC%161" Name="CH%C%UsePv14Current" ParameterType="%AID%_PT-CheckBox" Offset="7" BitOffset="5" Text="PV14 Strom (A)" Value="0" />
+                <Parameter Id="%AID%_UP-%TT%%CC%162" Name="CH%C%UsePv15Voltage" ParameterType="%AID%_PT-CheckBox" Offset="7" BitOffset="6" Text="PV15 Spannung (V)" Value="0" />
+                <Parameter Id="%AID%_UP-%TT%%CC%163" Name="CH%C%UsePv15Current" ParameterType="%AID%_PT-CheckBox" Offset="7" BitOffset="7" Text="PV15 Strom (A)" Value="0" />
+                <Parameter Id="%AID%_UP-%TT%%CC%164" Name="CH%C%UsePv16Voltage" ParameterType="%AID%_PT-CheckBox" Offset="8" BitOffset="0" Text="PV16 Spannung (V)" Value="0" />
+                <Parameter Id="%AID%_UP-%TT%%CC%165" Name="CH%C%UsePv16Current" ParameterType="%AID%_PT-CheckBox" Offset="8" BitOffset="1" Text="PV16 Strom (A)" Value="0" />
+                <Parameter Id="%AID%_UP-%TT%%CC%166" Name="CH%C%UseMppt1Power" ParameterType="%AID%_PT-CheckBox" Offset="8" BitOffset="2" Text="MPPT1 Leistung (W)" Value="0" />
+                <Parameter Id="%AID%_UP-%TT%%CC%167" Name="CH%C%UseMppt2Power" ParameterType="%AID%_PT-CheckBox" Offset="8" BitOffset="3" Text="MPPT2 Leistung (W)" Value="0" />
+                <Parameter Id="%AID%_UP-%TT%%CC%168" Name="CH%C%UseMppt3Power" ParameterType="%AID%_PT-CheckBox" Offset="8" BitOffset="4" Text="MPPT3 Leistung (W)" Value="0" />
+                <Parameter Id="%AID%_UP-%TT%%CC%169" Name="CH%C%UseMppt4Power" ParameterType="%AID%_PT-CheckBox" Offset="8" BitOffset="5" Text="MPPT4 Leistung (W)" Value="0" />
+                <Parameter Id="%AID%_UP-%TT%%CC%170" Name="CH%C%UseMppt5Power" ParameterType="%AID%_PT-CheckBox" Offset="8" BitOffset="6" Text="MPPT5 Leistung (W)" Value="0" />
+                <Parameter Id="%AID%_UP-%TT%%CC%171" Name="CH%C%UseMppt6Power" ParameterType="%AID%_PT-CheckBox" Offset="8" BitOffset="7" Text="MPPT6 Leistung (W)" Value="0" />
+                <Parameter Id="%AID%_UP-%TT%%CC%172" Name="CH%C%UseMppt7Power" ParameterType="%AID%_PT-CheckBox" Offset="9" BitOffset="0" Text="MPPT7 Leistung (W)" Value="0" />
+                <Parameter Id="%AID%_UP-%TT%%CC%173" Name="CH%C%UseMppt8Power" ParameterType="%AID%_PT-CheckBox" Offset="9" BitOffset="1" Text="MPPT8 Leistung (W)" Value="0" />
+                <Parameter Id="%AID%_UP-%TT%%CC%174" Name="CH%C%UseMppt1Current" ParameterType="%AID%_PT-CheckBox" Offset="9" BitOffset="2" Text="MPPT1 Strom (A)" Value="0" />
+                <Parameter Id="%AID%_UP-%TT%%CC%175" Name="CH%C%UseMppt2Current" ParameterType="%AID%_PT-CheckBox" Offset="9" BitOffset="3" Text="MPPT2 Strom (A)" Value="0" />
+                <Parameter Id="%AID%_UP-%TT%%CC%176" Name="CH%C%UseMppt3Current" ParameterType="%AID%_PT-CheckBox" Offset="9" BitOffset="4" Text="MPPT3 Strom (A)" Value="0" />
+                <Parameter Id="%AID%_UP-%TT%%CC%177" Name="CH%C%UseMppt4Current" ParameterType="%AID%_PT-CheckBox" Offset="9" BitOffset="5" Text="MPPT4 Strom (A)" Value="0" />
+                <Parameter Id="%AID%_UP-%TT%%CC%178" Name="CH%C%UseMppt5Current" ParameterType="%AID%_PT-CheckBox" Offset="9" BitOffset="6" Text="MPPT5 Strom (A)" Value="0" />
+                <Parameter Id="%AID%_UP-%TT%%CC%179" Name="CH%C%UseMppt6Current" ParameterType="%AID%_PT-CheckBox" Offset="9" BitOffset="7" Text="MPPT6 Strom (A)" Value="0" />
+                <Parameter Id="%AID%_UP-%TT%%CC%180" Name="CH%C%UseMppt7Current" ParameterType="%AID%_PT-CheckBox" Offset="10" BitOffset="0" Text="MPPT7 Strom (A)" Value="0" />
+                <Parameter Id="%AID%_UP-%TT%%CC%181" Name="CH%C%UseMppt8Current" ParameterType="%AID%_PT-CheckBox" Offset="10" BitOffset="1" Text="MPPT8 Strom (A)" Value="0" />
+                <Parameter Id="%AID%_UP-%TT%%CC%182" Name="CH%C%UseGridVoltageL1" ParameterType="%AID%_PT-CheckBox" Offset="10" BitOffset="2" Text="Netzspannung L1 (V)" Value="0" />
+                <Parameter Id="%AID%_UP-%TT%%CC%183" Name="CH%C%UseGridCurrentL1" ParameterType="%AID%_PT-CheckBox" Offset="10" BitOffset="3" Text="Netzstrom L1 (A)" Value="0" />
+                <Parameter Id="%AID%_UP-%TT%%CC%184" Name="CH%C%UseGridFrequencyL1" ParameterType="%AID%_PT-CheckBox" Offset="10" BitOffset="4" Text="Netzfrequenz L1 (Hz)" Value="0" />
+                <Parameter Id="%AID%_UP-%TT%%CC%185" Name="CH%C%UseGridPowerL1" ParameterType="%AID%_PT-CheckBox" Offset="10" BitOffset="5" Text="Leistung L1 (W)" Value="0" />
+                <Parameter Id="%AID%_UP-%TT%%CC%186" Name="CH%C%UseGridVoltageL2" ParameterType="%AID%_PT-CheckBox" Offset="10" BitOffset="6" Text="Netzspannung L2 (V)" Value="0" />
+                <Parameter Id="%AID%_UP-%TT%%CC%187" Name="CH%C%UseGridCurrentL2" ParameterType="%AID%_PT-CheckBox" Offset="10" BitOffset="7" Text="Netzstrom L2 (A)" Value="0" />
+                <Parameter Id="%AID%_UP-%TT%%CC%188" Name="CH%C%UseGridFrequencyL2" ParameterType="%AID%_PT-CheckBox" Offset="11" BitOffset="0" Text="Netzfrequenz L2 (Hz)" Value="0" />
+                <Parameter Id="%AID%_UP-%TT%%CC%189" Name="CH%C%UseGridPowerL2" ParameterType="%AID%_PT-CheckBox" Offset="11" BitOffset="1" Text="Leistung L2 (W)" Value="0" />
+                <Parameter Id="%AID%_UP-%TT%%CC%190" Name="CH%C%UseGridVoltageL3" ParameterType="%AID%_PT-CheckBox" Offset="11" BitOffset="2" Text="Netzspannung L3 (V)" Value="0" />
+                <Parameter Id="%AID%_UP-%TT%%CC%191" Name="CH%C%UseGridCurrentL3" ParameterType="%AID%_PT-CheckBox" Offset="11" BitOffset="3" Text="Netzstrom L3 (A)" Value="0" />
+                <Parameter Id="%AID%_UP-%TT%%CC%192" Name="CH%C%UseGridFrequencyL3" ParameterType="%AID%_PT-CheckBox" Offset="11" BitOffset="4" Text="Netzfrequenz L3 (Hz)" Value="0" />
+                <Parameter Id="%AID%_UP-%TT%%CC%193" Name="CH%C%UseGridPowerL3" ParameterType="%AID%_PT-CheckBox" Offset="11" BitOffset="5" Text="Leistung L3 (W)" Value="0" />
+                <Parameter Id="%AID%_UP-%TT%%CC%194" Name="CH%C%UseInverterPower" ParameterType="%AID%_PT-CheckBox" Offset="11" BitOffset="6" Text="Wechselrichterleistung (W)" Value="0" />
                 <Parameter Id="%AID%_UP-%TT%%CC%195" Name="CH%C%UseActivePower" ParameterType="%AID%_PT-CheckBox" Offset="11" BitOffset="7" Text="Netzleistung (+ Einspeisung)" Value="0" />
-                <Parameter Id="%AID%_UP-%TT%%CC%196" Name="CH%C%UseImportPower" ParameterType="%AID%_PT-CheckBox" Offset="12" BitOffset="0" Text="Netzbezug Leistung" Value="0" />
-                <Parameter Id="%AID%_UP-%TT%%CC%197" Name="CH%C%UseExportPower" ParameterType="%AID%_PT-CheckBox" Offset="12" BitOffset="1" Text="Einspeisung Leistung" Value="0" />
+                <Parameter Id="%AID%_UP-%TT%%CC%196" Name="CH%C%UseImportPower" ParameterType="%AID%_PT-CheckBox" Offset="12" BitOffset="0" Text="Netzbezug Leistung (W)" Value="0" />
+                <Parameter Id="%AID%_UP-%TT%%CC%197" Name="CH%C%UseExportPower" ParameterType="%AID%_PT-CheckBox" Offset="12" BitOffset="1" Text="Einspeisung Leistung (W)" Value="0" />
                 <Parameter Id="%AID%_UP-%TT%%CC%198" Name="CH%C%UseReactivePower" ParameterType="%AID%_PT-CheckBox" Offset="12" BitOffset="2" Text="Blindleistung (var)" Value="0" />
                 <Parameter Id="%AID%_UP-%TT%%CC%199" Name="CH%C%UseApparentPower" ParameterType="%AID%_PT-CheckBox" Offset="12" BitOffset="3" Text="Scheinleistung (VA)" Value="0" />
-                <Parameter Id="%AID%_UP-%TT%%CC%200" Name="CH%C%UseHouseConsumption" ParameterType="%AID%_PT-CheckBox" Offset="12" BitOffset="4" Text="Hausverbrauch" Value="0" />
+                <Parameter Id="%AID%_UP-%TT%%CC%200" Name="CH%C%UseHouseConsumption" ParameterType="%AID%_PT-CheckBox" Offset="12" BitOffset="4" Text="Hausverbrauch (W)" Value="0" />
                 <Parameter Id="%AID%_UP-%TT%%CC%201" Name="CH%C%UseReactivePowerL1" ParameterType="%AID%_PT-CheckBox" Offset="12" BitOffset="5" Text="Blindleistung L1 (var)" Value="0" />
                 <Parameter Id="%AID%_UP-%TT%%CC%202" Name="CH%C%UseReactivePowerL2" ParameterType="%AID%_PT-CheckBox" Offset="12" BitOffset="6" Text="Blindleistung L2 (var)" Value="0" />
                 <Parameter Id="%AID%_UP-%TT%%CC%203" Name="CH%C%UseReactivePowerL3" ParameterType="%AID%_PT-CheckBox" Offset="12" BitOffset="7" Text="Blindleistung L3 (var)" Value="0" />
                 <Parameter Id="%AID%_UP-%TT%%CC%204" Name="CH%C%UseApparentPowerL1" ParameterType="%AID%_PT-CheckBox" Offset="13" BitOffset="0" Text="Scheinleistung L1 (VA)" Value="0" />
                 <Parameter Id="%AID%_UP-%TT%%CC%205" Name="CH%C%UseApparentPowerL2" ParameterType="%AID%_PT-CheckBox" Offset="13" BitOffset="1" Text="Scheinleistung L2 (VA)" Value="0" />
                 <Parameter Id="%AID%_UP-%TT%%CC%206" Name="CH%C%UseApparentPowerL3" ParameterType="%AID%_PT-CheckBox" Offset="13" BitOffset="2" Text="Scheinleistung L3 (VA)" Value="0" />
-                <Parameter Id="%AID%_UP-%TT%%CC%207" Name="CH%C%UseLineVoltageL1L2" ParameterType="%AID%_PT-CheckBox" Offset="13" BitOffset="3" Text="Außenleiterspannung L1-L2" Value="0" />
-                <Parameter Id="%AID%_UP-%TT%%CC%208" Name="CH%C%UseLineVoltageL2L3" ParameterType="%AID%_PT-CheckBox" Offset="13" BitOffset="4" Text="Außenleiterspannung L2-L3" Value="0" />
-                <Parameter Id="%AID%_UP-%TT%%CC%209" Name="CH%C%UseLineVoltageL3L1" ParameterType="%AID%_PT-CheckBox" Offset="13" BitOffset="5" Text="Außenleiterspannung L3-L1" Value="0" />
+                <Parameter Id="%AID%_UP-%TT%%CC%207" Name="CH%C%UseLineVoltageL1L2" ParameterType="%AID%_PT-CheckBox" Offset="13" BitOffset="3" Text="Außenleiterspannung L1-L2 (V)" Value="0" />
+                <Parameter Id="%AID%_UP-%TT%%CC%208" Name="CH%C%UseLineVoltageL2L3" ParameterType="%AID%_PT-CheckBox" Offset="13" BitOffset="4" Text="Außenleiterspannung L2-L3 (V)" Value="0" />
+                <Parameter Id="%AID%_UP-%TT%%CC%209" Name="CH%C%UseLineVoltageL3L1" ParameterType="%AID%_PT-CheckBox" Offset="13" BitOffset="5" Text="Außenleiterspannung L3-L1 (V)" Value="0" />
                 <Parameter Id="%AID%_UP-%TT%%CC%210" Name="CH%C%UsePowerFactor" ParameterType="%AID%_PT-CheckBox" Offset="13" BitOffset="6" Text="Leistungsfaktor" Value="0" />
-                <Parameter Id="%AID%_UP-%TT%%CC%211" Name="CH%C%UseBackupVoltageL1" ParameterType="%AID%_PT-CheckBox" Offset="13" BitOffset="7" Text="Backup L1 Spannung" Value="0" />
-                <Parameter Id="%AID%_UP-%TT%%CC%212" Name="CH%C%UseBackupCurrentL1" ParameterType="%AID%_PT-CheckBox" Offset="14" BitOffset="0" Text="Backup L1 Strom" Value="0" />
-                <Parameter Id="%AID%_UP-%TT%%CC%213" Name="CH%C%UseBackupFrequencyL1" ParameterType="%AID%_PT-CheckBox" Offset="14" BitOffset="1" Text="Backup L1 Frequenz" Value="0" />
+                <Parameter Id="%AID%_UP-%TT%%CC%211" Name="CH%C%UseBackupVoltageL1" ParameterType="%AID%_PT-CheckBox" Offset="13" BitOffset="7" Text="Backup L1 Spannung (V)" Value="0" />
+                <Parameter Id="%AID%_UP-%TT%%CC%212" Name="CH%C%UseBackupCurrentL1" ParameterType="%AID%_PT-CheckBox" Offset="14" BitOffset="0" Text="Backup L1 Strom (A)" Value="0" />
+                <Parameter Id="%AID%_UP-%TT%%CC%213" Name="CH%C%UseBackupFrequencyL1" ParameterType="%AID%_PT-CheckBox" Offset="14" BitOffset="1" Text="Backup L1 Frequenz (Hz)" Value="0" />
                 <Parameter Id="%AID%_UP-%TT%%CC%214" Name="CH%C%UseLoadModeL1" ParameterType="%AID%_PT-CheckBox" Offset="14" BitOffset="2" Text="Lastmodus L1" Value="0" />
-                <Parameter Id="%AID%_UP-%TT%%CC%215" Name="CH%C%UseBackupPowerL1" ParameterType="%AID%_PT-CheckBox" Offset="14" BitOffset="3" Text="Backup L1 Leistung" Value="0" />
-                <Parameter Id="%AID%_UP-%TT%%CC%216" Name="CH%C%UseBackupVoltageL2" ParameterType="%AID%_PT-CheckBox" Offset="14" BitOffset="4" Text="Backup L2 Spannung" Value="0" />
-                <Parameter Id="%AID%_UP-%TT%%CC%217" Name="CH%C%UseBackupCurrentL2" ParameterType="%AID%_PT-CheckBox" Offset="14" BitOffset="5" Text="Backup L2 Strom" Value="0" />
-                <Parameter Id="%AID%_UP-%TT%%CC%218" Name="CH%C%UseBackupFrequencyL2" ParameterType="%AID%_PT-CheckBox" Offset="14" BitOffset="6" Text="Backup L2 Frequenz" Value="0" />
+                <Parameter Id="%AID%_UP-%TT%%CC%215" Name="CH%C%UseBackupPowerL1" ParameterType="%AID%_PT-CheckBox" Offset="14" BitOffset="3" Text="Backup L1 Leistung (W)" Value="0" />
+                <Parameter Id="%AID%_UP-%TT%%CC%216" Name="CH%C%UseBackupVoltageL2" ParameterType="%AID%_PT-CheckBox" Offset="14" BitOffset="4" Text="Backup L2 Spannung (V)" Value="0" />
+                <Parameter Id="%AID%_UP-%TT%%CC%217" Name="CH%C%UseBackupCurrentL2" ParameterType="%AID%_PT-CheckBox" Offset="14" BitOffset="5" Text="Backup L2 Strom (A)" Value="0" />
+                <Parameter Id="%AID%_UP-%TT%%CC%218" Name="CH%C%UseBackupFrequencyL2" ParameterType="%AID%_PT-CheckBox" Offset="14" BitOffset="6" Text="Backup L2 Frequenz (Hz)" Value="0" />
                 <Parameter Id="%AID%_UP-%TT%%CC%219" Name="CH%C%UseLoadModeL2" ParameterType="%AID%_PT-CheckBox" Offset="14" BitOffset="7" Text="Lastmodus L2" Value="0" />
-                <Parameter Id="%AID%_UP-%TT%%CC%220" Name="CH%C%UseBackupPowerL2" ParameterType="%AID%_PT-CheckBox" Offset="15" BitOffset="0" Text="Backup L2 Leistung" Value="0" />
-                <Parameter Id="%AID%_UP-%TT%%CC%221" Name="CH%C%UseBackupVoltageL3" ParameterType="%AID%_PT-CheckBox" Offset="15" BitOffset="1" Text="Backup L3 Spannung" Value="0" />
-                <Parameter Id="%AID%_UP-%TT%%CC%222" Name="CH%C%UseBackupCurrentL3" ParameterType="%AID%_PT-CheckBox" Offset="15" BitOffset="2" Text="Backup L3 Strom" Value="0" />
-                <Parameter Id="%AID%_UP-%TT%%CC%223" Name="CH%C%UseBackupFrequencyL3" ParameterType="%AID%_PT-CheckBox" Offset="15" BitOffset="3" Text="Backup L3 Frequenz" Value="0" />
+                <Parameter Id="%AID%_UP-%TT%%CC%220" Name="CH%C%UseBackupPowerL2" ParameterType="%AID%_PT-CheckBox" Offset="15" BitOffset="0" Text="Backup L2 Leistung (W)" Value="0" />
+                <Parameter Id="%AID%_UP-%TT%%CC%221" Name="CH%C%UseBackupVoltageL3" ParameterType="%AID%_PT-CheckBox" Offset="15" BitOffset="1" Text="Backup L3 Spannung (V)" Value="0" />
+                <Parameter Id="%AID%_UP-%TT%%CC%222" Name="CH%C%UseBackupCurrentL3" ParameterType="%AID%_PT-CheckBox" Offset="15" BitOffset="2" Text="Backup L3 Strom (A)" Value="0" />
+                <Parameter Id="%AID%_UP-%TT%%CC%223" Name="CH%C%UseBackupFrequencyL3" ParameterType="%AID%_PT-CheckBox" Offset="15" BitOffset="3" Text="Backup L3 Frequenz (Hz)" Value="0" />
                 <Parameter Id="%AID%_UP-%TT%%CC%224" Name="CH%C%UseLoadModeL3" ParameterType="%AID%_PT-CheckBox" Offset="15" BitOffset="4" Text="Lastmodus L3" Value="0" />
-                <Parameter Id="%AID%_UP-%TT%%CC%225" Name="CH%C%UseBackupPowerL3" ParameterType="%AID%_PT-CheckBox" Offset="15" BitOffset="5" Text="Backup L3 Leistung" Value="0" />
-                <Parameter Id="%AID%_UP-%TT%%CC%226" Name="CH%C%UseLoadPowerL1" ParameterType="%AID%_PT-CheckBox" Offset="15" BitOffset="6" Text="Last L1" Value="0" />
-                <Parameter Id="%AID%_UP-%TT%%CC%227" Name="CH%C%UseLoadPowerL2" ParameterType="%AID%_PT-CheckBox" Offset="15" BitOffset="7" Text="Last L2" Value="0" />
-                <Parameter Id="%AID%_UP-%TT%%CC%228" Name="CH%C%UseLoadPowerL3" ParameterType="%AID%_PT-CheckBox" Offset="16" BitOffset="0" Text="Last L3" Value="0" />
-                <Parameter Id="%AID%_UP-%TT%%CC%229" Name="CH%C%UseBackupPowerTotal" ParameterType="%AID%_PT-CheckBox" Offset="16" BitOffset="1" Text="Backup-Last gesamt" Value="0" />
-                <Parameter Id="%AID%_UP-%TT%%CC%230" Name="CH%C%UseLoadPowerTotal" ParameterType="%AID%_PT-CheckBox" Offset="16" BitOffset="2" Text="Last gesamt" Value="0" />
-                <Parameter Id="%AID%_UP-%TT%%CC%231" Name="CH%C%UseUpsLoad" ParameterType="%AID%_PT-CheckBox" Offset="16" BitOffset="3" Text="USV-Auslastung" Value="0" />
-                <Parameter Id="%AID%_UP-%TT%%CC%232" Name="CH%C%UseBatteryVoltage" ParameterType="%AID%_PT-CheckBox" Offset="16" BitOffset="4" Text="Batterie Spannung" Value="0" />
-                <Parameter Id="%AID%_UP-%TT%%CC%233" Name="CH%C%UseBatteryCurrent" ParameterType="%AID%_PT-CheckBox" Offset="16" BitOffset="5" Text="Batterie Strom" Value="0" />
+                <Parameter Id="%AID%_UP-%TT%%CC%225" Name="CH%C%UseBackupPowerL3" ParameterType="%AID%_PT-CheckBox" Offset="15" BitOffset="5" Text="Backup L3 Leistung (W)" Value="0" />
+                <Parameter Id="%AID%_UP-%TT%%CC%226" Name="CH%C%UseLoadPowerL1" ParameterType="%AID%_PT-CheckBox" Offset="15" BitOffset="6" Text="Last L1 (W)" Value="0" />
+                <Parameter Id="%AID%_UP-%TT%%CC%227" Name="CH%C%UseLoadPowerL2" ParameterType="%AID%_PT-CheckBox" Offset="15" BitOffset="7" Text="Last L2 (W)" Value="0" />
+                <Parameter Id="%AID%_UP-%TT%%CC%228" Name="CH%C%UseLoadPowerL3" ParameterType="%AID%_PT-CheckBox" Offset="16" BitOffset="0" Text="Last L3 (W)" Value="0" />
+                <Parameter Id="%AID%_UP-%TT%%CC%229" Name="CH%C%UseBackupPowerTotal" ParameterType="%AID%_PT-CheckBox" Offset="16" BitOffset="1" Text="Backup-Last gesamt (W)" Value="0" />
+                <Parameter Id="%AID%_UP-%TT%%CC%230" Name="CH%C%UseLoadPowerTotal" ParameterType="%AID%_PT-CheckBox" Offset="16" BitOffset="2" Text="Last gesamt (W)" Value="0" />
+                <Parameter Id="%AID%_UP-%TT%%CC%231" Name="CH%C%UseUpsLoad" ParameterType="%AID%_PT-CheckBox" Offset="16" BitOffset="3" Text="USV-Auslastung (%)" Value="0" />
+                <Parameter Id="%AID%_UP-%TT%%CC%232" Name="CH%C%UseBatteryVoltage" ParameterType="%AID%_PT-CheckBox" Offset="16" BitOffset="4" Text="Batterie Spannung (V)" Value="0" />
+                <Parameter Id="%AID%_UP-%TT%%CC%233" Name="CH%C%UseBatteryCurrent" ParameterType="%AID%_PT-CheckBox" Offset="16" BitOffset="5" Text="Batterie Strom (A)" Value="0" />
                 <Parameter Id="%AID%_UP-%TT%%CC%234" Name="CH%C%UseBatteryPower" ParameterType="%AID%_PT-CheckBox" Offset="16" BitOffset="6" Text="Batterie Leistung (+ Entladen)" Value="0" />
                 <Parameter Id="%AID%_UP-%TT%%CC%235" Name="CH%C%UseBatteryMode" ParameterType="%AID%_PT-CheckBox" Offset="16" BitOffset="7" Text="Batterie Modus" Value="0" />
-                <Parameter Id="%AID%_UP-%TT%%CC%236" Name="CH%C%UseBatterySoc" ParameterType="%AID%_PT-CheckBox" Offset="17" BitOffset="0" Text="Batterie Ladezustand" Value="0" />
-                <Parameter Id="%AID%_UP-%TT%%CC%237" Name="CH%C%UseBatterySoh" ParameterType="%AID%_PT-CheckBox" Offset="17" BitOffset="1" Text="Batterie Gesundheitszustand" Value="0" />
-                <Parameter Id="%AID%_UP-%TT%%CC%238" Name="CH%C%UseBatteryTemperature" ParameterType="%AID%_PT-CheckBox" Offset="17" BitOffset="2" Text="Batterie Temperatur" Value="0" />
-                <Parameter Id="%AID%_UP-%TT%%CC%239" Name="CH%C%UseBatteryChargeLimit" ParameterType="%AID%_PT-CheckBox" Offset="17" BitOffset="3" Text="Batterie Ladestromgrenze" Value="0" />
-                <Parameter Id="%AID%_UP-%TT%%CC%240" Name="CH%C%UseBatteryDischargeLimit" ParameterType="%AID%_PT-CheckBox" Offset="17" BitOffset="4" Text="Batterie Entladestromgrenze" Value="0" />
+                <Parameter Id="%AID%_UP-%TT%%CC%236" Name="CH%C%UseBatterySoc" ParameterType="%AID%_PT-CheckBox" Offset="17" BitOffset="0" Text="Batterie Ladezustand (%)" Value="0" />
+                <Parameter Id="%AID%_UP-%TT%%CC%237" Name="CH%C%UseBatterySoh" ParameterType="%AID%_PT-CheckBox" Offset="17" BitOffset="1" Text="Batterie Gesundheitszustand (%)" Value="0" />
+                <Parameter Id="%AID%_UP-%TT%%CC%238" Name="CH%C%UseBatteryTemperature" ParameterType="%AID%_PT-CheckBox" Offset="17" BitOffset="2" Text="Batterie Temperatur (°C)" Value="0" />
+                <Parameter Id="%AID%_UP-%TT%%CC%239" Name="CH%C%UseBatteryChargeLimit" ParameterType="%AID%_PT-CheckBox" Offset="17" BitOffset="3" Text="Batterie Ladestromgrenze (A)" Value="0" />
+                <Parameter Id="%AID%_UP-%TT%%CC%240" Name="CH%C%UseBatteryDischargeLimit" ParameterType="%AID%_PT-CheckBox" Offset="17" BitOffset="4" Text="Batterie Entladestromgrenze (A)" Value="0" />
                 <Parameter Id="%AID%_UP-%TT%%CC%241" Name="CH%C%UseBatteryBms" ParameterType="%AID%_PT-CheckBox" Offset="17" BitOffset="5" Text="Batterie BMS" Value="0" />
                 <Parameter Id="%AID%_UP-%TT%%CC%242" Name="CH%C%UseBatteryIndex" ParameterType="%AID%_PT-CheckBox" Offset="17" BitOffset="6" Text="Batterie Index" Value="0" />
                 <Parameter Id="%AID%_UP-%TT%%CC%243" Name="CH%C%UseBatteryStatus" ParameterType="%AID%_PT-CheckBox" Offset="17" BitOffset="7" Text="Batterie Status" Value="0" />
@@ -215,21 +215,21 @@
                 <Parameter Id="%AID%_UP-%TT%%CC%251" Name="CH%C%UseBatteryMinCellTempId" ParameterType="%AID%_PT-CheckBox" Offset="18" BitOffset="7" Text="Batterie Zelle min. Temperatur (Nr.)" Value="0" />
                 <Parameter Id="%AID%_UP-%TT%%CC%252" Name="CH%C%UseBatteryMaxCellVoltId" ParameterType="%AID%_PT-CheckBox" Offset="19" BitOffset="0" Text="Batterie Zelle max. Spannung (Nr.)" Value="0" />
                 <Parameter Id="%AID%_UP-%TT%%CC%253" Name="CH%C%UseBatteryMinCellVoltId" ParameterType="%AID%_PT-CheckBox" Offset="19" BitOffset="1" Text="Batterie Zelle min. Spannung (Nr.)" Value="0" />
-                <Parameter Id="%AID%_UP-%TT%%CC%254" Name="CH%C%UseBatteryMaxCellTemp" ParameterType="%AID%_PT-CheckBox" Offset="19" BitOffset="2" Text="Batterie Zelltemperatur max." Value="0" />
-                <Parameter Id="%AID%_UP-%TT%%CC%255" Name="CH%C%UseBatteryMinCellTemp" ParameterType="%AID%_PT-CheckBox" Offset="19" BitOffset="3" Text="Batterie Zelltemperatur min." Value="0" />
-                <Parameter Id="%AID%_UP-%TT%%CC%256" Name="CH%C%UseBatteryMaxCellVoltage" ParameterType="%AID%_PT-CheckBox" Offset="19" BitOffset="4" Text="Batterie Zellspannung max." Value="0" />
-                <Parameter Id="%AID%_UP-%TT%%CC%257" Name="CH%C%UseBatteryMinCellVoltage" ParameterType="%AID%_PT-CheckBox" Offset="19" BitOffset="5" Text="Batterie Zellspannung min." Value="0" />
+                <Parameter Id="%AID%_UP-%TT%%CC%254" Name="CH%C%UseBatteryMaxCellTemp" ParameterType="%AID%_PT-CheckBox" Offset="19" BitOffset="2" Text="Batterie Zelltemperatur max. (°C)" Value="0" />
+                <Parameter Id="%AID%_UP-%TT%%CC%255" Name="CH%C%UseBatteryMinCellTemp" ParameterType="%AID%_PT-CheckBox" Offset="19" BitOffset="3" Text="Batterie Zelltemperatur min. (°C)" Value="0" />
+                <Parameter Id="%AID%_UP-%TT%%CC%256" Name="CH%C%UseBatteryMaxCellVoltage" ParameterType="%AID%_PT-CheckBox" Offset="19" BitOffset="4" Text="Batterie Zellspannung max. (V)" Value="0" />
+                <Parameter Id="%AID%_UP-%TT%%CC%257" Name="CH%C%UseBatteryMinCellVoltage" ParameterType="%AID%_PT-CheckBox" Offset="19" BitOffset="5" Text="Batterie Zellspannung min. (V)" Value="0" />
                 <Parameter Id="%AID%_UP-%TT%%CC%258" Name="CH%C%UseBatteryCapacity" ParameterType="%AID%_PT-CheckBox" Offset="19" BitOffset="6" Text="Batterie Kapazität (Ah)" Value="0" />
-                <Parameter Id="%AID%_UP-%TT%%CC%259" Name="CH%C%UseBattery2Voltage" ParameterType="%AID%_PT-CheckBox" Offset="19" BitOffset="7" Text="Batterie 2 Spannung" Value="0" />
-                <Parameter Id="%AID%_UP-%TT%%CC%260" Name="CH%C%UseBattery2Current" ParameterType="%AID%_PT-CheckBox" Offset="20" BitOffset="0" Text="Batterie 2 Strom" Value="0" />
+                <Parameter Id="%AID%_UP-%TT%%CC%259" Name="CH%C%UseBattery2Voltage" ParameterType="%AID%_PT-CheckBox" Offset="19" BitOffset="7" Text="Batterie 2 Spannung (V)" Value="0" />
+                <Parameter Id="%AID%_UP-%TT%%CC%260" Name="CH%C%UseBattery2Current" ParameterType="%AID%_PT-CheckBox" Offset="20" BitOffset="0" Text="Batterie 2 Strom (A)" Value="0" />
                 <Parameter Id="%AID%_UP-%TT%%CC%261" Name="CH%C%UseBattery2Power" ParameterType="%AID%_PT-CheckBox" Offset="20" BitOffset="1" Text="Batterie 2 Leistung (+ Entladen)" Value="0" />
                 <Parameter Id="%AID%_UP-%TT%%CC%262" Name="CH%C%UseBattery2Mode" ParameterType="%AID%_PT-CheckBox" Offset="20" BitOffset="2" Text="Batterie 2 Modus" Value="0" />
                 <Parameter Id="%AID%_UP-%TT%%CC%263" Name="CH%C%UseBattery2Status" ParameterType="%AID%_PT-CheckBox" Offset="20" BitOffset="3" Text="Batterie 2 Status" Value="0" />
-                <Parameter Id="%AID%_UP-%TT%%CC%264" Name="CH%C%UseBattery2Temperature" ParameterType="%AID%_PT-CheckBox" Offset="20" BitOffset="4" Text="Batterie 2 Temperatur" Value="0" />
-                <Parameter Id="%AID%_UP-%TT%%CC%265" Name="CH%C%UseBattery2ChargeLimit" ParameterType="%AID%_PT-CheckBox" Offset="20" BitOffset="5" Text="Batterie 2 Ladestromgrenze" Value="0" />
-                <Parameter Id="%AID%_UP-%TT%%CC%266" Name="CH%C%UseBattery2DischargeLimit" ParameterType="%AID%_PT-CheckBox" Offset="20" BitOffset="6" Text="Batterie 2 Entladestromgrenze" Value="0" />
-                <Parameter Id="%AID%_UP-%TT%%CC%267" Name="CH%C%UseBattery2Soc" ParameterType="%AID%_PT-CheckBox" Offset="20" BitOffset="7" Text="Batterie 2 Ladezustand" Value="0" />
-                <Parameter Id="%AID%_UP-%TT%%CC%268" Name="CH%C%UseBattery2Soh" ParameterType="%AID%_PT-CheckBox" Offset="21" BitOffset="0" Text="Batterie 2 Gesundheitszustand" Value="0" />
+                <Parameter Id="%AID%_UP-%TT%%CC%264" Name="CH%C%UseBattery2Temperature" ParameterType="%AID%_PT-CheckBox" Offset="20" BitOffset="4" Text="Batterie 2 Temperatur (°C)" Value="0" />
+                <Parameter Id="%AID%_UP-%TT%%CC%265" Name="CH%C%UseBattery2ChargeLimit" ParameterType="%AID%_PT-CheckBox" Offset="20" BitOffset="5" Text="Batterie 2 Ladestromgrenze (A)" Value="0" />
+                <Parameter Id="%AID%_UP-%TT%%CC%266" Name="CH%C%UseBattery2DischargeLimit" ParameterType="%AID%_PT-CheckBox" Offset="20" BitOffset="6" Text="Batterie 2 Entladestromgrenze (A)" Value="0" />
+                <Parameter Id="%AID%_UP-%TT%%CC%267" Name="CH%C%UseBattery2Soc" ParameterType="%AID%_PT-CheckBox" Offset="20" BitOffset="7" Text="Batterie 2 Ladezustand (%)" Value="0" />
+                <Parameter Id="%AID%_UP-%TT%%CC%268" Name="CH%C%UseBattery2Soh" ParameterType="%AID%_PT-CheckBox" Offset="21" BitOffset="0" Text="Batterie 2 Gesundheitszustand (%)" Value="0" />
                 <Parameter Id="%AID%_UP-%TT%%CC%269" Name="CH%C%UseBattery2Modules" ParameterType="%AID%_PT-CheckBox" Offset="21" BitOffset="1" Text="Batterie 2 Modulanzahl" Value="0" />
                 <Parameter Id="%AID%_UP-%TT%%CC%270" Name="CH%C%UseBattery2Protocol" ParameterType="%AID%_PT-CheckBox" Offset="21" BitOffset="2" Text="Batterie 2 Protokoll" Value="0" />
                 <Parameter Id="%AID%_UP-%TT%%CC%271" Name="CH%C%UseBattery2Error" ParameterType="%AID%_PT-CheckBox" Offset="21" BitOffset="3" Text="Batterie 2 Fehler" Value="0" />
@@ -240,33 +240,33 @@
                 <Parameter Id="%AID%_UP-%TT%%CC%276" Name="CH%C%UseBattery2MinCellTempId" ParameterType="%AID%_PT-CheckBox" Offset="22" BitOffset="0" Text="Batterie 2 Zelle min. Temperatur (Nr.)" Value="0" />
                 <Parameter Id="%AID%_UP-%TT%%CC%277" Name="CH%C%UseBattery2MaxCellVoltId" ParameterType="%AID%_PT-CheckBox" Offset="22" BitOffset="1" Text="Batterie 2 Zelle max. Spannung (Nr.)" Value="0" />
                 <Parameter Id="%AID%_UP-%TT%%CC%278" Name="CH%C%UseBattery2MinCellVoltId" ParameterType="%AID%_PT-CheckBox" Offset="22" BitOffset="2" Text="Batterie 2 Zelle min. Spannung (Nr.)" Value="0" />
-                <Parameter Id="%AID%_UP-%TT%%CC%279" Name="CH%C%UseBattery2MaxCellTemp" ParameterType="%AID%_PT-CheckBox" Offset="22" BitOffset="3" Text="Batterie 2 Zelltemperatur max." Value="0" />
-                <Parameter Id="%AID%_UP-%TT%%CC%280" Name="CH%C%UseBattery2MinCellTemp" ParameterType="%AID%_PT-CheckBox" Offset="22" BitOffset="4" Text="Batterie 2 Zelltemperatur min." Value="0" />
-                <Parameter Id="%AID%_UP-%TT%%CC%281" Name="CH%C%UseBattery2MaxCellVoltage" ParameterType="%AID%_PT-CheckBox" Offset="22" BitOffset="5" Text="Batterie 2 Zellspannung max." Value="0" />
-                <Parameter Id="%AID%_UP-%TT%%CC%282" Name="CH%C%UseBattery2MinCellVoltage" ParameterType="%AID%_PT-CheckBox" Offset="22" BitOffset="6" Text="Batterie 2 Zellspannung min." Value="0" />
-                <Parameter Id="%AID%_UP-%TT%%CC%283" Name="CH%C%UseEnergyTotal" ParameterType="%AID%_PT-CheckBox" Offset="22" BitOffset="7" Text="PV-Ertrag gesamt" Value="0" />
-                <Parameter Id="%AID%_UP-%TT%%CC%284" Name="CH%C%UseEnergyToday" ParameterType="%AID%_PT-CheckBox" Offset="23" BitOffset="0" Text="PV-Ertrag heute" Value="0" />
-                <Parameter Id="%AID%_UP-%TT%%CC%285" Name="CH%C%UseMeterExportTotal" ParameterType="%AID%_PT-CheckBox" Offset="23" BitOffset="1" Text="Zähler Einspeisung gesamt" Value="0" />
-                <Parameter Id="%AID%_UP-%TT%%CC%286" Name="CH%C%UseMeterImportTotal" ParameterType="%AID%_PT-CheckBox" Offset="23" BitOffset="2" Text="Zähler Netzbezug gesamt" Value="0" />
-                <Parameter Id="%AID%_UP-%TT%%CC%287" Name="CH%C%UseExportTotal" ParameterType="%AID%_PT-CheckBox" Offset="23" BitOffset="3" Text="Einspeisung gesamt" Value="0" />
-                <Parameter Id="%AID%_UP-%TT%%CC%288" Name="CH%C%UseExportToday" ParameterType="%AID%_PT-CheckBox" Offset="23" BitOffset="4" Text="Einspeisung heute" Value="0" />
-                <Parameter Id="%AID%_UP-%TT%%CC%289" Name="CH%C%UseImportTotal" ParameterType="%AID%_PT-CheckBox" Offset="23" BitOffset="5" Text="Netzbezug gesamt" Value="0" />
-                <Parameter Id="%AID%_UP-%TT%%CC%290" Name="CH%C%UseImportToday" ParameterType="%AID%_PT-CheckBox" Offset="23" BitOffset="6" Text="Netzbezug heute" Value="0" />
-                <Parameter Id="%AID%_UP-%TT%%CC%291" Name="CH%C%UseLoadTotal" ParameterType="%AID%_PT-CheckBox" Offset="23" BitOffset="7" Text="Verbrauch gesamt" Value="0" />
-                <Parameter Id="%AID%_UP-%TT%%CC%292" Name="CH%C%UseLoadToday" ParameterType="%AID%_PT-CheckBox" Offset="24" BitOffset="0" Text="Verbrauch heute" Value="0" />
-                <Parameter Id="%AID%_UP-%TT%%CC%293" Name="CH%C%UseBatteryChargeTotal" ParameterType="%AID%_PT-CheckBox" Offset="24" BitOffset="1" Text="Batterie geladen gesamt" Value="0" />
-                <Parameter Id="%AID%_UP-%TT%%CC%294" Name="CH%C%UseBatteryChargeToday" ParameterType="%AID%_PT-CheckBox" Offset="24" BitOffset="2" Text="Batterie geladen heute" Value="0" />
-                <Parameter Id="%AID%_UP-%TT%%CC%295" Name="CH%C%UseBatteryDischargeTotal" ParameterType="%AID%_PT-CheckBox" Offset="24" BitOffset="3" Text="Batterie entladen gesamt" Value="0" />
-                <Parameter Id="%AID%_UP-%TT%%CC%296" Name="CH%C%UseBatteryDischargeToday" ParameterType="%AID%_PT-CheckBox" Offset="24" BitOffset="4" Text="Batterie entladen heute" Value="0" />
+                <Parameter Id="%AID%_UP-%TT%%CC%279" Name="CH%C%UseBattery2MaxCellTemp" ParameterType="%AID%_PT-CheckBox" Offset="22" BitOffset="3" Text="Batterie 2 Zelltemperatur max. (°C)" Value="0" />
+                <Parameter Id="%AID%_UP-%TT%%CC%280" Name="CH%C%UseBattery2MinCellTemp" ParameterType="%AID%_PT-CheckBox" Offset="22" BitOffset="4" Text="Batterie 2 Zelltemperatur min. (°C)" Value="0" />
+                <Parameter Id="%AID%_UP-%TT%%CC%281" Name="CH%C%UseBattery2MaxCellVoltage" ParameterType="%AID%_PT-CheckBox" Offset="22" BitOffset="5" Text="Batterie 2 Zellspannung max. (V)" Value="0" />
+                <Parameter Id="%AID%_UP-%TT%%CC%282" Name="CH%C%UseBattery2MinCellVoltage" ParameterType="%AID%_PT-CheckBox" Offset="22" BitOffset="6" Text="Batterie 2 Zellspannung min. (V)" Value="0" />
+                <Parameter Id="%AID%_UP-%TT%%CC%283" Name="CH%C%UseEnergyTotal" ParameterType="%AID%_PT-CheckBox" Offset="22" BitOffset="7" Text="PV-Ertrag gesamt (kWh)" Value="0" />
+                <Parameter Id="%AID%_UP-%TT%%CC%284" Name="CH%C%UseEnergyToday" ParameterType="%AID%_PT-CheckBox" Offset="23" BitOffset="0" Text="PV-Ertrag heute (kWh)" Value="0" />
+                <Parameter Id="%AID%_UP-%TT%%CC%285" Name="CH%C%UseMeterExportTotal" ParameterType="%AID%_PT-CheckBox" Offset="23" BitOffset="1" Text="Zähler Einspeisung gesamt (kWh)" Value="0" />
+                <Parameter Id="%AID%_UP-%TT%%CC%286" Name="CH%C%UseMeterImportTotal" ParameterType="%AID%_PT-CheckBox" Offset="23" BitOffset="2" Text="Zähler Netzbezug gesamt (kWh)" Value="0" />
+                <Parameter Id="%AID%_UP-%TT%%CC%287" Name="CH%C%UseExportTotal" ParameterType="%AID%_PT-CheckBox" Offset="23" BitOffset="3" Text="Einspeisung gesamt (kWh)" Value="0" />
+                <Parameter Id="%AID%_UP-%TT%%CC%288" Name="CH%C%UseExportToday" ParameterType="%AID%_PT-CheckBox" Offset="23" BitOffset="4" Text="Einspeisung heute (kWh)" Value="0" />
+                <Parameter Id="%AID%_UP-%TT%%CC%289" Name="CH%C%UseImportTotal" ParameterType="%AID%_PT-CheckBox" Offset="23" BitOffset="5" Text="Netzbezug gesamt (kWh)" Value="0" />
+                <Parameter Id="%AID%_UP-%TT%%CC%290" Name="CH%C%UseImportToday" ParameterType="%AID%_PT-CheckBox" Offset="23" BitOffset="6" Text="Netzbezug heute (kWh)" Value="0" />
+                <Parameter Id="%AID%_UP-%TT%%CC%291" Name="CH%C%UseLoadTotal" ParameterType="%AID%_PT-CheckBox" Offset="23" BitOffset="7" Text="Verbrauch gesamt (kWh)" Value="0" />
+                <Parameter Id="%AID%_UP-%TT%%CC%292" Name="CH%C%UseLoadToday" ParameterType="%AID%_PT-CheckBox" Offset="24" BitOffset="0" Text="Verbrauch heute (kWh)" Value="0" />
+                <Parameter Id="%AID%_UP-%TT%%CC%293" Name="CH%C%UseBatteryChargeTotal" ParameterType="%AID%_PT-CheckBox" Offset="24" BitOffset="1" Text="Batterie geladen gesamt (kWh)" Value="0" />
+                <Parameter Id="%AID%_UP-%TT%%CC%294" Name="CH%C%UseBatteryChargeToday" ParameterType="%AID%_PT-CheckBox" Offset="24" BitOffset="2" Text="Batterie geladen heute (kWh)" Value="0" />
+                <Parameter Id="%AID%_UP-%TT%%CC%295" Name="CH%C%UseBatteryDischargeTotal" ParameterType="%AID%_PT-CheckBox" Offset="24" BitOffset="3" Text="Batterie entladen gesamt (kWh)" Value="0" />
+                <Parameter Id="%AID%_UP-%TT%%CC%296" Name="CH%C%UseBatteryDischargeToday" ParameterType="%AID%_PT-CheckBox" Offset="24" BitOffset="4" Text="Batterie entladen heute (kWh)" Value="0" />
                 <Parameter Id="%AID%_UP-%TT%%CC%297" Name="CH%C%UseMeterCommode" ParameterType="%AID%_PT-CheckBox" Offset="24" BitOffset="5" Text="Zähler Kommunikationsart" Value="0" />
                 <Parameter Id="%AID%_UP-%TT%%CC%298" Name="CH%C%UseMeterManufacturer" ParameterType="%AID%_PT-CheckBox" Offset="24" BitOffset="6" Text="Zähler Herstellercode" Value="0" />
                 <Parameter Id="%AID%_UP-%TT%%CC%299" Name="CH%C%UseMeterTestStatus" ParameterType="%AID%_PT-CheckBox" Offset="24" BitOffset="7" Text="Zähler Prüfstatus" Value="0" />
                 <Parameter Id="%AID%_UP-%TT%%CC%300" Name="CH%C%UseMeterTypeCode" ParameterType="%AID%_PT-CheckBox" Offset="25" BitOffset="0" Text="Zähler Typ" Value="0" />
                 <Parameter Id="%AID%_UP-%TT%%CC%301" Name="CH%C%UseMeterSwVersion" ParameterType="%AID%_PT-CheckBox" Offset="25" BitOffset="1" Text="Zähler Softwareversion" Value="0" />
-                <Parameter Id="%AID%_UP-%TT%%CC%302" Name="CH%C%UseMeterPowerL1" ParameterType="%AID%_PT-CheckBox" Offset="25" BitOffset="2" Text="Zähler Wirkleistung L1" Value="0" />
-                <Parameter Id="%AID%_UP-%TT%%CC%303" Name="CH%C%UseMeterPowerL2" ParameterType="%AID%_PT-CheckBox" Offset="25" BitOffset="3" Text="Zähler Wirkleistung L2" Value="0" />
-                <Parameter Id="%AID%_UP-%TT%%CC%304" Name="CH%C%UseMeterPowerL3" ParameterType="%AID%_PT-CheckBox" Offset="25" BitOffset="4" Text="Zähler Wirkleistung L3" Value="0" />
-                <Parameter Id="%AID%_UP-%TT%%CC%305" Name="CH%C%UseMeterPowerTotal" ParameterType="%AID%_PT-CheckBox" Offset="25" BitOffset="5" Text="Zähler Wirkleistung gesamt" Value="0" />
+                <Parameter Id="%AID%_UP-%TT%%CC%302" Name="CH%C%UseMeterPowerL1" ParameterType="%AID%_PT-CheckBox" Offset="25" BitOffset="2" Text="Zähler Wirkleistung L1 (W)" Value="0" />
+                <Parameter Id="%AID%_UP-%TT%%CC%303" Name="CH%C%UseMeterPowerL2" ParameterType="%AID%_PT-CheckBox" Offset="25" BitOffset="3" Text="Zähler Wirkleistung L2 (W)" Value="0" />
+                <Parameter Id="%AID%_UP-%TT%%CC%304" Name="CH%C%UseMeterPowerL3" ParameterType="%AID%_PT-CheckBox" Offset="25" BitOffset="4" Text="Zähler Wirkleistung L3 (W)" Value="0" />
+                <Parameter Id="%AID%_UP-%TT%%CC%305" Name="CH%C%UseMeterPowerTotal" ParameterType="%AID%_PT-CheckBox" Offset="25" BitOffset="5" Text="Zähler Wirkleistung gesamt (W)" Value="0" />
                 <Parameter Id="%AID%_UP-%TT%%CC%306" Name="CH%C%UseMeterPower16L1" ParameterType="%AID%_PT-CheckBox" Offset="25" BitOffset="6" Text="Zähler Wirkleistung L1 (16 Bit)" Value="0" />
                 <Parameter Id="%AID%_UP-%TT%%CC%307" Name="CH%C%UseMeterPower16L2" ParameterType="%AID%_PT-CheckBox" Offset="25" BitOffset="7" Text="Zähler Wirkleistung L2 (16 Bit)" Value="0" />
                 <Parameter Id="%AID%_UP-%TT%%CC%308" Name="CH%C%UseMeterPower16L3" ParameterType="%AID%_PT-CheckBox" Offset="26" BitOffset="0" Text="Zähler Wirkleistung L3 (16 Bit)" Value="0" />
@@ -284,36 +284,36 @@
                 <Parameter Id="%AID%_UP-%TT%%CC%320" Name="CH%C%UseMeterPowerFactorL2" ParameterType="%AID%_PT-CheckBox" Offset="27" BitOffset="4" Text="Zähler Leistungsfaktor L2" Value="0" />
                 <Parameter Id="%AID%_UP-%TT%%CC%321" Name="CH%C%UseMeterPowerFactorL3" ParameterType="%AID%_PT-CheckBox" Offset="27" BitOffset="5" Text="Zähler Leistungsfaktor L3" Value="0" />
                 <Parameter Id="%AID%_UP-%TT%%CC%322" Name="CH%C%UseMeterPowerFactor" ParameterType="%AID%_PT-CheckBox" Offset="27" BitOffset="6" Text="Zähler Leistungsfaktor" Value="0" />
-                <Parameter Id="%AID%_UP-%TT%%CC%323" Name="CH%C%UseMeterFrequency" ParameterType="%AID%_PT-CheckBox" Offset="27" BitOffset="7" Text="Zähler Frequenz" Value="0" />
-                <Parameter Id="%AID%_UP-%TT%%CC%324" Name="CH%C%UseMeterVoltageL1" ParameterType="%AID%_PT-CheckBox" Offset="28" BitOffset="0" Text="Zähler Spannung L1" Value="0" />
-                <Parameter Id="%AID%_UP-%TT%%CC%325" Name="CH%C%UseMeterVoltageL2" ParameterType="%AID%_PT-CheckBox" Offset="28" BitOffset="1" Text="Zähler Spannung L2" Value="0" />
-                <Parameter Id="%AID%_UP-%TT%%CC%326" Name="CH%C%UseMeterVoltageL3" ParameterType="%AID%_PT-CheckBox" Offset="28" BitOffset="2" Text="Zähler Spannung L3" Value="0" />
-                <Parameter Id="%AID%_UP-%TT%%CC%327" Name="CH%C%UseMeterCurrentL1" ParameterType="%AID%_PT-CheckBox" Offset="28" BitOffset="3" Text="Zähler Strom L1" Value="0" />
-                <Parameter Id="%AID%_UP-%TT%%CC%328" Name="CH%C%UseMeterCurrentL2" ParameterType="%AID%_PT-CheckBox" Offset="28" BitOffset="4" Text="Zähler Strom L2" Value="0" />
-                <Parameter Id="%AID%_UP-%TT%%CC%329" Name="CH%C%UseMeterCurrentL3" ParameterType="%AID%_PT-CheckBox" Offset="28" BitOffset="5" Text="Zähler Strom L3" Value="0" />
-                <Parameter Id="%AID%_UP-%TT%%CC%330" Name="CH%C%UseMeter2Power" ParameterType="%AID%_PT-CheckBox" Offset="28" BitOffset="6" Text="Zähler 2 Wirkleistung" Value="0" />
-                <Parameter Id="%AID%_UP-%TT%%CC%331" Name="CH%C%UseMeter2ExportTotal" ParameterType="%AID%_PT-CheckBox" Offset="28" BitOffset="7" Text="Zähler 2 Einspeisung gesamt" Value="0" />
-                <Parameter Id="%AID%_UP-%TT%%CC%332" Name="CH%C%UseMeter2ImportTotal" ParameterType="%AID%_PT-CheckBox" Offset="29" BitOffset="0" Text="Zähler 2 Netzbezug gesamt" Value="0" />
+                <Parameter Id="%AID%_UP-%TT%%CC%323" Name="CH%C%UseMeterFrequency" ParameterType="%AID%_PT-CheckBox" Offset="27" BitOffset="7" Text="Zähler Frequenz (Hz)" Value="0" />
+                <Parameter Id="%AID%_UP-%TT%%CC%324" Name="CH%C%UseMeterVoltageL1" ParameterType="%AID%_PT-CheckBox" Offset="28" BitOffset="0" Text="Zähler Spannung L1 (V)" Value="0" />
+                <Parameter Id="%AID%_UP-%TT%%CC%325" Name="CH%C%UseMeterVoltageL2" ParameterType="%AID%_PT-CheckBox" Offset="28" BitOffset="1" Text="Zähler Spannung L2 (V)" Value="0" />
+                <Parameter Id="%AID%_UP-%TT%%CC%326" Name="CH%C%UseMeterVoltageL3" ParameterType="%AID%_PT-CheckBox" Offset="28" BitOffset="2" Text="Zähler Spannung L3 (V)" Value="0" />
+                <Parameter Id="%AID%_UP-%TT%%CC%327" Name="CH%C%UseMeterCurrentL1" ParameterType="%AID%_PT-CheckBox" Offset="28" BitOffset="3" Text="Zähler Strom L1 (A)" Value="0" />
+                <Parameter Id="%AID%_UP-%TT%%CC%328" Name="CH%C%UseMeterCurrentL2" ParameterType="%AID%_PT-CheckBox" Offset="28" BitOffset="4" Text="Zähler Strom L2 (A)" Value="0" />
+                <Parameter Id="%AID%_UP-%TT%%CC%329" Name="CH%C%UseMeterCurrentL3" ParameterType="%AID%_PT-CheckBox" Offset="28" BitOffset="5" Text="Zähler Strom L3 (A)" Value="0" />
+                <Parameter Id="%AID%_UP-%TT%%CC%330" Name="CH%C%UseMeter2Power" ParameterType="%AID%_PT-CheckBox" Offset="28" BitOffset="6" Text="Zähler 2 Wirkleistung (W)" Value="0" />
+                <Parameter Id="%AID%_UP-%TT%%CC%331" Name="CH%C%UseMeter2ExportTotal" ParameterType="%AID%_PT-CheckBox" Offset="28" BitOffset="7" Text="Zähler 2 Einspeisung gesamt (kWh)" Value="0" />
+                <Parameter Id="%AID%_UP-%TT%%CC%332" Name="CH%C%UseMeter2ImportTotal" ParameterType="%AID%_PT-CheckBox" Offset="29" BitOffset="0" Text="Zähler 2 Netzbezug gesamt (kWh)" Value="0" />
                 <Parameter Id="%AID%_UP-%TT%%CC%333" Name="CH%C%UseMeter2CommStatus" ParameterType="%AID%_PT-CheckBox" Offset="29" BitOffset="1" Text="Zähler 2 Kommunikationsstatus" Value="0" />
-                <Parameter Id="%AID%_UP-%TT%%CC%334" Name="CH%C%UseMeterExportL1" ParameterType="%AID%_PT-CheckBox" Offset="29" BitOffset="2" Text="Zähler Einspeisung L1" Value="0" />
-                <Parameter Id="%AID%_UP-%TT%%CC%335" Name="CH%C%UseMeterExportL2" ParameterType="%AID%_PT-CheckBox" Offset="29" BitOffset="3" Text="Zähler Einspeisung L2" Value="0" />
-                <Parameter Id="%AID%_UP-%TT%%CC%336" Name="CH%C%UseMeterExportL3" ParameterType="%AID%_PT-CheckBox" Offset="29" BitOffset="4" Text="Zähler Einspeisung L3" Value="0" />
+                <Parameter Id="%AID%_UP-%TT%%CC%334" Name="CH%C%UseMeterExportL1" ParameterType="%AID%_PT-CheckBox" Offset="29" BitOffset="2" Text="Zähler Einspeisung L1 (kWh)" Value="0" />
+                <Parameter Id="%AID%_UP-%TT%%CC%335" Name="CH%C%UseMeterExportL2" ParameterType="%AID%_PT-CheckBox" Offset="29" BitOffset="3" Text="Zähler Einspeisung L2 (kWh)" Value="0" />
+                <Parameter Id="%AID%_UP-%TT%%CC%336" Name="CH%C%UseMeterExportL3" ParameterType="%AID%_PT-CheckBox" Offset="29" BitOffset="4" Text="Zähler Einspeisung L3 (kWh)" Value="0" />
                 <Parameter Id="%AID%_UP-%TT%%CC%337" Name="CH%C%UseMeterExportTotal64" ParameterType="%AID%_PT-CheckBox" Offset="29" BitOffset="5" Text="Zähler Einspeisung gesamt (64 Bit)" Value="0" />
-                <Parameter Id="%AID%_UP-%TT%%CC%338" Name="CH%C%UseMeterImportL1" ParameterType="%AID%_PT-CheckBox" Offset="29" BitOffset="6" Text="Zähler Netzbezug L1" Value="0" />
-                <Parameter Id="%AID%_UP-%TT%%CC%339" Name="CH%C%UseMeterImportL2" ParameterType="%AID%_PT-CheckBox" Offset="29" BitOffset="7" Text="Zähler Netzbezug L2" Value="0" />
-                <Parameter Id="%AID%_UP-%TT%%CC%340" Name="CH%C%UseMeterImportL3" ParameterType="%AID%_PT-CheckBox" Offset="30" BitOffset="0" Text="Zähler Netzbezug L3" Value="0" />
+                <Parameter Id="%AID%_UP-%TT%%CC%338" Name="CH%C%UseMeterImportL1" ParameterType="%AID%_PT-CheckBox" Offset="29" BitOffset="6" Text="Zähler Netzbezug L1 (kWh)" Value="0" />
+                <Parameter Id="%AID%_UP-%TT%%CC%339" Name="CH%C%UseMeterImportL2" ParameterType="%AID%_PT-CheckBox" Offset="29" BitOffset="7" Text="Zähler Netzbezug L2 (kWh)" Value="0" />
+                <Parameter Id="%AID%_UP-%TT%%CC%340" Name="CH%C%UseMeterImportL3" ParameterType="%AID%_PT-CheckBox" Offset="30" BitOffset="0" Text="Zähler Netzbezug L3 (kWh)" Value="0" />
                 <Parameter Id="%AID%_UP-%TT%%CC%341" Name="CH%C%UseMeterImportTotal64" ParameterType="%AID%_PT-CheckBox" Offset="30" BitOffset="1" Text="Zähler Netzbezug gesamt (64 Bit)" Value="0" />
                 <Parameter Id="%AID%_UP-%TT%%CC%342" Name="CH%C%UseBms1Version" ParameterType="%AID%_PT-CheckBox" Offset="30" BitOffset="2" Text="BMS 1 Version" Value="0" />
                 <Parameter Id="%AID%_UP-%TT%%CC%343" Name="CH%C%UseBms1Modules" ParameterType="%AID%_PT-CheckBox" Offset="30" BitOffset="3" Text="BMS 1 Modulanzahl" Value="0" />
-                <Parameter Id="%AID%_UP-%TT%%CC%344" Name="CH%C%UseBms1ChargeVoltageMax" ParameterType="%AID%_PT-CheckBox" Offset="30" BitOffset="4" Text="BMS 1 Ladespannung max." Value="0" />
-                <Parameter Id="%AID%_UP-%TT%%CC%345" Name="CH%C%UseBms1ChargeCurrentMax" ParameterType="%AID%_PT-CheckBox" Offset="30" BitOffset="5" Text="BMS 1 Ladestrom max." Value="0" />
-                <Parameter Id="%AID%_UP-%TT%%CC%346" Name="CH%C%UseBms1DischargeVoltageMin" ParameterType="%AID%_PT-CheckBox" Offset="30" BitOffset="6" Text="BMS 1 Entladespannung min." Value="0" />
-                <Parameter Id="%AID%_UP-%TT%%CC%347" Name="CH%C%UseBms1DischargeCurrentMax" ParameterType="%AID%_PT-CheckBox" Offset="30" BitOffset="7" Text="BMS 1 Entladestrom max." Value="0" />
-                <Parameter Id="%AID%_UP-%TT%%CC%348" Name="CH%C%UseBms1Voltage" ParameterType="%AID%_PT-CheckBox" Offset="31" BitOffset="0" Text="BMS 1 Spannung" Value="0" />
-                <Parameter Id="%AID%_UP-%TT%%CC%349" Name="CH%C%UseBms1Current" ParameterType="%AID%_PT-CheckBox" Offset="31" BitOffset="1" Text="BMS 1 Strom" Value="0" />
-                <Parameter Id="%AID%_UP-%TT%%CC%350" Name="CH%C%UseBms1Soc" ParameterType="%AID%_PT-CheckBox" Offset="31" BitOffset="2" Text="BMS 1 Ladezustand" Value="0" />
-                <Parameter Id="%AID%_UP-%TT%%CC%351" Name="CH%C%UseBms1Soh" ParameterType="%AID%_PT-CheckBox" Offset="31" BitOffset="3" Text="BMS 1 Gesundheitszustand" Value="0" />
-                <Parameter Id="%AID%_UP-%TT%%CC%352" Name="CH%C%UseBms1Temperature" ParameterType="%AID%_PT-CheckBox" Offset="31" BitOffset="4" Text="BMS 1 Temperatur" Value="0" />
+                <Parameter Id="%AID%_UP-%TT%%CC%344" Name="CH%C%UseBms1ChargeVoltageMax" ParameterType="%AID%_PT-CheckBox" Offset="30" BitOffset="4" Text="BMS 1 Ladespannung max. (V)" Value="0" />
+                <Parameter Id="%AID%_UP-%TT%%CC%345" Name="CH%C%UseBms1ChargeCurrentMax" ParameterType="%AID%_PT-CheckBox" Offset="30" BitOffset="5" Text="BMS 1 Ladestrom max. (A)" Value="0" />
+                <Parameter Id="%AID%_UP-%TT%%CC%346" Name="CH%C%UseBms1DischargeVoltageMin" ParameterType="%AID%_PT-CheckBox" Offset="30" BitOffset="6" Text="BMS 1 Entladespannung min. (V)" Value="0" />
+                <Parameter Id="%AID%_UP-%TT%%CC%347" Name="CH%C%UseBms1DischargeCurrentMax" ParameterType="%AID%_PT-CheckBox" Offset="30" BitOffset="7" Text="BMS 1 Entladestrom max. (A)" Value="0" />
+                <Parameter Id="%AID%_UP-%TT%%CC%348" Name="CH%C%UseBms1Voltage" ParameterType="%AID%_PT-CheckBox" Offset="31" BitOffset="0" Text="BMS 1 Spannung (V)" Value="0" />
+                <Parameter Id="%AID%_UP-%TT%%CC%349" Name="CH%C%UseBms1Current" ParameterType="%AID%_PT-CheckBox" Offset="31" BitOffset="1" Text="BMS 1 Strom (A)" Value="0" />
+                <Parameter Id="%AID%_UP-%TT%%CC%350" Name="CH%C%UseBms1Soc" ParameterType="%AID%_PT-CheckBox" Offset="31" BitOffset="2" Text="BMS 1 Ladezustand (%)" Value="0" />
+                <Parameter Id="%AID%_UP-%TT%%CC%351" Name="CH%C%UseBms1Soh" ParameterType="%AID%_PT-CheckBox" Offset="31" BitOffset="3" Text="BMS 1 Gesundheitszustand (%)" Value="0" />
+                <Parameter Id="%AID%_UP-%TT%%CC%352" Name="CH%C%UseBms1Temperature" ParameterType="%AID%_PT-CheckBox" Offset="31" BitOffset="4" Text="BMS 1 Temperatur (°C)" Value="0" />
                 <Parameter Id="%AID%_UP-%TT%%CC%353" Name="CH%C%UseBms1WarningCode" ParameterType="%AID%_PT-CheckBox" Offset="31" BitOffset="5" Text="BMS 1 Warnungscode" Value="0" />
                 <Parameter Id="%AID%_UP-%TT%%CC%354" Name="CH%C%UseBms1AlarmCode" ParameterType="%AID%_PT-CheckBox" Offset="31" BitOffset="6" Text="BMS 1 Alarmcode" Value="0" />
                 <Parameter Id="%AID%_UP-%TT%%CC%355" Name="CH%C%UseBms1Status" ParameterType="%AID%_PT-CheckBox" Offset="31" BitOffset="7" Text="BMS 1 Status" Value="0" />
@@ -321,15 +321,15 @@
                 <Parameter Id="%AID%_UP-%TT%%CC%357" Name="CH%C%UseBms1StringRateVoltage" ParameterType="%AID%_PT-CheckBox" Offset="32" BitOffset="1" Text="BMS 1 Strang-Nennspannung" Value="0" />
                 <Parameter Id="%AID%_UP-%TT%%CC%358" Name="CH%C%UseBms2Version" ParameterType="%AID%_PT-CheckBox" Offset="32" BitOffset="2" Text="BMS 2 Version" Value="0" />
                 <Parameter Id="%AID%_UP-%TT%%CC%359" Name="CH%C%UseBms2Modules" ParameterType="%AID%_PT-CheckBox" Offset="32" BitOffset="3" Text="BMS 2 Modulanzahl" Value="0" />
-                <Parameter Id="%AID%_UP-%TT%%CC%360" Name="CH%C%UseBms2ChargeVoltageMax" ParameterType="%AID%_PT-CheckBox" Offset="32" BitOffset="4" Text="BMS 2 Ladespannung max." Value="0" />
-                <Parameter Id="%AID%_UP-%TT%%CC%361" Name="CH%C%UseBms2ChargeCurrentMax" ParameterType="%AID%_PT-CheckBox" Offset="32" BitOffset="5" Text="BMS 2 Ladestrom max." Value="0" />
-                <Parameter Id="%AID%_UP-%TT%%CC%362" Name="CH%C%UseBms2DischargeVoltageMin" ParameterType="%AID%_PT-CheckBox" Offset="32" BitOffset="6" Text="BMS 2 Entladespannung min." Value="0" />
-                <Parameter Id="%AID%_UP-%TT%%CC%363" Name="CH%C%UseBms2DischargeCurrentMax" ParameterType="%AID%_PT-CheckBox" Offset="32" BitOffset="7" Text="BMS 2 Entladestrom max." Value="0" />
-                <Parameter Id="%AID%_UP-%TT%%CC%364" Name="CH%C%UseBms2Voltage" ParameterType="%AID%_PT-CheckBox" Offset="33" BitOffset="0" Text="BMS 2 Spannung" Value="0" />
-                <Parameter Id="%AID%_UP-%TT%%CC%365" Name="CH%C%UseBms2Current" ParameterType="%AID%_PT-CheckBox" Offset="33" BitOffset="1" Text="BMS 2 Strom" Value="0" />
-                <Parameter Id="%AID%_UP-%TT%%CC%366" Name="CH%C%UseBms2Soc" ParameterType="%AID%_PT-CheckBox" Offset="33" BitOffset="2" Text="BMS 2 Ladezustand" Value="0" />
-                <Parameter Id="%AID%_UP-%TT%%CC%367" Name="CH%C%UseBms2Soh" ParameterType="%AID%_PT-CheckBox" Offset="33" BitOffset="3" Text="BMS 2 Gesundheitszustand" Value="0" />
-                <Parameter Id="%AID%_UP-%TT%%CC%368" Name="CH%C%UseBms2Temperature" ParameterType="%AID%_PT-CheckBox" Offset="33" BitOffset="4" Text="BMS 2 Temperatur" Value="0" />
+                <Parameter Id="%AID%_UP-%TT%%CC%360" Name="CH%C%UseBms2ChargeVoltageMax" ParameterType="%AID%_PT-CheckBox" Offset="32" BitOffset="4" Text="BMS 2 Ladespannung max. (V)" Value="0" />
+                <Parameter Id="%AID%_UP-%TT%%CC%361" Name="CH%C%UseBms2ChargeCurrentMax" ParameterType="%AID%_PT-CheckBox" Offset="32" BitOffset="5" Text="BMS 2 Ladestrom max. (A)" Value="0" />
+                <Parameter Id="%AID%_UP-%TT%%CC%362" Name="CH%C%UseBms2DischargeVoltageMin" ParameterType="%AID%_PT-CheckBox" Offset="32" BitOffset="6" Text="BMS 2 Entladespannung min. (V)" Value="0" />
+                <Parameter Id="%AID%_UP-%TT%%CC%363" Name="CH%C%UseBms2DischargeCurrentMax" ParameterType="%AID%_PT-CheckBox" Offset="32" BitOffset="7" Text="BMS 2 Entladestrom max. (A)" Value="0" />
+                <Parameter Id="%AID%_UP-%TT%%CC%364" Name="CH%C%UseBms2Voltage" ParameterType="%AID%_PT-CheckBox" Offset="33" BitOffset="0" Text="BMS 2 Spannung (V)" Value="0" />
+                <Parameter Id="%AID%_UP-%TT%%CC%365" Name="CH%C%UseBms2Current" ParameterType="%AID%_PT-CheckBox" Offset="33" BitOffset="1" Text="BMS 2 Strom (A)" Value="0" />
+                <Parameter Id="%AID%_UP-%TT%%CC%366" Name="CH%C%UseBms2Soc" ParameterType="%AID%_PT-CheckBox" Offset="33" BitOffset="2" Text="BMS 2 Ladezustand (%)" Value="0" />
+                <Parameter Id="%AID%_UP-%TT%%CC%367" Name="CH%C%UseBms2Soh" ParameterType="%AID%_PT-CheckBox" Offset="33" BitOffset="3" Text="BMS 2 Gesundheitszustand (%)" Value="0" />
+                <Parameter Id="%AID%_UP-%TT%%CC%368" Name="CH%C%UseBms2Temperature" ParameterType="%AID%_PT-CheckBox" Offset="33" BitOffset="4" Text="BMS 2 Temperatur (°C)" Value="0" />
                 <Parameter Id="%AID%_UP-%TT%%CC%369" Name="CH%C%UseBms2WarningCode" ParameterType="%AID%_PT-CheckBox" Offset="33" BitOffset="5" Text="BMS 2 Warnungscode" Value="0" />
                 <Parameter Id="%AID%_UP-%TT%%CC%370" Name="CH%C%UseBms2AlarmCode" ParameterType="%AID%_PT-CheckBox" Offset="33" BitOffset="6" Text="BMS 2 Alarmcode" Value="0" />
                 <Parameter Id="%AID%_UP-%TT%%CC%371" Name="CH%C%UseBms2Status" ParameterType="%AID%_PT-CheckBox" Offset="33" BitOffset="7" Text="BMS 2 Status" Value="0" />
@@ -3835,828 +3835,386 @@
                       <ParameterSeparator Id="%AID%_PS-nnn" Text="Messwerte" UIHint="Headline" />
                       <ParameterSeparator Id="%AID%_PS-nnn" Text="Angehakt wird als KO angelegt und gesendet. &quot;Wechselrichter auslesen&quot; hakt alle Objekte an, die das Gerät liefert. Netzleistung, Bezug, Einspeisung und Hausverbrauch sind nur mit angeschlossenem GoodWe-Zähler gültig." UIHint="Information" />
                       <ParameterSeparator Id="%AID%_PS-nnn" Text="Status" UIHint="Headline" />
-                      <ParameterBlock Id="%AID%_PB-%CC%OT0" Name="OTbl0" Text="Status" Inline="true" Layout="Table" HelpContext="GDW-Objekte">
-                        <Rows>
-                          <Row Id="%AID%_PB-%CC%OT0_R-1" Name="R1" Text="Erreichbar" />
-                          <Row Id="%AID%_PB-%CC%OT0_R-2" Name="R2" Text="Arbeitsmodus" />
-                          <Row Id="%AID%_PB-%CC%OT0_R-3" Name="R3" Text="Fehlercode" />
-                          <Row Id="%AID%_PB-%CC%OT0_R-4" Name="R4" Text="Warnungscode" />
-                          <Row Id="%AID%_PB-%CC%OT0_R-5" Name="R5" Text="Ländereinstellung" />
-                          <Row Id="%AID%_PB-%CC%OT0_R-6" Name="R6" Text="Funktionsbits" />
-                          <Row Id="%AID%_PB-%CC%OT0_R-7" Name="R7" Text="Betriebsstunden (h)" />
-                          <Row Id="%AID%_PB-%CC%OT0_R-8" Name="R8" Text="Gerätezeit" />
-                          <Row Id="%AID%_PB-%CC%OT0_R-9" Name="R9" Text="Temperatur Wechselrichter (°C)" />
-                          <Row Id="%AID%_PB-%CC%OT0_R-10" Name="R10" Text="Busspannung (V)" />
-                          <Row Id="%AID%_PB-%CC%OT0_R-11" Name="R11" Text="N-Busspannung (V)" />
-                          <Row Id="%AID%_PB-%CC%OT0_R-12" Name="R12" Text="Netzrichtung" />
-                          <Row Id="%AID%_PB-%CC%OT0_R-13" Name="R13" Text="Signalstärke" />
-                          <Row Id="%AID%_PB-%CC%OT0_R-14" Name="R14" Text="Zähler Kommunikationsstatus" />
-                        </Rows>
-                        <Columns>
-                          <Column Id="%AID%_PB-%CC%OT0_C-1" Name="C1" Text="aktiv" Width="20%" />
-                        </Columns>
-                        <ParameterRefRef RefId="%AID%_UP-%TT%%CC%100_R-%TT%%CC%10001" Cell="1,1" />
-                        <ParameterRefRef RefId="%AID%_UP-%TT%%CC%101_R-%TT%%CC%10101" Cell="2,1" />
-                        <ParameterRefRef RefId="%AID%_UP-%TT%%CC%102_R-%TT%%CC%10201" Cell="3,1" />
-                        <ParameterRefRef RefId="%AID%_UP-%TT%%CC%103_R-%TT%%CC%10301" Cell="4,1" />
-                        <ParameterRefRef RefId="%AID%_UP-%TT%%CC%104_R-%TT%%CC%10401" Cell="5,1" />
-                        <ParameterRefRef RefId="%AID%_UP-%TT%%CC%105_R-%TT%%CC%10501" Cell="6,1" />
-                        <ParameterRefRef RefId="%AID%_UP-%TT%%CC%106_R-%TT%%CC%10601" Cell="7,1" />
-                        <ParameterRefRef RefId="%AID%_UP-%TT%%CC%107_R-%TT%%CC%10701" Cell="8,1" />
-                        <ParameterRefRef RefId="%AID%_UP-%TT%%CC%108_R-%TT%%CC%10801" Cell="9,1" />
-                        <ParameterRefRef RefId="%AID%_UP-%TT%%CC%109_R-%TT%%CC%10901" Cell="10,1" />
-                        <ParameterRefRef RefId="%AID%_UP-%TT%%CC%110_R-%TT%%CC%11001" Cell="11,1" />
-                        <ParameterRefRef RefId="%AID%_UP-%TT%%CC%111_R-%TT%%CC%11101" Cell="12,1" />
-                        <ParameterRefRef RefId="%AID%_UP-%TT%%CC%112_R-%TT%%CC%11201" Cell="13,1" />
-                        <ParameterRefRef RefId="%AID%_UP-%TT%%CC%113_R-%TT%%CC%11301" Cell="14,1" />
-                      </ParameterBlock>
+                      <ParameterRefRef IndentLevel="1" RefId="%AID%_UP-%TT%%CC%100_R-%TT%%CC%10001" HelpContext="GDW-Objekte" />
+                      <ParameterRefRef IndentLevel="1" RefId="%AID%_UP-%TT%%CC%101_R-%TT%%CC%10101" HelpContext="GDW-Objekte" />
+                      <ParameterRefRef IndentLevel="1" RefId="%AID%_UP-%TT%%CC%102_R-%TT%%CC%10201" HelpContext="GDW-Objekte" />
+                      <ParameterRefRef IndentLevel="1" RefId="%AID%_UP-%TT%%CC%103_R-%TT%%CC%10301" HelpContext="GDW-Objekte" />
+                      <ParameterRefRef IndentLevel="1" RefId="%AID%_UP-%TT%%CC%104_R-%TT%%CC%10401" HelpContext="GDW-Objekte" />
+                      <ParameterRefRef IndentLevel="1" RefId="%AID%_UP-%TT%%CC%105_R-%TT%%CC%10501" HelpContext="GDW-Objekte" />
+                      <ParameterRefRef IndentLevel="1" RefId="%AID%_UP-%TT%%CC%106_R-%TT%%CC%10601" HelpContext="GDW-Objekte" />
+                      <ParameterRefRef IndentLevel="1" RefId="%AID%_UP-%TT%%CC%107_R-%TT%%CC%10701" HelpContext="GDW-Objekte" />
+                      <ParameterRefRef IndentLevel="1" RefId="%AID%_UP-%TT%%CC%108_R-%TT%%CC%10801" HelpContext="GDW-Objekte" />
+                      <ParameterRefRef IndentLevel="1" RefId="%AID%_UP-%TT%%CC%109_R-%TT%%CC%10901" HelpContext="GDW-Objekte" />
+                      <ParameterRefRef IndentLevel="1" RefId="%AID%_UP-%TT%%CC%110_R-%TT%%CC%11001" HelpContext="GDW-Objekte" />
+                      <ParameterRefRef IndentLevel="1" RefId="%AID%_UP-%TT%%CC%111_R-%TT%%CC%11101" HelpContext="GDW-Objekte" />
+                      <ParameterRefRef IndentLevel="1" RefId="%AID%_UP-%TT%%CC%112_R-%TT%%CC%11201" HelpContext="GDW-Objekte" />
+                      <ParameterRefRef IndentLevel="1" RefId="%AID%_UP-%TT%%CC%113_R-%TT%%CC%11301" HelpContext="GDW-Objekte" />
                       <choose ParamRefId="%AID%_UP-%TT%%CC%010_R-%TT%%CC%01001">
                         <when test="1 2">
                           <ParameterSeparator Id="%AID%_PS-nnn" Text="Status Hybrid" UIHint="Headline" />
-                          <ParameterBlock Id="%AID%_PB-%CC%OT1" Name="OTbl1" Text="Status Hybrid" Inline="true" Layout="Table" HelpContext="GDW-Objekte">
-                            <Rows>
-                              <Row Id="%AID%_PB-%CC%OT1_R-1" Name="R1" Text="Netzstatus" />
-                              <Row Id="%AID%_PB-%CC%OT1_R-2" Name="R2" Text="Betriebsart" />
-                              <Row Id="%AID%_PB-%CC%OT1_R-3" Name="R3" Text="Diagnosestatus" />
-                              <Row Id="%AID%_PB-%CC%OT1_R-4" Name="R4" Text="Temperatur Luft (°C)" />
-                              <Row Id="%AID%_PB-%CC%OT1_R-5" Name="R5" Text="Temperatur Modul (°C)" />
-                            </Rows>
-                            <Columns>
-                              <Column Id="%AID%_PB-%CC%OT1_C-1" Name="C1" Text="aktiv" Width="20%" />
-                            </Columns>
-                            <ParameterRefRef RefId="%AID%_UP-%TT%%CC%114_R-%TT%%CC%11401" Cell="1,1" />
-                            <ParameterRefRef RefId="%AID%_UP-%TT%%CC%115_R-%TT%%CC%11501" Cell="2,1" />
-                            <ParameterRefRef RefId="%AID%_UP-%TT%%CC%116_R-%TT%%CC%11601" Cell="3,1" />
-                            <ParameterRefRef RefId="%AID%_UP-%TT%%CC%117_R-%TT%%CC%11701" Cell="4,1" />
-                            <ParameterRefRef RefId="%AID%_UP-%TT%%CC%118_R-%TT%%CC%11801" Cell="5,1" />
-                          </ParameterBlock>
+                          <ParameterRefRef IndentLevel="1" RefId="%AID%_UP-%TT%%CC%114_R-%TT%%CC%11401" HelpContext="GDW-Objekte" />
+                          <ParameterRefRef IndentLevel="1" RefId="%AID%_UP-%TT%%CC%115_R-%TT%%CC%11501" HelpContext="GDW-Objekte" />
+                          <ParameterRefRef IndentLevel="1" RefId="%AID%_UP-%TT%%CC%116_R-%TT%%CC%11601" HelpContext="GDW-Objekte" />
+                          <ParameterRefRef IndentLevel="1" RefId="%AID%_UP-%TT%%CC%117_R-%TT%%CC%11701" HelpContext="GDW-Objekte" />
+                          <ParameterRefRef IndentLevel="1" RefId="%AID%_UP-%TT%%CC%118_R-%TT%%CC%11801" HelpContext="GDW-Objekte" />
                         </when>
                       </choose>
                       <choose ParamRefId="%AID%_UP-%TT%%CC%010_R-%TT%%CC%01001">
                         <when test="1 3">
                           <ParameterSeparator Id="%AID%_PS-nnn" Text="Status netzgekoppelt" UIHint="Headline" />
-                          <ParameterBlock Id="%AID%_PB-%CC%OT2" Name="OTbl2" Text="Status netzgekoppelt" Inline="true" Layout="Table" HelpContext="GDW-Objekte">
-                            <Rows>
-                              <Row Id="%AID%_PB-%CC%OT2_R-1" Name="R1" Text="Temperatur Kühlkörper (°C)" />
-                              <Row Id="%AID%_PB-%CC%OT2_R-2" Name="R2" Text="Leistungsreduzierung" />
-                              <Row Id="%AID%_PB-%CC%OT2_R-3" Name="R3" Text="Ableitstrom (A)" />
-                            </Rows>
-                            <Columns>
-                              <Column Id="%AID%_PB-%CC%OT2_C-1" Name="C1" Text="aktiv" Width="20%" />
-                            </Columns>
-                            <ParameterRefRef RefId="%AID%_UP-%TT%%CC%119_R-%TT%%CC%11901" Cell="1,1" />
-                            <ParameterRefRef RefId="%AID%_UP-%TT%%CC%120_R-%TT%%CC%12001" Cell="2,1" />
-                            <ParameterRefRef RefId="%AID%_UP-%TT%%CC%121_R-%TT%%CC%12101" Cell="3,1" />
-                          </ParameterBlock>
+                          <ParameterRefRef IndentLevel="1" RefId="%AID%_UP-%TT%%CC%119_R-%TT%%CC%11901" HelpContext="GDW-Objekte" />
+                          <ParameterRefRef IndentLevel="1" RefId="%AID%_UP-%TT%%CC%120_R-%TT%%CC%12001" HelpContext="GDW-Objekte" />
+                          <ParameterRefRef IndentLevel="1" RefId="%AID%_UP-%TT%%CC%121_R-%TT%%CC%12101" HelpContext="GDW-Objekte" />
                         </when>
                       </choose>
                       <ParameterSeparator Id="%AID%_PS-nnn" Text="PV" UIHint="Headline" />
-                      <ParameterBlock Id="%AID%_PB-%CC%OT3" Name="OTbl3" Text="PV" Inline="true" Layout="Table" HelpContext="GDW-Objekte">
-                        <Rows>
-                          <Row Id="%AID%_PB-%CC%OT3_R-1" Name="R1" Text="PV-Leistung gesamt (W)" />
-                          <Row Id="%AID%_PB-%CC%OT3_R-2" Name="R2" Text="PV1 Spannung (V)" />
-                          <Row Id="%AID%_PB-%CC%OT3_R-3" Name="R3" Text="PV1 Strom (A)" />
-                          <Row Id="%AID%_PB-%CC%OT3_R-4" Name="R4" Text="PV1 Leistung (W)" />
-                          <Row Id="%AID%_PB-%CC%OT3_R-5" Name="R5" Text="PV2 Spannung (V)" />
-                          <Row Id="%AID%_PB-%CC%OT3_R-6" Name="R6" Text="PV2 Strom (A)" />
-                          <Row Id="%AID%_PB-%CC%OT3_R-7" Name="R7" Text="PV2 Leistung (W)" />
-                          <Row Id="%AID%_PB-%CC%OT3_R-8" Name="R8" Text="PV3 Spannung (V)" />
-                          <Row Id="%AID%_PB-%CC%OT3_R-9" Name="R9" Text="PV3 Strom (A)" />
-                          <Row Id="%AID%_PB-%CC%OT3_R-10" Name="R10" Text="PV3 Leistung (W)" />
-                          <Row Id="%AID%_PB-%CC%OT3_R-11" Name="R11" Text="PV4 Spannung (V)" />
-                          <Row Id="%AID%_PB-%CC%OT3_R-12" Name="R12" Text="PV4 Strom (A)" />
-                          <Row Id="%AID%_PB-%CC%OT3_R-13" Name="R13" Text="PV4 Leistung (W)" />
-                        </Rows>
-                        <Columns>
-                          <Column Id="%AID%_PB-%CC%OT3_C-1" Name="C1" Text="aktiv" Width="20%" />
-                        </Columns>
-                        <ParameterRefRef RefId="%AID%_UP-%TT%%CC%122_R-%TT%%CC%12201" Cell="1,1" />
-                        <ParameterRefRef RefId="%AID%_UP-%TT%%CC%123_R-%TT%%CC%12301" Cell="2,1" />
-                        <ParameterRefRef RefId="%AID%_UP-%TT%%CC%124_R-%TT%%CC%12401" Cell="3,1" />
-                        <ParameterRefRef RefId="%AID%_UP-%TT%%CC%125_R-%TT%%CC%12501" Cell="4,1" />
-                        <ParameterRefRef RefId="%AID%_UP-%TT%%CC%126_R-%TT%%CC%12601" Cell="5,1" />
-                        <ParameterRefRef RefId="%AID%_UP-%TT%%CC%127_R-%TT%%CC%12701" Cell="6,1" />
-                        <ParameterRefRef RefId="%AID%_UP-%TT%%CC%128_R-%TT%%CC%12801" Cell="7,1" />
-                        <ParameterRefRef RefId="%AID%_UP-%TT%%CC%129_R-%TT%%CC%12901" Cell="8,1" />
-                        <ParameterRefRef RefId="%AID%_UP-%TT%%CC%130_R-%TT%%CC%13001" Cell="9,1" />
-                        <ParameterRefRef RefId="%AID%_UP-%TT%%CC%131_R-%TT%%CC%13101" Cell="10,1" />
-                        <ParameterRefRef RefId="%AID%_UP-%TT%%CC%132_R-%TT%%CC%13201" Cell="11,1" />
-                        <ParameterRefRef RefId="%AID%_UP-%TT%%CC%133_R-%TT%%CC%13301" Cell="12,1" />
-                        <ParameterRefRef RefId="%AID%_UP-%TT%%CC%134_R-%TT%%CC%13401" Cell="13,1" />
-                      </ParameterBlock>
+                      <ParameterRefRef IndentLevel="1" RefId="%AID%_UP-%TT%%CC%122_R-%TT%%CC%12201" HelpContext="GDW-Objekte" />
+                      <ParameterRefRef IndentLevel="1" RefId="%AID%_UP-%TT%%CC%123_R-%TT%%CC%12301" HelpContext="GDW-Objekte" />
+                      <ParameterRefRef IndentLevel="1" RefId="%AID%_UP-%TT%%CC%124_R-%TT%%CC%12401" HelpContext="GDW-Objekte" />
+                      <ParameterRefRef IndentLevel="1" RefId="%AID%_UP-%TT%%CC%125_R-%TT%%CC%12501" HelpContext="GDW-Objekte" />
+                      <ParameterRefRef IndentLevel="1" RefId="%AID%_UP-%TT%%CC%126_R-%TT%%CC%12601" HelpContext="GDW-Objekte" />
+                      <ParameterRefRef IndentLevel="1" RefId="%AID%_UP-%TT%%CC%127_R-%TT%%CC%12701" HelpContext="GDW-Objekte" />
+                      <ParameterRefRef IndentLevel="1" RefId="%AID%_UP-%TT%%CC%128_R-%TT%%CC%12801" HelpContext="GDW-Objekte" />
+                      <ParameterRefRef IndentLevel="1" RefId="%AID%_UP-%TT%%CC%129_R-%TT%%CC%12901" HelpContext="GDW-Objekte" />
+                      <ParameterRefRef IndentLevel="1" RefId="%AID%_UP-%TT%%CC%130_R-%TT%%CC%13001" HelpContext="GDW-Objekte" />
+                      <ParameterRefRef IndentLevel="1" RefId="%AID%_UP-%TT%%CC%131_R-%TT%%CC%13101" HelpContext="GDW-Objekte" />
+                      <ParameterRefRef IndentLevel="1" RefId="%AID%_UP-%TT%%CC%132_R-%TT%%CC%13201" HelpContext="GDW-Objekte" />
+                      <ParameterRefRef IndentLevel="1" RefId="%AID%_UP-%TT%%CC%133_R-%TT%%CC%13301" HelpContext="GDW-Objekte" />
+                      <ParameterRefRef IndentLevel="1" RefId="%AID%_UP-%TT%%CC%134_R-%TT%%CC%13401" HelpContext="GDW-Objekte" />
                       <choose ParamRefId="%AID%_UP-%TT%%CC%010_R-%TT%%CC%01001">
                         <when test="1 2">
                           <ParameterSeparator Id="%AID%_PS-nnn" Text="PV Hybrid" UIHint="Headline" />
-                          <ParameterBlock Id="%AID%_PB-%CC%OT4" Name="OTbl4" Text="PV Hybrid" Inline="true" Layout="Table" HelpContext="GDW-Objekte">
-                            <Rows>
-                              <Row Id="%AID%_PB-%CC%OT4_R-1" Name="R1" Text="PV1 Modus" />
-                              <Row Id="%AID%_PB-%CC%OT4_R-2" Name="R2" Text="PV2 Modus" />
-                              <Row Id="%AID%_PB-%CC%OT4_R-3" Name="R3" Text="PV3 Modus" />
-                              <Row Id="%AID%_PB-%CC%OT4_R-4" Name="R4" Text="PV4 Modus" />
-                            </Rows>
-                            <Columns>
-                              <Column Id="%AID%_PB-%CC%OT4_C-1" Name="C1" Text="aktiv" Width="20%" />
-                            </Columns>
-                            <ParameterRefRef RefId="%AID%_UP-%TT%%CC%135_R-%TT%%CC%13501" Cell="1,1" />
-                            <ParameterRefRef RefId="%AID%_UP-%TT%%CC%136_R-%TT%%CC%13601" Cell="2,1" />
-                            <ParameterRefRef RefId="%AID%_UP-%TT%%CC%137_R-%TT%%CC%13701" Cell="3,1" />
-                            <ParameterRefRef RefId="%AID%_UP-%TT%%CC%138_R-%TT%%CC%13801" Cell="4,1" />
-                          </ParameterBlock>
+                          <ParameterRefRef IndentLevel="1" RefId="%AID%_UP-%TT%%CC%135_R-%TT%%CC%13501" HelpContext="GDW-Objekte" />
+                          <ParameterRefRef IndentLevel="1" RefId="%AID%_UP-%TT%%CC%136_R-%TT%%CC%13601" HelpContext="GDW-Objekte" />
+                          <ParameterRefRef IndentLevel="1" RefId="%AID%_UP-%TT%%CC%137_R-%TT%%CC%13701" HelpContext="GDW-Objekte" />
+                          <ParameterRefRef IndentLevel="1" RefId="%AID%_UP-%TT%%CC%138_R-%TT%%CC%13801" HelpContext="GDW-Objekte" />
                         </when>
                       </choose>
                       <choose ParamRefId="%AID%_UP-%TT%%CC%010_R-%TT%%CC%01001">
                         <when test="1 3">
                           <ParameterSeparator Id="%AID%_PS-nnn" Text="PV netzgekoppelt" UIHint="Headline" />
-                          <ParameterBlock Id="%AID%_PB-%CC%OT5" Name="OTbl5" Text="PV netzgekoppelt" Inline="true" Layout="Table" HelpContext="GDW-Objekte">
-                            <Rows>
-                              <Row Id="%AID%_PB-%CC%OT5_R-1" Name="R1" Text="Eingangsleistung gesamt (W)" />
-                            </Rows>
-                            <Columns>
-                              <Column Id="%AID%_PB-%CC%OT5_C-1" Name="C1" Text="aktiv" Width="20%" />
-                            </Columns>
-                            <ParameterRefRef RefId="%AID%_UP-%TT%%CC%139_R-%TT%%CC%13901" Cell="1,1" />
-                          </ParameterBlock>
+                          <ParameterRefRef IndentLevel="1" RefId="%AID%_UP-%TT%%CC%139_R-%TT%%CC%13901" HelpContext="GDW-Objekte" />
                         </when>
                       </choose>
                       <choose ParamRefId="%AID%_UP-%TT%%CC%010_R-%TT%%CC%01001">
                         <when test="1 2">
                           <ParameterSeparator Id="%AID%_PS-nnn" Text="PV erweitert (MPPT-Block)" UIHint="Headline" />
-                          <ParameterBlock Id="%AID%_PB-%CC%OT6" Name="OTbl6" Text="PV erweitert (MPPT-Block)" Inline="true" Layout="Table" HelpContext="GDW-Objekte">
-                            <Rows>
-                              <Row Id="%AID%_PB-%CC%OT6_R-1" Name="R1" Text="PV-Leistung gesamt (MPPT-Block)" />
-                              <Row Id="%AID%_PB-%CC%OT6_R-2" Name="R2" Text="Anzahl PV-Kanäle" />
-                              <Row Id="%AID%_PB-%CC%OT6_R-3" Name="R3" Text="PV5 Spannung (V)" />
-                              <Row Id="%AID%_PB-%CC%OT6_R-4" Name="R4" Text="PV5 Strom (A)" />
-                              <Row Id="%AID%_PB-%CC%OT6_R-5" Name="R5" Text="PV6 Spannung (V)" />
-                              <Row Id="%AID%_PB-%CC%OT6_R-6" Name="R6" Text="PV6 Strom (A)" />
-                              <Row Id="%AID%_PB-%CC%OT6_R-7" Name="R7" Text="PV7 Spannung (V)" />
-                              <Row Id="%AID%_PB-%CC%OT6_R-8" Name="R8" Text="PV7 Strom (A)" />
-                              <Row Id="%AID%_PB-%CC%OT6_R-9" Name="R9" Text="PV8 Spannung (V)" />
-                              <Row Id="%AID%_PB-%CC%OT6_R-10" Name="R10" Text="PV8 Strom (A)" />
-                              <Row Id="%AID%_PB-%CC%OT6_R-11" Name="R11" Text="PV9 Spannung (V)" />
-                              <Row Id="%AID%_PB-%CC%OT6_R-12" Name="R12" Text="PV9 Strom (A)" />
-                              <Row Id="%AID%_PB-%CC%OT6_R-13" Name="R13" Text="PV10 Spannung (V)" />
-                              <Row Id="%AID%_PB-%CC%OT6_R-14" Name="R14" Text="PV10 Strom (A)" />
-                              <Row Id="%AID%_PB-%CC%OT6_R-15" Name="R15" Text="PV11 Spannung (V)" />
-                              <Row Id="%AID%_PB-%CC%OT6_R-16" Name="R16" Text="PV11 Strom (A)" />
-                              <Row Id="%AID%_PB-%CC%OT6_R-17" Name="R17" Text="PV12 Spannung (V)" />
-                              <Row Id="%AID%_PB-%CC%OT6_R-18" Name="R18" Text="PV12 Strom (A)" />
-                              <Row Id="%AID%_PB-%CC%OT6_R-19" Name="R19" Text="PV13 Spannung (V)" />
-                              <Row Id="%AID%_PB-%CC%OT6_R-20" Name="R20" Text="PV13 Strom (A)" />
-                              <Row Id="%AID%_PB-%CC%OT6_R-21" Name="R21" Text="PV14 Spannung (V)" />
-                              <Row Id="%AID%_PB-%CC%OT6_R-22" Name="R22" Text="PV14 Strom (A)" />
-                              <Row Id="%AID%_PB-%CC%OT6_R-23" Name="R23" Text="PV15 Spannung (V)" />
-                              <Row Id="%AID%_PB-%CC%OT6_R-24" Name="R24" Text="PV15 Strom (A)" />
-                              <Row Id="%AID%_PB-%CC%OT6_R-25" Name="R25" Text="PV16 Spannung (V)" />
-                              <Row Id="%AID%_PB-%CC%OT6_R-26" Name="R26" Text="PV16 Strom (A)" />
-                              <Row Id="%AID%_PB-%CC%OT6_R-27" Name="R27" Text="MPPT1 Leistung (W)" />
-                              <Row Id="%AID%_PB-%CC%OT6_R-28" Name="R28" Text="MPPT2 Leistung (W)" />
-                              <Row Id="%AID%_PB-%CC%OT6_R-29" Name="R29" Text="MPPT3 Leistung (W)" />
-                              <Row Id="%AID%_PB-%CC%OT6_R-30" Name="R30" Text="MPPT4 Leistung (W)" />
-                              <Row Id="%AID%_PB-%CC%OT6_R-31" Name="R31" Text="MPPT5 Leistung (W)" />
-                              <Row Id="%AID%_PB-%CC%OT6_R-32" Name="R32" Text="MPPT6 Leistung (W)" />
-                              <Row Id="%AID%_PB-%CC%OT6_R-33" Name="R33" Text="MPPT7 Leistung (W)" />
-                              <Row Id="%AID%_PB-%CC%OT6_R-34" Name="R34" Text="MPPT8 Leistung (W)" />
-                              <Row Id="%AID%_PB-%CC%OT6_R-35" Name="R35" Text="MPPT1 Strom (A)" />
-                              <Row Id="%AID%_PB-%CC%OT6_R-36" Name="R36" Text="MPPT2 Strom (A)" />
-                              <Row Id="%AID%_PB-%CC%OT6_R-37" Name="R37" Text="MPPT3 Strom (A)" />
-                              <Row Id="%AID%_PB-%CC%OT6_R-38" Name="R38" Text="MPPT4 Strom (A)" />
-                              <Row Id="%AID%_PB-%CC%OT6_R-39" Name="R39" Text="MPPT5 Strom (A)" />
-                              <Row Id="%AID%_PB-%CC%OT6_R-40" Name="R40" Text="MPPT6 Strom (A)" />
-                              <Row Id="%AID%_PB-%CC%OT6_R-41" Name="R41" Text="MPPT7 Strom (A)" />
-                              <Row Id="%AID%_PB-%CC%OT6_R-42" Name="R42" Text="MPPT8 Strom (A)" />
-                            </Rows>
-                            <Columns>
-                              <Column Id="%AID%_PB-%CC%OT6_C-1" Name="C1" Text="aktiv" Width="20%" />
-                            </Columns>
-                            <ParameterRefRef RefId="%AID%_UP-%TT%%CC%140_R-%TT%%CC%14001" Cell="1,1" />
-                            <ParameterRefRef RefId="%AID%_UP-%TT%%CC%141_R-%TT%%CC%14101" Cell="2,1" />
-                            <ParameterRefRef RefId="%AID%_UP-%TT%%CC%142_R-%TT%%CC%14201" Cell="3,1" />
-                            <ParameterRefRef RefId="%AID%_UP-%TT%%CC%143_R-%TT%%CC%14301" Cell="4,1" />
-                            <ParameterRefRef RefId="%AID%_UP-%TT%%CC%144_R-%TT%%CC%14401" Cell="5,1" />
-                            <ParameterRefRef RefId="%AID%_UP-%TT%%CC%145_R-%TT%%CC%14501" Cell="6,1" />
-                            <ParameterRefRef RefId="%AID%_UP-%TT%%CC%146_R-%TT%%CC%14601" Cell="7,1" />
-                            <ParameterRefRef RefId="%AID%_UP-%TT%%CC%147_R-%TT%%CC%14701" Cell="8,1" />
-                            <ParameterRefRef RefId="%AID%_UP-%TT%%CC%148_R-%TT%%CC%14801" Cell="9,1" />
-                            <ParameterRefRef RefId="%AID%_UP-%TT%%CC%149_R-%TT%%CC%14901" Cell="10,1" />
-                            <ParameterRefRef RefId="%AID%_UP-%TT%%CC%150_R-%TT%%CC%15001" Cell="11,1" />
-                            <ParameterRefRef RefId="%AID%_UP-%TT%%CC%151_R-%TT%%CC%15101" Cell="12,1" />
-                            <ParameterRefRef RefId="%AID%_UP-%TT%%CC%152_R-%TT%%CC%15201" Cell="13,1" />
-                            <ParameterRefRef RefId="%AID%_UP-%TT%%CC%153_R-%TT%%CC%15301" Cell="14,1" />
-                            <ParameterRefRef RefId="%AID%_UP-%TT%%CC%154_R-%TT%%CC%15401" Cell="15,1" />
-                            <ParameterRefRef RefId="%AID%_UP-%TT%%CC%155_R-%TT%%CC%15501" Cell="16,1" />
-                            <ParameterRefRef RefId="%AID%_UP-%TT%%CC%156_R-%TT%%CC%15601" Cell="17,1" />
-                            <ParameterRefRef RefId="%AID%_UP-%TT%%CC%157_R-%TT%%CC%15701" Cell="18,1" />
-                            <ParameterRefRef RefId="%AID%_UP-%TT%%CC%158_R-%TT%%CC%15801" Cell="19,1" />
-                            <ParameterRefRef RefId="%AID%_UP-%TT%%CC%159_R-%TT%%CC%15901" Cell="20,1" />
-                            <ParameterRefRef RefId="%AID%_UP-%TT%%CC%160_R-%TT%%CC%16001" Cell="21,1" />
-                            <ParameterRefRef RefId="%AID%_UP-%TT%%CC%161_R-%TT%%CC%16101" Cell="22,1" />
-                            <ParameterRefRef RefId="%AID%_UP-%TT%%CC%162_R-%TT%%CC%16201" Cell="23,1" />
-                            <ParameterRefRef RefId="%AID%_UP-%TT%%CC%163_R-%TT%%CC%16301" Cell="24,1" />
-                            <ParameterRefRef RefId="%AID%_UP-%TT%%CC%164_R-%TT%%CC%16401" Cell="25,1" />
-                            <ParameterRefRef RefId="%AID%_UP-%TT%%CC%165_R-%TT%%CC%16501" Cell="26,1" />
-                            <ParameterRefRef RefId="%AID%_UP-%TT%%CC%166_R-%TT%%CC%16601" Cell="27,1" />
-                            <ParameterRefRef RefId="%AID%_UP-%TT%%CC%167_R-%TT%%CC%16701" Cell="28,1" />
-                            <ParameterRefRef RefId="%AID%_UP-%TT%%CC%168_R-%TT%%CC%16801" Cell="29,1" />
-                            <ParameterRefRef RefId="%AID%_UP-%TT%%CC%169_R-%TT%%CC%16901" Cell="30,1" />
-                            <ParameterRefRef RefId="%AID%_UP-%TT%%CC%170_R-%TT%%CC%17001" Cell="31,1" />
-                            <ParameterRefRef RefId="%AID%_UP-%TT%%CC%171_R-%TT%%CC%17101" Cell="32,1" />
-                            <ParameterRefRef RefId="%AID%_UP-%TT%%CC%172_R-%TT%%CC%17201" Cell="33,1" />
-                            <ParameterRefRef RefId="%AID%_UP-%TT%%CC%173_R-%TT%%CC%17301" Cell="34,1" />
-                            <ParameterRefRef RefId="%AID%_UP-%TT%%CC%174_R-%TT%%CC%17401" Cell="35,1" />
-                            <ParameterRefRef RefId="%AID%_UP-%TT%%CC%175_R-%TT%%CC%17501" Cell="36,1" />
-                            <ParameterRefRef RefId="%AID%_UP-%TT%%CC%176_R-%TT%%CC%17601" Cell="37,1" />
-                            <ParameterRefRef RefId="%AID%_UP-%TT%%CC%177_R-%TT%%CC%17701" Cell="38,1" />
-                            <ParameterRefRef RefId="%AID%_UP-%TT%%CC%178_R-%TT%%CC%17801" Cell="39,1" />
-                            <ParameterRefRef RefId="%AID%_UP-%TT%%CC%179_R-%TT%%CC%17901" Cell="40,1" />
-                            <ParameterRefRef RefId="%AID%_UP-%TT%%CC%180_R-%TT%%CC%18001" Cell="41,1" />
-                            <ParameterRefRef RefId="%AID%_UP-%TT%%CC%181_R-%TT%%CC%18101" Cell="42,1" />
-                          </ParameterBlock>
+                          <ParameterRefRef IndentLevel="1" RefId="%AID%_UP-%TT%%CC%140_R-%TT%%CC%14001" HelpContext="GDW-Objekte" />
+                          <ParameterRefRef IndentLevel="1" RefId="%AID%_UP-%TT%%CC%141_R-%TT%%CC%14101" HelpContext="GDW-Objekte" />
+                          <ParameterRefRef IndentLevel="1" RefId="%AID%_UP-%TT%%CC%142_R-%TT%%CC%14201" HelpContext="GDW-Objekte" />
+                          <ParameterRefRef IndentLevel="1" RefId="%AID%_UP-%TT%%CC%143_R-%TT%%CC%14301" HelpContext="GDW-Objekte" />
+                          <ParameterRefRef IndentLevel="1" RefId="%AID%_UP-%TT%%CC%144_R-%TT%%CC%14401" HelpContext="GDW-Objekte" />
+                          <ParameterRefRef IndentLevel="1" RefId="%AID%_UP-%TT%%CC%145_R-%TT%%CC%14501" HelpContext="GDW-Objekte" />
+                          <ParameterRefRef IndentLevel="1" RefId="%AID%_UP-%TT%%CC%146_R-%TT%%CC%14601" HelpContext="GDW-Objekte" />
+                          <ParameterRefRef IndentLevel="1" RefId="%AID%_UP-%TT%%CC%147_R-%TT%%CC%14701" HelpContext="GDW-Objekte" />
+                          <ParameterRefRef IndentLevel="1" RefId="%AID%_UP-%TT%%CC%148_R-%TT%%CC%14801" HelpContext="GDW-Objekte" />
+                          <ParameterRefRef IndentLevel="1" RefId="%AID%_UP-%TT%%CC%149_R-%TT%%CC%14901" HelpContext="GDW-Objekte" />
+                          <ParameterRefRef IndentLevel="1" RefId="%AID%_UP-%TT%%CC%150_R-%TT%%CC%15001" HelpContext="GDW-Objekte" />
+                          <ParameterRefRef IndentLevel="1" RefId="%AID%_UP-%TT%%CC%151_R-%TT%%CC%15101" HelpContext="GDW-Objekte" />
+                          <ParameterRefRef IndentLevel="1" RefId="%AID%_UP-%TT%%CC%152_R-%TT%%CC%15201" HelpContext="GDW-Objekte" />
+                          <ParameterRefRef IndentLevel="1" RefId="%AID%_UP-%TT%%CC%153_R-%TT%%CC%15301" HelpContext="GDW-Objekte" />
+                          <ParameterRefRef IndentLevel="1" RefId="%AID%_UP-%TT%%CC%154_R-%TT%%CC%15401" HelpContext="GDW-Objekte" />
+                          <ParameterRefRef IndentLevel="1" RefId="%AID%_UP-%TT%%CC%155_R-%TT%%CC%15501" HelpContext="GDW-Objekte" />
+                          <ParameterRefRef IndentLevel="1" RefId="%AID%_UP-%TT%%CC%156_R-%TT%%CC%15601" HelpContext="GDW-Objekte" />
+                          <ParameterRefRef IndentLevel="1" RefId="%AID%_UP-%TT%%CC%157_R-%TT%%CC%15701" HelpContext="GDW-Objekte" />
+                          <ParameterRefRef IndentLevel="1" RefId="%AID%_UP-%TT%%CC%158_R-%TT%%CC%15801" HelpContext="GDW-Objekte" />
+                          <ParameterRefRef IndentLevel="1" RefId="%AID%_UP-%TT%%CC%159_R-%TT%%CC%15901" HelpContext="GDW-Objekte" />
+                          <ParameterRefRef IndentLevel="1" RefId="%AID%_UP-%TT%%CC%160_R-%TT%%CC%16001" HelpContext="GDW-Objekte" />
+                          <ParameterRefRef IndentLevel="1" RefId="%AID%_UP-%TT%%CC%161_R-%TT%%CC%16101" HelpContext="GDW-Objekte" />
+                          <ParameterRefRef IndentLevel="1" RefId="%AID%_UP-%TT%%CC%162_R-%TT%%CC%16201" HelpContext="GDW-Objekte" />
+                          <ParameterRefRef IndentLevel="1" RefId="%AID%_UP-%TT%%CC%163_R-%TT%%CC%16301" HelpContext="GDW-Objekte" />
+                          <ParameterRefRef IndentLevel="1" RefId="%AID%_UP-%TT%%CC%164_R-%TT%%CC%16401" HelpContext="GDW-Objekte" />
+                          <ParameterRefRef IndentLevel="1" RefId="%AID%_UP-%TT%%CC%165_R-%TT%%CC%16501" HelpContext="GDW-Objekte" />
+                          <ParameterRefRef IndentLevel="1" RefId="%AID%_UP-%TT%%CC%166_R-%TT%%CC%16601" HelpContext="GDW-Objekte" />
+                          <ParameterRefRef IndentLevel="1" RefId="%AID%_UP-%TT%%CC%167_R-%TT%%CC%16701" HelpContext="GDW-Objekte" />
+                          <ParameterRefRef IndentLevel="1" RefId="%AID%_UP-%TT%%CC%168_R-%TT%%CC%16801" HelpContext="GDW-Objekte" />
+                          <ParameterRefRef IndentLevel="1" RefId="%AID%_UP-%TT%%CC%169_R-%TT%%CC%16901" HelpContext="GDW-Objekte" />
+                          <ParameterRefRef IndentLevel="1" RefId="%AID%_UP-%TT%%CC%170_R-%TT%%CC%17001" HelpContext="GDW-Objekte" />
+                          <ParameterRefRef IndentLevel="1" RefId="%AID%_UP-%TT%%CC%171_R-%TT%%CC%17101" HelpContext="GDW-Objekte" />
+                          <ParameterRefRef IndentLevel="1" RefId="%AID%_UP-%TT%%CC%172_R-%TT%%CC%17201" HelpContext="GDW-Objekte" />
+                          <ParameterRefRef IndentLevel="1" RefId="%AID%_UP-%TT%%CC%173_R-%TT%%CC%17301" HelpContext="GDW-Objekte" />
+                          <ParameterRefRef IndentLevel="1" RefId="%AID%_UP-%TT%%CC%174_R-%TT%%CC%17401" HelpContext="GDW-Objekte" />
+                          <ParameterRefRef IndentLevel="1" RefId="%AID%_UP-%TT%%CC%175_R-%TT%%CC%17501" HelpContext="GDW-Objekte" />
+                          <ParameterRefRef IndentLevel="1" RefId="%AID%_UP-%TT%%CC%176_R-%TT%%CC%17601" HelpContext="GDW-Objekte" />
+                          <ParameterRefRef IndentLevel="1" RefId="%AID%_UP-%TT%%CC%177_R-%TT%%CC%17701" HelpContext="GDW-Objekte" />
+                          <ParameterRefRef IndentLevel="1" RefId="%AID%_UP-%TT%%CC%178_R-%TT%%CC%17801" HelpContext="GDW-Objekte" />
+                          <ParameterRefRef IndentLevel="1" RefId="%AID%_UP-%TT%%CC%179_R-%TT%%CC%17901" HelpContext="GDW-Objekte" />
+                          <ParameterRefRef IndentLevel="1" RefId="%AID%_UP-%TT%%CC%180_R-%TT%%CC%18001" HelpContext="GDW-Objekte" />
+                          <ParameterRefRef IndentLevel="1" RefId="%AID%_UP-%TT%%CC%181_R-%TT%%CC%18101" HelpContext="GDW-Objekte" />
                         </when>
                       </choose>
                       <ParameterSeparator Id="%AID%_PS-nnn" Text="Netz" UIHint="Headline" />
-                      <ParameterBlock Id="%AID%_PB-%CC%OT7" Name="OTbl7" Text="Netz" Inline="true" Layout="Table" HelpContext="GDW-Objekte">
-                        <Rows>
-                          <Row Id="%AID%_PB-%CC%OT7_R-1" Name="R1" Text="Netzspannung L1 (V)" />
-                          <Row Id="%AID%_PB-%CC%OT7_R-2" Name="R2" Text="Netzstrom L1 (A)" />
-                          <Row Id="%AID%_PB-%CC%OT7_R-3" Name="R3" Text="Netzfrequenz L1 (Hz)" />
-                          <Row Id="%AID%_PB-%CC%OT7_R-4" Name="R4" Text="Leistung L1 (W)" />
-                          <Row Id="%AID%_PB-%CC%OT7_R-5" Name="R5" Text="Netzspannung L2 (V)" />
-                          <Row Id="%AID%_PB-%CC%OT7_R-6" Name="R6" Text="Netzstrom L2 (A)" />
-                          <Row Id="%AID%_PB-%CC%OT7_R-7" Name="R7" Text="Netzfrequenz L2 (Hz)" />
-                          <Row Id="%AID%_PB-%CC%OT7_R-8" Name="R8" Text="Leistung L2 (W)" />
-                          <Row Id="%AID%_PB-%CC%OT7_R-9" Name="R9" Text="Netzspannung L3 (V)" />
-                          <Row Id="%AID%_PB-%CC%OT7_R-10" Name="R10" Text="Netzstrom L3 (A)" />
-                          <Row Id="%AID%_PB-%CC%OT7_R-11" Name="R11" Text="Netzfrequenz L3 (Hz)" />
-                          <Row Id="%AID%_PB-%CC%OT7_R-12" Name="R12" Text="Leistung L3 (W)" />
-                          <Row Id="%AID%_PB-%CC%OT7_R-13" Name="R13" Text="Wechselrichterleistung (W)" />
-                          <Row Id="%AID%_PB-%CC%OT7_R-14" Name="R14" Text="Netzleistung (+ Einspeisung)" />
-                          <Row Id="%AID%_PB-%CC%OT7_R-15" Name="R15" Text="Netzbezug Leistung (W)" />
-                          <Row Id="%AID%_PB-%CC%OT7_R-16" Name="R16" Text="Einspeisung Leistung (W)" />
-                          <Row Id="%AID%_PB-%CC%OT7_R-17" Name="R17" Text="Blindleistung (var)" />
-                          <Row Id="%AID%_PB-%CC%OT7_R-18" Name="R18" Text="Scheinleistung (VA)" />
-                          <Row Id="%AID%_PB-%CC%OT7_R-19" Name="R19" Text="Hausverbrauch (W)" />
-                        </Rows>
-                        <Columns>
-                          <Column Id="%AID%_PB-%CC%OT7_C-1" Name="C1" Text="aktiv" Width="20%" />
-                        </Columns>
-                        <ParameterRefRef RefId="%AID%_UP-%TT%%CC%182_R-%TT%%CC%18201" Cell="1,1" />
-                        <ParameterRefRef RefId="%AID%_UP-%TT%%CC%183_R-%TT%%CC%18301" Cell="2,1" />
-                        <ParameterRefRef RefId="%AID%_UP-%TT%%CC%184_R-%TT%%CC%18401" Cell="3,1" />
-                        <ParameterRefRef RefId="%AID%_UP-%TT%%CC%185_R-%TT%%CC%18501" Cell="4,1" />
-                        <ParameterRefRef RefId="%AID%_UP-%TT%%CC%186_R-%TT%%CC%18601" Cell="5,1" />
-                        <ParameterRefRef RefId="%AID%_UP-%TT%%CC%187_R-%TT%%CC%18701" Cell="6,1" />
-                        <ParameterRefRef RefId="%AID%_UP-%TT%%CC%188_R-%TT%%CC%18801" Cell="7,1" />
-                        <ParameterRefRef RefId="%AID%_UP-%TT%%CC%189_R-%TT%%CC%18901" Cell="8,1" />
-                        <ParameterRefRef RefId="%AID%_UP-%TT%%CC%190_R-%TT%%CC%19001" Cell="9,1" />
-                        <ParameterRefRef RefId="%AID%_UP-%TT%%CC%191_R-%TT%%CC%19101" Cell="10,1" />
-                        <ParameterRefRef RefId="%AID%_UP-%TT%%CC%192_R-%TT%%CC%19201" Cell="11,1" />
-                        <ParameterRefRef RefId="%AID%_UP-%TT%%CC%193_R-%TT%%CC%19301" Cell="12,1" />
-                        <ParameterRefRef RefId="%AID%_UP-%TT%%CC%194_R-%TT%%CC%19401" Cell="13,1" />
-                        <ParameterRefRef RefId="%AID%_UP-%TT%%CC%195_R-%TT%%CC%19501" Cell="14,1" />
-                        <ParameterRefRef RefId="%AID%_UP-%TT%%CC%196_R-%TT%%CC%19601" Cell="15,1" />
-                        <ParameterRefRef RefId="%AID%_UP-%TT%%CC%197_R-%TT%%CC%19701" Cell="16,1" />
-                        <ParameterRefRef RefId="%AID%_UP-%TT%%CC%198_R-%TT%%CC%19801" Cell="17,1" />
-                        <ParameterRefRef RefId="%AID%_UP-%TT%%CC%199_R-%TT%%CC%19901" Cell="18,1" />
-                        <ParameterRefRef RefId="%AID%_UP-%TT%%CC%200_R-%TT%%CC%20001" Cell="19,1" />
-                      </ParameterBlock>
+                      <ParameterRefRef IndentLevel="1" RefId="%AID%_UP-%TT%%CC%182_R-%TT%%CC%18201" HelpContext="GDW-Objekte" />
+                      <ParameterRefRef IndentLevel="1" RefId="%AID%_UP-%TT%%CC%183_R-%TT%%CC%18301" HelpContext="GDW-Objekte" />
+                      <ParameterRefRef IndentLevel="1" RefId="%AID%_UP-%TT%%CC%184_R-%TT%%CC%18401" HelpContext="GDW-Objekte" />
+                      <ParameterRefRef IndentLevel="1" RefId="%AID%_UP-%TT%%CC%185_R-%TT%%CC%18501" HelpContext="GDW-Objekte" />
+                      <ParameterRefRef IndentLevel="1" RefId="%AID%_UP-%TT%%CC%186_R-%TT%%CC%18601" HelpContext="GDW-Objekte" />
+                      <ParameterRefRef IndentLevel="1" RefId="%AID%_UP-%TT%%CC%187_R-%TT%%CC%18701" HelpContext="GDW-Objekte" />
+                      <ParameterRefRef IndentLevel="1" RefId="%AID%_UP-%TT%%CC%188_R-%TT%%CC%18801" HelpContext="GDW-Objekte" />
+                      <ParameterRefRef IndentLevel="1" RefId="%AID%_UP-%TT%%CC%189_R-%TT%%CC%18901" HelpContext="GDW-Objekte" />
+                      <ParameterRefRef IndentLevel="1" RefId="%AID%_UP-%TT%%CC%190_R-%TT%%CC%19001" HelpContext="GDW-Objekte" />
+                      <ParameterRefRef IndentLevel="1" RefId="%AID%_UP-%TT%%CC%191_R-%TT%%CC%19101" HelpContext="GDW-Objekte" />
+                      <ParameterRefRef IndentLevel="1" RefId="%AID%_UP-%TT%%CC%192_R-%TT%%CC%19201" HelpContext="GDW-Objekte" />
+                      <ParameterRefRef IndentLevel="1" RefId="%AID%_UP-%TT%%CC%193_R-%TT%%CC%19301" HelpContext="GDW-Objekte" />
+                      <ParameterRefRef IndentLevel="1" RefId="%AID%_UP-%TT%%CC%194_R-%TT%%CC%19401" HelpContext="GDW-Objekte" />
+                      <ParameterRefRef IndentLevel="1" RefId="%AID%_UP-%TT%%CC%195_R-%TT%%CC%19501" HelpContext="GDW-Objekte" />
+                      <ParameterRefRef IndentLevel="1" RefId="%AID%_UP-%TT%%CC%196_R-%TT%%CC%19601" HelpContext="GDW-Objekte" />
+                      <ParameterRefRef IndentLevel="1" RefId="%AID%_UP-%TT%%CC%197_R-%TT%%CC%19701" HelpContext="GDW-Objekte" />
+                      <ParameterRefRef IndentLevel="1" RefId="%AID%_UP-%TT%%CC%198_R-%TT%%CC%19801" HelpContext="GDW-Objekte" />
+                      <ParameterRefRef IndentLevel="1" RefId="%AID%_UP-%TT%%CC%199_R-%TT%%CC%19901" HelpContext="GDW-Objekte" />
+                      <ParameterRefRef IndentLevel="1" RefId="%AID%_UP-%TT%%CC%200_R-%TT%%CC%20001" HelpContext="GDW-Objekte" />
                       <choose ParamRefId="%AID%_UP-%TT%%CC%010_R-%TT%%CC%01001">
                         <when test="1 2">
                           <ParameterSeparator Id="%AID%_PS-nnn" Text="Netz Hybrid" UIHint="Headline" />
-                          <ParameterBlock Id="%AID%_PB-%CC%OT8" Name="OTbl8" Text="Netz Hybrid" Inline="true" Layout="Table" HelpContext="GDW-Objekte">
-                            <Rows>
-                              <Row Id="%AID%_PB-%CC%OT8_R-1" Name="R1" Text="Blindleistung L1 (var)" />
-                              <Row Id="%AID%_PB-%CC%OT8_R-2" Name="R2" Text="Blindleistung L2 (var)" />
-                              <Row Id="%AID%_PB-%CC%OT8_R-3" Name="R3" Text="Blindleistung L3 (var)" />
-                              <Row Id="%AID%_PB-%CC%OT8_R-4" Name="R4" Text="Scheinleistung L1 (VA)" />
-                              <Row Id="%AID%_PB-%CC%OT8_R-5" Name="R5" Text="Scheinleistung L2 (VA)" />
-                              <Row Id="%AID%_PB-%CC%OT8_R-6" Name="R6" Text="Scheinleistung L3 (VA)" />
-                            </Rows>
-                            <Columns>
-                              <Column Id="%AID%_PB-%CC%OT8_C-1" Name="C1" Text="aktiv" Width="20%" />
-                            </Columns>
-                            <ParameterRefRef RefId="%AID%_UP-%TT%%CC%201_R-%TT%%CC%20101" Cell="1,1" />
-                            <ParameterRefRef RefId="%AID%_UP-%TT%%CC%202_R-%TT%%CC%20201" Cell="2,1" />
-                            <ParameterRefRef RefId="%AID%_UP-%TT%%CC%203_R-%TT%%CC%20301" Cell="3,1" />
-                            <ParameterRefRef RefId="%AID%_UP-%TT%%CC%204_R-%TT%%CC%20401" Cell="4,1" />
-                            <ParameterRefRef RefId="%AID%_UP-%TT%%CC%205_R-%TT%%CC%20501" Cell="5,1" />
-                            <ParameterRefRef RefId="%AID%_UP-%TT%%CC%206_R-%TT%%CC%20601" Cell="6,1" />
-                          </ParameterBlock>
+                          <ParameterRefRef IndentLevel="1" RefId="%AID%_UP-%TT%%CC%201_R-%TT%%CC%20101" HelpContext="GDW-Objekte" />
+                          <ParameterRefRef IndentLevel="1" RefId="%AID%_UP-%TT%%CC%202_R-%TT%%CC%20201" HelpContext="GDW-Objekte" />
+                          <ParameterRefRef IndentLevel="1" RefId="%AID%_UP-%TT%%CC%203_R-%TT%%CC%20301" HelpContext="GDW-Objekte" />
+                          <ParameterRefRef IndentLevel="1" RefId="%AID%_UP-%TT%%CC%204_R-%TT%%CC%20401" HelpContext="GDW-Objekte" />
+                          <ParameterRefRef IndentLevel="1" RefId="%AID%_UP-%TT%%CC%205_R-%TT%%CC%20501" HelpContext="GDW-Objekte" />
+                          <ParameterRefRef IndentLevel="1" RefId="%AID%_UP-%TT%%CC%206_R-%TT%%CC%20601" HelpContext="GDW-Objekte" />
                         </when>
                       </choose>
                       <choose ParamRefId="%AID%_UP-%TT%%CC%010_R-%TT%%CC%01001">
                         <when test="1 3">
                           <ParameterSeparator Id="%AID%_PS-nnn" Text="Netz netzgekoppelt" UIHint="Headline" />
-                          <ParameterBlock Id="%AID%_PB-%CC%OT9" Name="OTbl9" Text="Netz netzgekoppelt" Inline="true" Layout="Table" HelpContext="GDW-Objekte">
-                            <Rows>
-                              <Row Id="%AID%_PB-%CC%OT9_R-1" Name="R1" Text="Außenleiterspannung L1-L2 (V)" />
-                              <Row Id="%AID%_PB-%CC%OT9_R-2" Name="R2" Text="Außenleiterspannung L2-L3 (V)" />
-                              <Row Id="%AID%_PB-%CC%OT9_R-3" Name="R3" Text="Außenleiterspannung L3-L1 (V)" />
-                              <Row Id="%AID%_PB-%CC%OT9_R-4" Name="R4" Text="Leistungsfaktor" />
-                            </Rows>
-                            <Columns>
-                              <Column Id="%AID%_PB-%CC%OT9_C-1" Name="C1" Text="aktiv" Width="20%" />
-                            </Columns>
-                            <ParameterRefRef RefId="%AID%_UP-%TT%%CC%207_R-%TT%%CC%20701" Cell="1,1" />
-                            <ParameterRefRef RefId="%AID%_UP-%TT%%CC%208_R-%TT%%CC%20801" Cell="2,1" />
-                            <ParameterRefRef RefId="%AID%_UP-%TT%%CC%209_R-%TT%%CC%20901" Cell="3,1" />
-                            <ParameterRefRef RefId="%AID%_UP-%TT%%CC%210_R-%TT%%CC%21001" Cell="4,1" />
-                          </ParameterBlock>
+                          <ParameterRefRef IndentLevel="1" RefId="%AID%_UP-%TT%%CC%207_R-%TT%%CC%20701" HelpContext="GDW-Objekte" />
+                          <ParameterRefRef IndentLevel="1" RefId="%AID%_UP-%TT%%CC%208_R-%TT%%CC%20801" HelpContext="GDW-Objekte" />
+                          <ParameterRefRef IndentLevel="1" RefId="%AID%_UP-%TT%%CC%209_R-%TT%%CC%20901" HelpContext="GDW-Objekte" />
+                          <ParameterRefRef IndentLevel="1" RefId="%AID%_UP-%TT%%CC%210_R-%TT%%CC%21001" HelpContext="GDW-Objekte" />
                         </when>
                       </choose>
                       <choose ParamRefId="%AID%_UP-%TT%%CC%010_R-%TT%%CC%01001">
                         <when test="1 2">
                           <ParameterSeparator Id="%AID%_PS-nnn" Text="Backup und Last" UIHint="Headline" />
-                          <ParameterBlock Id="%AID%_PB-%CC%OT10" Name="OTbl10" Text="Backup und Last" Inline="true" Layout="Table" HelpContext="GDW-Objekte">
-                            <Rows>
-                              <Row Id="%AID%_PB-%CC%OT10_R-1" Name="R1" Text="Backup L1 Spannung (V)" />
-                              <Row Id="%AID%_PB-%CC%OT10_R-2" Name="R2" Text="Backup L1 Strom (A)" />
-                              <Row Id="%AID%_PB-%CC%OT10_R-3" Name="R3" Text="Backup L1 Frequenz (Hz)" />
-                              <Row Id="%AID%_PB-%CC%OT10_R-4" Name="R4" Text="Lastmodus L1" />
-                              <Row Id="%AID%_PB-%CC%OT10_R-5" Name="R5" Text="Backup L1 Leistung (W)" />
-                              <Row Id="%AID%_PB-%CC%OT10_R-6" Name="R6" Text="Backup L2 Spannung (V)" />
-                              <Row Id="%AID%_PB-%CC%OT10_R-7" Name="R7" Text="Backup L2 Strom (A)" />
-                              <Row Id="%AID%_PB-%CC%OT10_R-8" Name="R8" Text="Backup L2 Frequenz (Hz)" />
-                              <Row Id="%AID%_PB-%CC%OT10_R-9" Name="R9" Text="Lastmodus L2" />
-                              <Row Id="%AID%_PB-%CC%OT10_R-10" Name="R10" Text="Backup L2 Leistung (W)" />
-                              <Row Id="%AID%_PB-%CC%OT10_R-11" Name="R11" Text="Backup L3 Spannung (V)" />
-                              <Row Id="%AID%_PB-%CC%OT10_R-12" Name="R12" Text="Backup L3 Strom (A)" />
-                              <Row Id="%AID%_PB-%CC%OT10_R-13" Name="R13" Text="Backup L3 Frequenz (Hz)" />
-                              <Row Id="%AID%_PB-%CC%OT10_R-14" Name="R14" Text="Lastmodus L3" />
-                              <Row Id="%AID%_PB-%CC%OT10_R-15" Name="R15" Text="Backup L3 Leistung (W)" />
-                              <Row Id="%AID%_PB-%CC%OT10_R-16" Name="R16" Text="Last L1 (W)" />
-                              <Row Id="%AID%_PB-%CC%OT10_R-17" Name="R17" Text="Last L2 (W)" />
-                              <Row Id="%AID%_PB-%CC%OT10_R-18" Name="R18" Text="Last L3 (W)" />
-                              <Row Id="%AID%_PB-%CC%OT10_R-19" Name="R19" Text="Backup-Last gesamt (W)" />
-                              <Row Id="%AID%_PB-%CC%OT10_R-20" Name="R20" Text="Last gesamt (W)" />
-                              <Row Id="%AID%_PB-%CC%OT10_R-21" Name="R21" Text="USV-Auslastung (%)" />
-                            </Rows>
-                            <Columns>
-                              <Column Id="%AID%_PB-%CC%OT10_C-1" Name="C1" Text="aktiv" Width="20%" />
-                            </Columns>
-                            <ParameterRefRef RefId="%AID%_UP-%TT%%CC%211_R-%TT%%CC%21101" Cell="1,1" />
-                            <ParameterRefRef RefId="%AID%_UP-%TT%%CC%212_R-%TT%%CC%21201" Cell="2,1" />
-                            <ParameterRefRef RefId="%AID%_UP-%TT%%CC%213_R-%TT%%CC%21301" Cell="3,1" />
-                            <ParameterRefRef RefId="%AID%_UP-%TT%%CC%214_R-%TT%%CC%21401" Cell="4,1" />
-                            <ParameterRefRef RefId="%AID%_UP-%TT%%CC%215_R-%TT%%CC%21501" Cell="5,1" />
-                            <ParameterRefRef RefId="%AID%_UP-%TT%%CC%216_R-%TT%%CC%21601" Cell="6,1" />
-                            <ParameterRefRef RefId="%AID%_UP-%TT%%CC%217_R-%TT%%CC%21701" Cell="7,1" />
-                            <ParameterRefRef RefId="%AID%_UP-%TT%%CC%218_R-%TT%%CC%21801" Cell="8,1" />
-                            <ParameterRefRef RefId="%AID%_UP-%TT%%CC%219_R-%TT%%CC%21901" Cell="9,1" />
-                            <ParameterRefRef RefId="%AID%_UP-%TT%%CC%220_R-%TT%%CC%22001" Cell="10,1" />
-                            <ParameterRefRef RefId="%AID%_UP-%TT%%CC%221_R-%TT%%CC%22101" Cell="11,1" />
-                            <ParameterRefRef RefId="%AID%_UP-%TT%%CC%222_R-%TT%%CC%22201" Cell="12,1" />
-                            <ParameterRefRef RefId="%AID%_UP-%TT%%CC%223_R-%TT%%CC%22301" Cell="13,1" />
-                            <ParameterRefRef RefId="%AID%_UP-%TT%%CC%224_R-%TT%%CC%22401" Cell="14,1" />
-                            <ParameterRefRef RefId="%AID%_UP-%TT%%CC%225_R-%TT%%CC%22501" Cell="15,1" />
-                            <ParameterRefRef RefId="%AID%_UP-%TT%%CC%226_R-%TT%%CC%22601" Cell="16,1" />
-                            <ParameterRefRef RefId="%AID%_UP-%TT%%CC%227_R-%TT%%CC%22701" Cell="17,1" />
-                            <ParameterRefRef RefId="%AID%_UP-%TT%%CC%228_R-%TT%%CC%22801" Cell="18,1" />
-                            <ParameterRefRef RefId="%AID%_UP-%TT%%CC%229_R-%TT%%CC%22901" Cell="19,1" />
-                            <ParameterRefRef RefId="%AID%_UP-%TT%%CC%230_R-%TT%%CC%23001" Cell="20,1" />
-                            <ParameterRefRef RefId="%AID%_UP-%TT%%CC%231_R-%TT%%CC%23101" Cell="21,1" />
-                          </ParameterBlock>
+                          <ParameterRefRef IndentLevel="1" RefId="%AID%_UP-%TT%%CC%211_R-%TT%%CC%21101" HelpContext="GDW-Objekte" />
+                          <ParameterRefRef IndentLevel="1" RefId="%AID%_UP-%TT%%CC%212_R-%TT%%CC%21201" HelpContext="GDW-Objekte" />
+                          <ParameterRefRef IndentLevel="1" RefId="%AID%_UP-%TT%%CC%213_R-%TT%%CC%21301" HelpContext="GDW-Objekte" />
+                          <ParameterRefRef IndentLevel="1" RefId="%AID%_UP-%TT%%CC%214_R-%TT%%CC%21401" HelpContext="GDW-Objekte" />
+                          <ParameterRefRef IndentLevel="1" RefId="%AID%_UP-%TT%%CC%215_R-%TT%%CC%21501" HelpContext="GDW-Objekte" />
+                          <ParameterRefRef IndentLevel="1" RefId="%AID%_UP-%TT%%CC%216_R-%TT%%CC%21601" HelpContext="GDW-Objekte" />
+                          <ParameterRefRef IndentLevel="1" RefId="%AID%_UP-%TT%%CC%217_R-%TT%%CC%21701" HelpContext="GDW-Objekte" />
+                          <ParameterRefRef IndentLevel="1" RefId="%AID%_UP-%TT%%CC%218_R-%TT%%CC%21801" HelpContext="GDW-Objekte" />
+                          <ParameterRefRef IndentLevel="1" RefId="%AID%_UP-%TT%%CC%219_R-%TT%%CC%21901" HelpContext="GDW-Objekte" />
+                          <ParameterRefRef IndentLevel="1" RefId="%AID%_UP-%TT%%CC%220_R-%TT%%CC%22001" HelpContext="GDW-Objekte" />
+                          <ParameterRefRef IndentLevel="1" RefId="%AID%_UP-%TT%%CC%221_R-%TT%%CC%22101" HelpContext="GDW-Objekte" />
+                          <ParameterRefRef IndentLevel="1" RefId="%AID%_UP-%TT%%CC%222_R-%TT%%CC%22201" HelpContext="GDW-Objekte" />
+                          <ParameterRefRef IndentLevel="1" RefId="%AID%_UP-%TT%%CC%223_R-%TT%%CC%22301" HelpContext="GDW-Objekte" />
+                          <ParameterRefRef IndentLevel="1" RefId="%AID%_UP-%TT%%CC%224_R-%TT%%CC%22401" HelpContext="GDW-Objekte" />
+                          <ParameterRefRef IndentLevel="1" RefId="%AID%_UP-%TT%%CC%225_R-%TT%%CC%22501" HelpContext="GDW-Objekte" />
+                          <ParameterRefRef IndentLevel="1" RefId="%AID%_UP-%TT%%CC%226_R-%TT%%CC%22601" HelpContext="GDW-Objekte" />
+                          <ParameterRefRef IndentLevel="1" RefId="%AID%_UP-%TT%%CC%227_R-%TT%%CC%22701" HelpContext="GDW-Objekte" />
+                          <ParameterRefRef IndentLevel="1" RefId="%AID%_UP-%TT%%CC%228_R-%TT%%CC%22801" HelpContext="GDW-Objekte" />
+                          <ParameterRefRef IndentLevel="1" RefId="%AID%_UP-%TT%%CC%229_R-%TT%%CC%22901" HelpContext="GDW-Objekte" />
+                          <ParameterRefRef IndentLevel="1" RefId="%AID%_UP-%TT%%CC%230_R-%TT%%CC%23001" HelpContext="GDW-Objekte" />
+                          <ParameterRefRef IndentLevel="1" RefId="%AID%_UP-%TT%%CC%231_R-%TT%%CC%23101" HelpContext="GDW-Objekte" />
                         </when>
                       </choose>
                       <choose ParamRefId="%AID%_UP-%TT%%CC%010_R-%TT%%CC%01001">
                         <when test="1 2">
                           <ParameterSeparator Id="%AID%_PS-nnn" Text="Batterie" UIHint="Headline" />
-                          <ParameterBlock Id="%AID%_PB-%CC%OT11" Name="OTbl11" Text="Batterie" Inline="true" Layout="Table" HelpContext="GDW-Objekte">
-                            <Rows>
-                              <Row Id="%AID%_PB-%CC%OT11_R-1" Name="R1" Text="Batterie Spannung (V)" />
-                              <Row Id="%AID%_PB-%CC%OT11_R-2" Name="R2" Text="Batterie Strom (A)" />
-                              <Row Id="%AID%_PB-%CC%OT11_R-3" Name="R3" Text="Batterie Leistung (+ Entladen)" />
-                              <Row Id="%AID%_PB-%CC%OT11_R-4" Name="R4" Text="Batterie Modus" />
-                              <Row Id="%AID%_PB-%CC%OT11_R-5" Name="R5" Text="Batterie Ladezustand (%)" />
-                              <Row Id="%AID%_PB-%CC%OT11_R-6" Name="R6" Text="Batterie Gesundheitszustand (%)" />
-                              <Row Id="%AID%_PB-%CC%OT11_R-7" Name="R7" Text="Batterie Temperatur (°C)" />
-                              <Row Id="%AID%_PB-%CC%OT11_R-8" Name="R8" Text="Batterie Ladestromgrenze (A)" />
-                              <Row Id="%AID%_PB-%CC%OT11_R-9" Name="R9" Text="Batterie Entladestromgrenze (A)" />
-                              <Row Id="%AID%_PB-%CC%OT11_R-10" Name="R10" Text="Batterie BMS" />
-                              <Row Id="%AID%_PB-%CC%OT11_R-11" Name="R11" Text="Batterie Index" />
-                              <Row Id="%AID%_PB-%CC%OT11_R-12" Name="R12" Text="Batterie Status" />
-                              <Row Id="%AID%_PB-%CC%OT11_R-13" Name="R13" Text="Batterie Modulanzahl" />
-                              <Row Id="%AID%_PB-%CC%OT11_R-14" Name="R14" Text="Batterie Protokoll" />
-                              <Row Id="%AID%_PB-%CC%OT11_R-15" Name="R15" Text="Batterie Fehler" />
-                              <Row Id="%AID%_PB-%CC%OT11_R-16" Name="R16" Text="Batterie Warnung" />
-                              <Row Id="%AID%_PB-%CC%OT11_R-17" Name="R17" Text="Batterie Softwareversion" />
-                              <Row Id="%AID%_PB-%CC%OT11_R-18" Name="R18" Text="Batterie Hardwareversion" />
-                              <Row Id="%AID%_PB-%CC%OT11_R-19" Name="R19" Text="Batterie Zelle max. Temperatur (Nr.)" />
-                              <Row Id="%AID%_PB-%CC%OT11_R-20" Name="R20" Text="Batterie Zelle min. Temperatur (Nr.)" />
-                              <Row Id="%AID%_PB-%CC%OT11_R-21" Name="R21" Text="Batterie Zelle max. Spannung (Nr.)" />
-                              <Row Id="%AID%_PB-%CC%OT11_R-22" Name="R22" Text="Batterie Zelle min. Spannung (Nr.)" />
-                              <Row Id="%AID%_PB-%CC%OT11_R-23" Name="R23" Text="Batterie Zelltemperatur max. (°C)" />
-                              <Row Id="%AID%_PB-%CC%OT11_R-24" Name="R24" Text="Batterie Zelltemperatur min. (°C)" />
-                              <Row Id="%AID%_PB-%CC%OT11_R-25" Name="R25" Text="Batterie Zellspannung max. (V)" />
-                              <Row Id="%AID%_PB-%CC%OT11_R-26" Name="R26" Text="Batterie Zellspannung min. (V)" />
-                              <Row Id="%AID%_PB-%CC%OT11_R-27" Name="R27" Text="Batterie Kapazität (Ah)" />
-                            </Rows>
-                            <Columns>
-                              <Column Id="%AID%_PB-%CC%OT11_C-1" Name="C1" Text="aktiv" Width="20%" />
-                            </Columns>
-                            <ParameterRefRef RefId="%AID%_UP-%TT%%CC%232_R-%TT%%CC%23201" Cell="1,1" />
-                            <ParameterRefRef RefId="%AID%_UP-%TT%%CC%233_R-%TT%%CC%23301" Cell="2,1" />
-                            <ParameterRefRef RefId="%AID%_UP-%TT%%CC%234_R-%TT%%CC%23401" Cell="3,1" />
-                            <ParameterRefRef RefId="%AID%_UP-%TT%%CC%235_R-%TT%%CC%23501" Cell="4,1" />
-                            <ParameterRefRef RefId="%AID%_UP-%TT%%CC%236_R-%TT%%CC%23601" Cell="5,1" />
-                            <ParameterRefRef RefId="%AID%_UP-%TT%%CC%237_R-%TT%%CC%23701" Cell="6,1" />
-                            <ParameterRefRef RefId="%AID%_UP-%TT%%CC%238_R-%TT%%CC%23801" Cell="7,1" />
-                            <ParameterRefRef RefId="%AID%_UP-%TT%%CC%239_R-%TT%%CC%23901" Cell="8,1" />
-                            <ParameterRefRef RefId="%AID%_UP-%TT%%CC%240_R-%TT%%CC%24001" Cell="9,1" />
-                            <ParameterRefRef RefId="%AID%_UP-%TT%%CC%241_R-%TT%%CC%24101" Cell="10,1" />
-                            <ParameterRefRef RefId="%AID%_UP-%TT%%CC%242_R-%TT%%CC%24201" Cell="11,1" />
-                            <ParameterRefRef RefId="%AID%_UP-%TT%%CC%243_R-%TT%%CC%24301" Cell="12,1" />
-                            <ParameterRefRef RefId="%AID%_UP-%TT%%CC%244_R-%TT%%CC%24401" Cell="13,1" />
-                            <ParameterRefRef RefId="%AID%_UP-%TT%%CC%245_R-%TT%%CC%24501" Cell="14,1" />
-                            <ParameterRefRef RefId="%AID%_UP-%TT%%CC%246_R-%TT%%CC%24601" Cell="15,1" />
-                            <ParameterRefRef RefId="%AID%_UP-%TT%%CC%247_R-%TT%%CC%24701" Cell="16,1" />
-                            <ParameterRefRef RefId="%AID%_UP-%TT%%CC%248_R-%TT%%CC%24801" Cell="17,1" />
-                            <ParameterRefRef RefId="%AID%_UP-%TT%%CC%249_R-%TT%%CC%24901" Cell="18,1" />
-                            <ParameterRefRef RefId="%AID%_UP-%TT%%CC%250_R-%TT%%CC%25001" Cell="19,1" />
-                            <ParameterRefRef RefId="%AID%_UP-%TT%%CC%251_R-%TT%%CC%25101" Cell="20,1" />
-                            <ParameterRefRef RefId="%AID%_UP-%TT%%CC%252_R-%TT%%CC%25201" Cell="21,1" />
-                            <ParameterRefRef RefId="%AID%_UP-%TT%%CC%253_R-%TT%%CC%25301" Cell="22,1" />
-                            <ParameterRefRef RefId="%AID%_UP-%TT%%CC%254_R-%TT%%CC%25401" Cell="23,1" />
-                            <ParameterRefRef RefId="%AID%_UP-%TT%%CC%255_R-%TT%%CC%25501" Cell="24,1" />
-                            <ParameterRefRef RefId="%AID%_UP-%TT%%CC%256_R-%TT%%CC%25601" Cell="25,1" />
-                            <ParameterRefRef RefId="%AID%_UP-%TT%%CC%257_R-%TT%%CC%25701" Cell="26,1" />
-                            <ParameterRefRef RefId="%AID%_UP-%TT%%CC%258_R-%TT%%CC%25801" Cell="27,1" />
-                          </ParameterBlock>
+                          <ParameterRefRef IndentLevel="1" RefId="%AID%_UP-%TT%%CC%232_R-%TT%%CC%23201" HelpContext="GDW-Objekte" />
+                          <ParameterRefRef IndentLevel="1" RefId="%AID%_UP-%TT%%CC%233_R-%TT%%CC%23301" HelpContext="GDW-Objekte" />
+                          <ParameterRefRef IndentLevel="1" RefId="%AID%_UP-%TT%%CC%234_R-%TT%%CC%23401" HelpContext="GDW-Objekte" />
+                          <ParameterRefRef IndentLevel="1" RefId="%AID%_UP-%TT%%CC%235_R-%TT%%CC%23501" HelpContext="GDW-Objekte" />
+                          <ParameterRefRef IndentLevel="1" RefId="%AID%_UP-%TT%%CC%236_R-%TT%%CC%23601" HelpContext="GDW-Objekte" />
+                          <ParameterRefRef IndentLevel="1" RefId="%AID%_UP-%TT%%CC%237_R-%TT%%CC%23701" HelpContext="GDW-Objekte" />
+                          <ParameterRefRef IndentLevel="1" RefId="%AID%_UP-%TT%%CC%238_R-%TT%%CC%23801" HelpContext="GDW-Objekte" />
+                          <ParameterRefRef IndentLevel="1" RefId="%AID%_UP-%TT%%CC%239_R-%TT%%CC%23901" HelpContext="GDW-Objekte" />
+                          <ParameterRefRef IndentLevel="1" RefId="%AID%_UP-%TT%%CC%240_R-%TT%%CC%24001" HelpContext="GDW-Objekte" />
+                          <ParameterRefRef IndentLevel="1" RefId="%AID%_UP-%TT%%CC%241_R-%TT%%CC%24101" HelpContext="GDW-Objekte" />
+                          <ParameterRefRef IndentLevel="1" RefId="%AID%_UP-%TT%%CC%242_R-%TT%%CC%24201" HelpContext="GDW-Objekte" />
+                          <ParameterRefRef IndentLevel="1" RefId="%AID%_UP-%TT%%CC%243_R-%TT%%CC%24301" HelpContext="GDW-Objekte" />
+                          <ParameterRefRef IndentLevel="1" RefId="%AID%_UP-%TT%%CC%244_R-%TT%%CC%24401" HelpContext="GDW-Objekte" />
+                          <ParameterRefRef IndentLevel="1" RefId="%AID%_UP-%TT%%CC%245_R-%TT%%CC%24501" HelpContext="GDW-Objekte" />
+                          <ParameterRefRef IndentLevel="1" RefId="%AID%_UP-%TT%%CC%246_R-%TT%%CC%24601" HelpContext="GDW-Objekte" />
+                          <ParameterRefRef IndentLevel="1" RefId="%AID%_UP-%TT%%CC%247_R-%TT%%CC%24701" HelpContext="GDW-Objekte" />
+                          <ParameterRefRef IndentLevel="1" RefId="%AID%_UP-%TT%%CC%248_R-%TT%%CC%24801" HelpContext="GDW-Objekte" />
+                          <ParameterRefRef IndentLevel="1" RefId="%AID%_UP-%TT%%CC%249_R-%TT%%CC%24901" HelpContext="GDW-Objekte" />
+                          <ParameterRefRef IndentLevel="1" RefId="%AID%_UP-%TT%%CC%250_R-%TT%%CC%25001" HelpContext="GDW-Objekte" />
+                          <ParameterRefRef IndentLevel="1" RefId="%AID%_UP-%TT%%CC%251_R-%TT%%CC%25101" HelpContext="GDW-Objekte" />
+                          <ParameterRefRef IndentLevel="1" RefId="%AID%_UP-%TT%%CC%252_R-%TT%%CC%25201" HelpContext="GDW-Objekte" />
+                          <ParameterRefRef IndentLevel="1" RefId="%AID%_UP-%TT%%CC%253_R-%TT%%CC%25301" HelpContext="GDW-Objekte" />
+                          <ParameterRefRef IndentLevel="1" RefId="%AID%_UP-%TT%%CC%254_R-%TT%%CC%25401" HelpContext="GDW-Objekte" />
+                          <ParameterRefRef IndentLevel="1" RefId="%AID%_UP-%TT%%CC%255_R-%TT%%CC%25501" HelpContext="GDW-Objekte" />
+                          <ParameterRefRef IndentLevel="1" RefId="%AID%_UP-%TT%%CC%256_R-%TT%%CC%25601" HelpContext="GDW-Objekte" />
+                          <ParameterRefRef IndentLevel="1" RefId="%AID%_UP-%TT%%CC%257_R-%TT%%CC%25701" HelpContext="GDW-Objekte" />
+                          <ParameterRefRef IndentLevel="1" RefId="%AID%_UP-%TT%%CC%258_R-%TT%%CC%25801" HelpContext="GDW-Objekte" />
                         </when>
                       </choose>
                       <choose ParamRefId="%AID%_UP-%TT%%CC%010_R-%TT%%CC%01001">
                         <when test="1 2">
                           <ParameterSeparator Id="%AID%_PS-nnn" Text="Batterie 2" UIHint="Headline" />
-                          <ParameterBlock Id="%AID%_PB-%CC%OT12" Name="OTbl12" Text="Batterie 2" Inline="true" Layout="Table" HelpContext="GDW-Objekte">
-                            <Rows>
-                              <Row Id="%AID%_PB-%CC%OT12_R-1" Name="R1" Text="Batterie 2 Spannung (V)" />
-                              <Row Id="%AID%_PB-%CC%OT12_R-2" Name="R2" Text="Batterie 2 Strom (A)" />
-                              <Row Id="%AID%_PB-%CC%OT12_R-3" Name="R3" Text="Batterie 2 Leistung (+ Entladen)" />
-                              <Row Id="%AID%_PB-%CC%OT12_R-4" Name="R4" Text="Batterie 2 Modus" />
-                              <Row Id="%AID%_PB-%CC%OT12_R-5" Name="R5" Text="Batterie 2 Status" />
-                              <Row Id="%AID%_PB-%CC%OT12_R-6" Name="R6" Text="Batterie 2 Temperatur (°C)" />
-                              <Row Id="%AID%_PB-%CC%OT12_R-7" Name="R7" Text="Batterie 2 Ladestromgrenze (A)" />
-                              <Row Id="%AID%_PB-%CC%OT12_R-8" Name="R8" Text="Batterie 2 Entladestromgrenze (A)" />
-                              <Row Id="%AID%_PB-%CC%OT12_R-9" Name="R9" Text="Batterie 2 Ladezustand (%)" />
-                              <Row Id="%AID%_PB-%CC%OT12_R-10" Name="R10" Text="Batterie 2 Gesundheitszustand (%)" />
-                              <Row Id="%AID%_PB-%CC%OT12_R-11" Name="R11" Text="Batterie 2 Modulanzahl" />
-                              <Row Id="%AID%_PB-%CC%OT12_R-12" Name="R12" Text="Batterie 2 Protokoll" />
-                              <Row Id="%AID%_PB-%CC%OT12_R-13" Name="R13" Text="Batterie 2 Fehler" />
-                              <Row Id="%AID%_PB-%CC%OT12_R-14" Name="R14" Text="Batterie 2 Warnung" />
-                              <Row Id="%AID%_PB-%CC%OT12_R-15" Name="R15" Text="Batterie 2 Softwareversion" />
-                              <Row Id="%AID%_PB-%CC%OT12_R-16" Name="R16" Text="Batterie 2 Hardwareversion" />
-                              <Row Id="%AID%_PB-%CC%OT12_R-17" Name="R17" Text="Batterie 2 Zelle max. Temperatur (Nr.)" />
-                              <Row Id="%AID%_PB-%CC%OT12_R-18" Name="R18" Text="Batterie 2 Zelle min. Temperatur (Nr.)" />
-                              <Row Id="%AID%_PB-%CC%OT12_R-19" Name="R19" Text="Batterie 2 Zelle max. Spannung (Nr.)" />
-                              <Row Id="%AID%_PB-%CC%OT12_R-20" Name="R20" Text="Batterie 2 Zelle min. Spannung (Nr.)" />
-                              <Row Id="%AID%_PB-%CC%OT12_R-21" Name="R21" Text="Batterie 2 Zelltemperatur max. (°C)" />
-                              <Row Id="%AID%_PB-%CC%OT12_R-22" Name="R22" Text="Batterie 2 Zelltemperatur min. (°C)" />
-                              <Row Id="%AID%_PB-%CC%OT12_R-23" Name="R23" Text="Batterie 2 Zellspannung max. (V)" />
-                              <Row Id="%AID%_PB-%CC%OT12_R-24" Name="R24" Text="Batterie 2 Zellspannung min. (V)" />
-                            </Rows>
-                            <Columns>
-                              <Column Id="%AID%_PB-%CC%OT12_C-1" Name="C1" Text="aktiv" Width="20%" />
-                            </Columns>
-                            <ParameterRefRef RefId="%AID%_UP-%TT%%CC%259_R-%TT%%CC%25901" Cell="1,1" />
-                            <ParameterRefRef RefId="%AID%_UP-%TT%%CC%260_R-%TT%%CC%26001" Cell="2,1" />
-                            <ParameterRefRef RefId="%AID%_UP-%TT%%CC%261_R-%TT%%CC%26101" Cell="3,1" />
-                            <ParameterRefRef RefId="%AID%_UP-%TT%%CC%262_R-%TT%%CC%26201" Cell="4,1" />
-                            <ParameterRefRef RefId="%AID%_UP-%TT%%CC%263_R-%TT%%CC%26301" Cell="5,1" />
-                            <ParameterRefRef RefId="%AID%_UP-%TT%%CC%264_R-%TT%%CC%26401" Cell="6,1" />
-                            <ParameterRefRef RefId="%AID%_UP-%TT%%CC%265_R-%TT%%CC%26501" Cell="7,1" />
-                            <ParameterRefRef RefId="%AID%_UP-%TT%%CC%266_R-%TT%%CC%26601" Cell="8,1" />
-                            <ParameterRefRef RefId="%AID%_UP-%TT%%CC%267_R-%TT%%CC%26701" Cell="9,1" />
-                            <ParameterRefRef RefId="%AID%_UP-%TT%%CC%268_R-%TT%%CC%26801" Cell="10,1" />
-                            <ParameterRefRef RefId="%AID%_UP-%TT%%CC%269_R-%TT%%CC%26901" Cell="11,1" />
-                            <ParameterRefRef RefId="%AID%_UP-%TT%%CC%270_R-%TT%%CC%27001" Cell="12,1" />
-                            <ParameterRefRef RefId="%AID%_UP-%TT%%CC%271_R-%TT%%CC%27101" Cell="13,1" />
-                            <ParameterRefRef RefId="%AID%_UP-%TT%%CC%272_R-%TT%%CC%27201" Cell="14,1" />
-                            <ParameterRefRef RefId="%AID%_UP-%TT%%CC%273_R-%TT%%CC%27301" Cell="15,1" />
-                            <ParameterRefRef RefId="%AID%_UP-%TT%%CC%274_R-%TT%%CC%27401" Cell="16,1" />
-                            <ParameterRefRef RefId="%AID%_UP-%TT%%CC%275_R-%TT%%CC%27501" Cell="17,1" />
-                            <ParameterRefRef RefId="%AID%_UP-%TT%%CC%276_R-%TT%%CC%27601" Cell="18,1" />
-                            <ParameterRefRef RefId="%AID%_UP-%TT%%CC%277_R-%TT%%CC%27701" Cell="19,1" />
-                            <ParameterRefRef RefId="%AID%_UP-%TT%%CC%278_R-%TT%%CC%27801" Cell="20,1" />
-                            <ParameterRefRef RefId="%AID%_UP-%TT%%CC%279_R-%TT%%CC%27901" Cell="21,1" />
-                            <ParameterRefRef RefId="%AID%_UP-%TT%%CC%280_R-%TT%%CC%28001" Cell="22,1" />
-                            <ParameterRefRef RefId="%AID%_UP-%TT%%CC%281_R-%TT%%CC%28101" Cell="23,1" />
-                            <ParameterRefRef RefId="%AID%_UP-%TT%%CC%282_R-%TT%%CC%28201" Cell="24,1" />
-                          </ParameterBlock>
+                          <ParameterRefRef IndentLevel="1" RefId="%AID%_UP-%TT%%CC%259_R-%TT%%CC%25901" HelpContext="GDW-Objekte" />
+                          <ParameterRefRef IndentLevel="1" RefId="%AID%_UP-%TT%%CC%260_R-%TT%%CC%26001" HelpContext="GDW-Objekte" />
+                          <ParameterRefRef IndentLevel="1" RefId="%AID%_UP-%TT%%CC%261_R-%TT%%CC%26101" HelpContext="GDW-Objekte" />
+                          <ParameterRefRef IndentLevel="1" RefId="%AID%_UP-%TT%%CC%262_R-%TT%%CC%26201" HelpContext="GDW-Objekte" />
+                          <ParameterRefRef IndentLevel="1" RefId="%AID%_UP-%TT%%CC%263_R-%TT%%CC%26301" HelpContext="GDW-Objekte" />
+                          <ParameterRefRef IndentLevel="1" RefId="%AID%_UP-%TT%%CC%264_R-%TT%%CC%26401" HelpContext="GDW-Objekte" />
+                          <ParameterRefRef IndentLevel="1" RefId="%AID%_UP-%TT%%CC%265_R-%TT%%CC%26501" HelpContext="GDW-Objekte" />
+                          <ParameterRefRef IndentLevel="1" RefId="%AID%_UP-%TT%%CC%266_R-%TT%%CC%26601" HelpContext="GDW-Objekte" />
+                          <ParameterRefRef IndentLevel="1" RefId="%AID%_UP-%TT%%CC%267_R-%TT%%CC%26701" HelpContext="GDW-Objekte" />
+                          <ParameterRefRef IndentLevel="1" RefId="%AID%_UP-%TT%%CC%268_R-%TT%%CC%26801" HelpContext="GDW-Objekte" />
+                          <ParameterRefRef IndentLevel="1" RefId="%AID%_UP-%TT%%CC%269_R-%TT%%CC%26901" HelpContext="GDW-Objekte" />
+                          <ParameterRefRef IndentLevel="1" RefId="%AID%_UP-%TT%%CC%270_R-%TT%%CC%27001" HelpContext="GDW-Objekte" />
+                          <ParameterRefRef IndentLevel="1" RefId="%AID%_UP-%TT%%CC%271_R-%TT%%CC%27101" HelpContext="GDW-Objekte" />
+                          <ParameterRefRef IndentLevel="1" RefId="%AID%_UP-%TT%%CC%272_R-%TT%%CC%27201" HelpContext="GDW-Objekte" />
+                          <ParameterRefRef IndentLevel="1" RefId="%AID%_UP-%TT%%CC%273_R-%TT%%CC%27301" HelpContext="GDW-Objekte" />
+                          <ParameterRefRef IndentLevel="1" RefId="%AID%_UP-%TT%%CC%274_R-%TT%%CC%27401" HelpContext="GDW-Objekte" />
+                          <ParameterRefRef IndentLevel="1" RefId="%AID%_UP-%TT%%CC%275_R-%TT%%CC%27501" HelpContext="GDW-Objekte" />
+                          <ParameterRefRef IndentLevel="1" RefId="%AID%_UP-%TT%%CC%276_R-%TT%%CC%27601" HelpContext="GDW-Objekte" />
+                          <ParameterRefRef IndentLevel="1" RefId="%AID%_UP-%TT%%CC%277_R-%TT%%CC%27701" HelpContext="GDW-Objekte" />
+                          <ParameterRefRef IndentLevel="1" RefId="%AID%_UP-%TT%%CC%278_R-%TT%%CC%27801" HelpContext="GDW-Objekte" />
+                          <ParameterRefRef IndentLevel="1" RefId="%AID%_UP-%TT%%CC%279_R-%TT%%CC%27901" HelpContext="GDW-Objekte" />
+                          <ParameterRefRef IndentLevel="1" RefId="%AID%_UP-%TT%%CC%280_R-%TT%%CC%28001" HelpContext="GDW-Objekte" />
+                          <ParameterRefRef IndentLevel="1" RefId="%AID%_UP-%TT%%CC%281_R-%TT%%CC%28101" HelpContext="GDW-Objekte" />
+                          <ParameterRefRef IndentLevel="1" RefId="%AID%_UP-%TT%%CC%282_R-%TT%%CC%28201" HelpContext="GDW-Objekte" />
                         </when>
                       </choose>
                       <ParameterSeparator Id="%AID%_PS-nnn" Text="Energie" UIHint="Headline" />
-                      <ParameterBlock Id="%AID%_PB-%CC%OT13" Name="OTbl13" Text="Energie" Inline="true" Layout="Table" HelpContext="GDW-Objekte">
-                        <Rows>
-                          <Row Id="%AID%_PB-%CC%OT13_R-1" Name="R1" Text="PV-Ertrag gesamt (kWh)" />
-                          <Row Id="%AID%_PB-%CC%OT13_R-2" Name="R2" Text="PV-Ertrag heute (kWh)" />
-                          <Row Id="%AID%_PB-%CC%OT13_R-3" Name="R3" Text="Zähler Einspeisung gesamt (kWh)" />
-                          <Row Id="%AID%_PB-%CC%OT13_R-4" Name="R4" Text="Zähler Netzbezug gesamt (kWh)" />
-                        </Rows>
-                        <Columns>
-                          <Column Id="%AID%_PB-%CC%OT13_C-1" Name="C1" Text="aktiv" Width="20%" />
-                        </Columns>
-                        <ParameterRefRef RefId="%AID%_UP-%TT%%CC%283_R-%TT%%CC%28301" Cell="1,1" />
-                        <ParameterRefRef RefId="%AID%_UP-%TT%%CC%284_R-%TT%%CC%28401" Cell="2,1" />
-                        <ParameterRefRef RefId="%AID%_UP-%TT%%CC%285_R-%TT%%CC%28501" Cell="3,1" />
-                        <ParameterRefRef RefId="%AID%_UP-%TT%%CC%286_R-%TT%%CC%28601" Cell="4,1" />
-                      </ParameterBlock>
+                      <ParameterRefRef IndentLevel="1" RefId="%AID%_UP-%TT%%CC%283_R-%TT%%CC%28301" HelpContext="GDW-Objekte" />
+                      <ParameterRefRef IndentLevel="1" RefId="%AID%_UP-%TT%%CC%284_R-%TT%%CC%28401" HelpContext="GDW-Objekte" />
+                      <ParameterRefRef IndentLevel="1" RefId="%AID%_UP-%TT%%CC%285_R-%TT%%CC%28501" HelpContext="GDW-Objekte" />
+                      <ParameterRefRef IndentLevel="1" RefId="%AID%_UP-%TT%%CC%286_R-%TT%%CC%28601" HelpContext="GDW-Objekte" />
                       <choose ParamRefId="%AID%_UP-%TT%%CC%010_R-%TT%%CC%01001">
                         <when test="1 2">
                           <ParameterSeparator Id="%AID%_PS-nnn" Text="Energie Hybrid" UIHint="Headline" />
-                          <ParameterBlock Id="%AID%_PB-%CC%OT14" Name="OTbl14" Text="Energie Hybrid" Inline="true" Layout="Table" HelpContext="GDW-Objekte">
-                            <Rows>
-                              <Row Id="%AID%_PB-%CC%OT14_R-1" Name="R1" Text="Einspeisung gesamt (kWh)" />
-                              <Row Id="%AID%_PB-%CC%OT14_R-2" Name="R2" Text="Einspeisung heute (kWh)" />
-                              <Row Id="%AID%_PB-%CC%OT14_R-3" Name="R3" Text="Netzbezug gesamt (kWh)" />
-                              <Row Id="%AID%_PB-%CC%OT14_R-4" Name="R4" Text="Netzbezug heute (kWh)" />
-                              <Row Id="%AID%_PB-%CC%OT14_R-5" Name="R5" Text="Verbrauch gesamt (kWh)" />
-                              <Row Id="%AID%_PB-%CC%OT14_R-6" Name="R6" Text="Verbrauch heute (kWh)" />
-                              <Row Id="%AID%_PB-%CC%OT14_R-7" Name="R7" Text="Batterie geladen gesamt (kWh)" />
-                              <Row Id="%AID%_PB-%CC%OT14_R-8" Name="R8" Text="Batterie geladen heute (kWh)" />
-                              <Row Id="%AID%_PB-%CC%OT14_R-9" Name="R9" Text="Batterie entladen gesamt (kWh)" />
-                              <Row Id="%AID%_PB-%CC%OT14_R-10" Name="R10" Text="Batterie entladen heute (kWh)" />
-                            </Rows>
-                            <Columns>
-                              <Column Id="%AID%_PB-%CC%OT14_C-1" Name="C1" Text="aktiv" Width="20%" />
-                            </Columns>
-                            <ParameterRefRef RefId="%AID%_UP-%TT%%CC%287_R-%TT%%CC%28701" Cell="1,1" />
-                            <ParameterRefRef RefId="%AID%_UP-%TT%%CC%288_R-%TT%%CC%28801" Cell="2,1" />
-                            <ParameterRefRef RefId="%AID%_UP-%TT%%CC%289_R-%TT%%CC%28901" Cell="3,1" />
-                            <ParameterRefRef RefId="%AID%_UP-%TT%%CC%290_R-%TT%%CC%29001" Cell="4,1" />
-                            <ParameterRefRef RefId="%AID%_UP-%TT%%CC%291_R-%TT%%CC%29101" Cell="5,1" />
-                            <ParameterRefRef RefId="%AID%_UP-%TT%%CC%292_R-%TT%%CC%29201" Cell="6,1" />
-                            <ParameterRefRef RefId="%AID%_UP-%TT%%CC%293_R-%TT%%CC%29301" Cell="7,1" />
-                            <ParameterRefRef RefId="%AID%_UP-%TT%%CC%294_R-%TT%%CC%29401" Cell="8,1" />
-                            <ParameterRefRef RefId="%AID%_UP-%TT%%CC%295_R-%TT%%CC%29501" Cell="9,1" />
-                            <ParameterRefRef RefId="%AID%_UP-%TT%%CC%296_R-%TT%%CC%29601" Cell="10,1" />
-                          </ParameterBlock>
+                          <ParameterRefRef IndentLevel="1" RefId="%AID%_UP-%TT%%CC%287_R-%TT%%CC%28701" HelpContext="GDW-Objekte" />
+                          <ParameterRefRef IndentLevel="1" RefId="%AID%_UP-%TT%%CC%288_R-%TT%%CC%28801" HelpContext="GDW-Objekte" />
+                          <ParameterRefRef IndentLevel="1" RefId="%AID%_UP-%TT%%CC%289_R-%TT%%CC%28901" HelpContext="GDW-Objekte" />
+                          <ParameterRefRef IndentLevel="1" RefId="%AID%_UP-%TT%%CC%290_R-%TT%%CC%29001" HelpContext="GDW-Objekte" />
+                          <ParameterRefRef IndentLevel="1" RefId="%AID%_UP-%TT%%CC%291_R-%TT%%CC%29101" HelpContext="GDW-Objekte" />
+                          <ParameterRefRef IndentLevel="1" RefId="%AID%_UP-%TT%%CC%292_R-%TT%%CC%29201" HelpContext="GDW-Objekte" />
+                          <ParameterRefRef IndentLevel="1" RefId="%AID%_UP-%TT%%CC%293_R-%TT%%CC%29301" HelpContext="GDW-Objekte" />
+                          <ParameterRefRef IndentLevel="1" RefId="%AID%_UP-%TT%%CC%294_R-%TT%%CC%29401" HelpContext="GDW-Objekte" />
+                          <ParameterRefRef IndentLevel="1" RefId="%AID%_UP-%TT%%CC%295_R-%TT%%CC%29501" HelpContext="GDW-Objekte" />
+                          <ParameterRefRef IndentLevel="1" RefId="%AID%_UP-%TT%%CC%296_R-%TT%%CC%29601" HelpContext="GDW-Objekte" />
                         </when>
                       </choose>
                       <choose ParamRefId="%AID%_UP-%TT%%CC%010_R-%TT%%CC%01001">
                         <when test="1 2">
                           <ParameterSeparator Id="%AID%_PS-nnn" Text="Zähler" UIHint="Headline" />
-                          <ParameterBlock Id="%AID%_PB-%CC%OT15" Name="OTbl15" Text="Zähler" Inline="true" Layout="Table" HelpContext="GDW-Objekte">
-                            <Rows>
-                              <Row Id="%AID%_PB-%CC%OT15_R-1" Name="R1" Text="Zähler Kommunikationsart" />
-                              <Row Id="%AID%_PB-%CC%OT15_R-2" Name="R2" Text="Zähler Herstellercode" />
-                              <Row Id="%AID%_PB-%CC%OT15_R-3" Name="R3" Text="Zähler Prüfstatus" />
-                              <Row Id="%AID%_PB-%CC%OT15_R-4" Name="R4" Text="Zähler Typ" />
-                              <Row Id="%AID%_PB-%CC%OT15_R-5" Name="R5" Text="Zähler Softwareversion" />
-                              <Row Id="%AID%_PB-%CC%OT15_R-6" Name="R6" Text="Zähler Wirkleistung L1 (W)" />
-                              <Row Id="%AID%_PB-%CC%OT15_R-7" Name="R7" Text="Zähler Wirkleistung L2 (W)" />
-                              <Row Id="%AID%_PB-%CC%OT15_R-8" Name="R8" Text="Zähler Wirkleistung L3 (W)" />
-                              <Row Id="%AID%_PB-%CC%OT15_R-9" Name="R9" Text="Zähler Wirkleistung gesamt (W)" />
-                              <Row Id="%AID%_PB-%CC%OT15_R-10" Name="R10" Text="Zähler Wirkleistung L1 (16 Bit)" />
-                              <Row Id="%AID%_PB-%CC%OT15_R-11" Name="R11" Text="Zähler Wirkleistung L2 (16 Bit)" />
-                              <Row Id="%AID%_PB-%CC%OT15_R-12" Name="R12" Text="Zähler Wirkleistung L3 (16 Bit)" />
-                              <Row Id="%AID%_PB-%CC%OT15_R-13" Name="R13" Text="Zähler Wirkleistung gesamt (16 Bit)" />
-                              <Row Id="%AID%_PB-%CC%OT15_R-14" Name="R14" Text="Zähler Blindleistung L1 (var)" />
-                              <Row Id="%AID%_PB-%CC%OT15_R-15" Name="R15" Text="Zähler Blindleistung L2 (var)" />
-                              <Row Id="%AID%_PB-%CC%OT15_R-16" Name="R16" Text="Zähler Blindleistung L3 (var)" />
-                              <Row Id="%AID%_PB-%CC%OT15_R-17" Name="R17" Text="Zähler Blindleistung gesamt (var)" />
-                              <Row Id="%AID%_PB-%CC%OT15_R-18" Name="R18" Text="Zähler Blindleistung gesamt (16 Bit, var)" />
-                              <Row Id="%AID%_PB-%CC%OT15_R-19" Name="R19" Text="Zähler Scheinleistung L1 (VA)" />
-                              <Row Id="%AID%_PB-%CC%OT15_R-20" Name="R20" Text="Zähler Scheinleistung L2 (VA)" />
-                              <Row Id="%AID%_PB-%CC%OT15_R-21" Name="R21" Text="Zähler Scheinleistung L3 (VA)" />
-                              <Row Id="%AID%_PB-%CC%OT15_R-22" Name="R22" Text="Zähler Scheinleistung gesamt (VA)" />
-                              <Row Id="%AID%_PB-%CC%OT15_R-23" Name="R23" Text="Zähler Leistungsfaktor L1" />
-                              <Row Id="%AID%_PB-%CC%OT15_R-24" Name="R24" Text="Zähler Leistungsfaktor L2" />
-                              <Row Id="%AID%_PB-%CC%OT15_R-25" Name="R25" Text="Zähler Leistungsfaktor L3" />
-                              <Row Id="%AID%_PB-%CC%OT15_R-26" Name="R26" Text="Zähler Leistungsfaktor" />
-                              <Row Id="%AID%_PB-%CC%OT15_R-27" Name="R27" Text="Zähler Frequenz (Hz)" />
-                              <Row Id="%AID%_PB-%CC%OT15_R-28" Name="R28" Text="Zähler Spannung L1 (V)" />
-                              <Row Id="%AID%_PB-%CC%OT15_R-29" Name="R29" Text="Zähler Spannung L2 (V)" />
-                              <Row Id="%AID%_PB-%CC%OT15_R-30" Name="R30" Text="Zähler Spannung L3 (V)" />
-                              <Row Id="%AID%_PB-%CC%OT15_R-31" Name="R31" Text="Zähler Strom L1 (A)" />
-                              <Row Id="%AID%_PB-%CC%OT15_R-32" Name="R32" Text="Zähler Strom L2 (A)" />
-                              <Row Id="%AID%_PB-%CC%OT15_R-33" Name="R33" Text="Zähler Strom L3 (A)" />
-                              <Row Id="%AID%_PB-%CC%OT15_R-34" Name="R34" Text="Zähler 2 Wirkleistung (W)" />
-                              <Row Id="%AID%_PB-%CC%OT15_R-35" Name="R35" Text="Zähler 2 Einspeisung gesamt (kWh)" />
-                              <Row Id="%AID%_PB-%CC%OT15_R-36" Name="R36" Text="Zähler 2 Netzbezug gesamt (kWh)" />
-                              <Row Id="%AID%_PB-%CC%OT15_R-37" Name="R37" Text="Zähler 2 Kommunikationsstatus" />
-                            </Rows>
-                            <Columns>
-                              <Column Id="%AID%_PB-%CC%OT15_C-1" Name="C1" Text="aktiv" Width="20%" />
-                            </Columns>
-                            <ParameterRefRef RefId="%AID%_UP-%TT%%CC%297_R-%TT%%CC%29701" Cell="1,1" />
-                            <ParameterRefRef RefId="%AID%_UP-%TT%%CC%298_R-%TT%%CC%29801" Cell="2,1" />
-                            <ParameterRefRef RefId="%AID%_UP-%TT%%CC%299_R-%TT%%CC%29901" Cell="3,1" />
-                            <ParameterRefRef RefId="%AID%_UP-%TT%%CC%300_R-%TT%%CC%30001" Cell="4,1" />
-                            <ParameterRefRef RefId="%AID%_UP-%TT%%CC%301_R-%TT%%CC%30101" Cell="5,1" />
-                            <ParameterRefRef RefId="%AID%_UP-%TT%%CC%302_R-%TT%%CC%30201" Cell="6,1" />
-                            <ParameterRefRef RefId="%AID%_UP-%TT%%CC%303_R-%TT%%CC%30301" Cell="7,1" />
-                            <ParameterRefRef RefId="%AID%_UP-%TT%%CC%304_R-%TT%%CC%30401" Cell="8,1" />
-                            <ParameterRefRef RefId="%AID%_UP-%TT%%CC%305_R-%TT%%CC%30501" Cell="9,1" />
-                            <ParameterRefRef RefId="%AID%_UP-%TT%%CC%306_R-%TT%%CC%30601" Cell="10,1" />
-                            <ParameterRefRef RefId="%AID%_UP-%TT%%CC%307_R-%TT%%CC%30701" Cell="11,1" />
-                            <ParameterRefRef RefId="%AID%_UP-%TT%%CC%308_R-%TT%%CC%30801" Cell="12,1" />
-                            <ParameterRefRef RefId="%AID%_UP-%TT%%CC%309_R-%TT%%CC%30901" Cell="13,1" />
-                            <ParameterRefRef RefId="%AID%_UP-%TT%%CC%310_R-%TT%%CC%31001" Cell="14,1" />
-                            <ParameterRefRef RefId="%AID%_UP-%TT%%CC%311_R-%TT%%CC%31101" Cell="15,1" />
-                            <ParameterRefRef RefId="%AID%_UP-%TT%%CC%312_R-%TT%%CC%31201" Cell="16,1" />
-                            <ParameterRefRef RefId="%AID%_UP-%TT%%CC%313_R-%TT%%CC%31301" Cell="17,1" />
-                            <ParameterRefRef RefId="%AID%_UP-%TT%%CC%314_R-%TT%%CC%31401" Cell="18,1" />
-                            <ParameterRefRef RefId="%AID%_UP-%TT%%CC%315_R-%TT%%CC%31501" Cell="19,1" />
-                            <ParameterRefRef RefId="%AID%_UP-%TT%%CC%316_R-%TT%%CC%31601" Cell="20,1" />
-                            <ParameterRefRef RefId="%AID%_UP-%TT%%CC%317_R-%TT%%CC%31701" Cell="21,1" />
-                            <ParameterRefRef RefId="%AID%_UP-%TT%%CC%318_R-%TT%%CC%31801" Cell="22,1" />
-                            <ParameterRefRef RefId="%AID%_UP-%TT%%CC%319_R-%TT%%CC%31901" Cell="23,1" />
-                            <ParameterRefRef RefId="%AID%_UP-%TT%%CC%320_R-%TT%%CC%32001" Cell="24,1" />
-                            <ParameterRefRef RefId="%AID%_UP-%TT%%CC%321_R-%TT%%CC%32101" Cell="25,1" />
-                            <ParameterRefRef RefId="%AID%_UP-%TT%%CC%322_R-%TT%%CC%32201" Cell="26,1" />
-                            <ParameterRefRef RefId="%AID%_UP-%TT%%CC%323_R-%TT%%CC%32301" Cell="27,1" />
-                            <ParameterRefRef RefId="%AID%_UP-%TT%%CC%324_R-%TT%%CC%32401" Cell="28,1" />
-                            <ParameterRefRef RefId="%AID%_UP-%TT%%CC%325_R-%TT%%CC%32501" Cell="29,1" />
-                            <ParameterRefRef RefId="%AID%_UP-%TT%%CC%326_R-%TT%%CC%32601" Cell="30,1" />
-                            <ParameterRefRef RefId="%AID%_UP-%TT%%CC%327_R-%TT%%CC%32701" Cell="31,1" />
-                            <ParameterRefRef RefId="%AID%_UP-%TT%%CC%328_R-%TT%%CC%32801" Cell="32,1" />
-                            <ParameterRefRef RefId="%AID%_UP-%TT%%CC%329_R-%TT%%CC%32901" Cell="33,1" />
-                            <ParameterRefRef RefId="%AID%_UP-%TT%%CC%330_R-%TT%%CC%33001" Cell="34,1" />
-                            <ParameterRefRef RefId="%AID%_UP-%TT%%CC%331_R-%TT%%CC%33101" Cell="35,1" />
-                            <ParameterRefRef RefId="%AID%_UP-%TT%%CC%332_R-%TT%%CC%33201" Cell="36,1" />
-                            <ParameterRefRef RefId="%AID%_UP-%TT%%CC%333_R-%TT%%CC%33301" Cell="37,1" />
-                          </ParameterBlock>
+                          <ParameterRefRef IndentLevel="1" RefId="%AID%_UP-%TT%%CC%297_R-%TT%%CC%29701" HelpContext="GDW-Objekte" />
+                          <ParameterRefRef IndentLevel="1" RefId="%AID%_UP-%TT%%CC%298_R-%TT%%CC%29801" HelpContext="GDW-Objekte" />
+                          <ParameterRefRef IndentLevel="1" RefId="%AID%_UP-%TT%%CC%299_R-%TT%%CC%29901" HelpContext="GDW-Objekte" />
+                          <ParameterRefRef IndentLevel="1" RefId="%AID%_UP-%TT%%CC%300_R-%TT%%CC%30001" HelpContext="GDW-Objekte" />
+                          <ParameterRefRef IndentLevel="1" RefId="%AID%_UP-%TT%%CC%301_R-%TT%%CC%30101" HelpContext="GDW-Objekte" />
+                          <ParameterRefRef IndentLevel="1" RefId="%AID%_UP-%TT%%CC%302_R-%TT%%CC%30201" HelpContext="GDW-Objekte" />
+                          <ParameterRefRef IndentLevel="1" RefId="%AID%_UP-%TT%%CC%303_R-%TT%%CC%30301" HelpContext="GDW-Objekte" />
+                          <ParameterRefRef IndentLevel="1" RefId="%AID%_UP-%TT%%CC%304_R-%TT%%CC%30401" HelpContext="GDW-Objekte" />
+                          <ParameterRefRef IndentLevel="1" RefId="%AID%_UP-%TT%%CC%305_R-%TT%%CC%30501" HelpContext="GDW-Objekte" />
+                          <ParameterRefRef IndentLevel="1" RefId="%AID%_UP-%TT%%CC%306_R-%TT%%CC%30601" HelpContext="GDW-Objekte" />
+                          <ParameterRefRef IndentLevel="1" RefId="%AID%_UP-%TT%%CC%307_R-%TT%%CC%30701" HelpContext="GDW-Objekte" />
+                          <ParameterRefRef IndentLevel="1" RefId="%AID%_UP-%TT%%CC%308_R-%TT%%CC%30801" HelpContext="GDW-Objekte" />
+                          <ParameterRefRef IndentLevel="1" RefId="%AID%_UP-%TT%%CC%309_R-%TT%%CC%30901" HelpContext="GDW-Objekte" />
+                          <ParameterRefRef IndentLevel="1" RefId="%AID%_UP-%TT%%CC%310_R-%TT%%CC%31001" HelpContext="GDW-Objekte" />
+                          <ParameterRefRef IndentLevel="1" RefId="%AID%_UP-%TT%%CC%311_R-%TT%%CC%31101" HelpContext="GDW-Objekte" />
+                          <ParameterRefRef IndentLevel="1" RefId="%AID%_UP-%TT%%CC%312_R-%TT%%CC%31201" HelpContext="GDW-Objekte" />
+                          <ParameterRefRef IndentLevel="1" RefId="%AID%_UP-%TT%%CC%313_R-%TT%%CC%31301" HelpContext="GDW-Objekte" />
+                          <ParameterRefRef IndentLevel="1" RefId="%AID%_UP-%TT%%CC%314_R-%TT%%CC%31401" HelpContext="GDW-Objekte" />
+                          <ParameterRefRef IndentLevel="1" RefId="%AID%_UP-%TT%%CC%315_R-%TT%%CC%31501" HelpContext="GDW-Objekte" />
+                          <ParameterRefRef IndentLevel="1" RefId="%AID%_UP-%TT%%CC%316_R-%TT%%CC%31601" HelpContext="GDW-Objekte" />
+                          <ParameterRefRef IndentLevel="1" RefId="%AID%_UP-%TT%%CC%317_R-%TT%%CC%31701" HelpContext="GDW-Objekte" />
+                          <ParameterRefRef IndentLevel="1" RefId="%AID%_UP-%TT%%CC%318_R-%TT%%CC%31801" HelpContext="GDW-Objekte" />
+                          <ParameterRefRef IndentLevel="1" RefId="%AID%_UP-%TT%%CC%319_R-%TT%%CC%31901" HelpContext="GDW-Objekte" />
+                          <ParameterRefRef IndentLevel="1" RefId="%AID%_UP-%TT%%CC%320_R-%TT%%CC%32001" HelpContext="GDW-Objekte" />
+                          <ParameterRefRef IndentLevel="1" RefId="%AID%_UP-%TT%%CC%321_R-%TT%%CC%32101" HelpContext="GDW-Objekte" />
+                          <ParameterRefRef IndentLevel="1" RefId="%AID%_UP-%TT%%CC%322_R-%TT%%CC%32201" HelpContext="GDW-Objekte" />
+                          <ParameterRefRef IndentLevel="1" RefId="%AID%_UP-%TT%%CC%323_R-%TT%%CC%32301" HelpContext="GDW-Objekte" />
+                          <ParameterRefRef IndentLevel="1" RefId="%AID%_UP-%TT%%CC%324_R-%TT%%CC%32401" HelpContext="GDW-Objekte" />
+                          <ParameterRefRef IndentLevel="1" RefId="%AID%_UP-%TT%%CC%325_R-%TT%%CC%32501" HelpContext="GDW-Objekte" />
+                          <ParameterRefRef IndentLevel="1" RefId="%AID%_UP-%TT%%CC%326_R-%TT%%CC%32601" HelpContext="GDW-Objekte" />
+                          <ParameterRefRef IndentLevel="1" RefId="%AID%_UP-%TT%%CC%327_R-%TT%%CC%32701" HelpContext="GDW-Objekte" />
+                          <ParameterRefRef IndentLevel="1" RefId="%AID%_UP-%TT%%CC%328_R-%TT%%CC%32801" HelpContext="GDW-Objekte" />
+                          <ParameterRefRef IndentLevel="1" RefId="%AID%_UP-%TT%%CC%329_R-%TT%%CC%32901" HelpContext="GDW-Objekte" />
+                          <ParameterRefRef IndentLevel="1" RefId="%AID%_UP-%TT%%CC%330_R-%TT%%CC%33001" HelpContext="GDW-Objekte" />
+                          <ParameterRefRef IndentLevel="1" RefId="%AID%_UP-%TT%%CC%331_R-%TT%%CC%33101" HelpContext="GDW-Objekte" />
+                          <ParameterRefRef IndentLevel="1" RefId="%AID%_UP-%TT%%CC%332_R-%TT%%CC%33201" HelpContext="GDW-Objekte" />
+                          <ParameterRefRef IndentLevel="1" RefId="%AID%_UP-%TT%%CC%333_R-%TT%%CC%33301" HelpContext="GDW-Objekte" />
                         </when>
                       </choose>
                       <choose ParamRefId="%AID%_UP-%TT%%CC%010_R-%TT%%CC%01001">
                         <when test="1 2">
                           <ParameterSeparator Id="%AID%_PS-nnn" Text="Zähler Energie je Phase" UIHint="Headline" />
-                          <ParameterBlock Id="%AID%_PB-%CC%OT16" Name="OTbl16" Text="Zähler Energie je Phase" Inline="true" Layout="Table" HelpContext="GDW-Objekte">
-                            <Rows>
-                              <Row Id="%AID%_PB-%CC%OT16_R-1" Name="R1" Text="Zähler Einspeisung L1 (kWh)" />
-                              <Row Id="%AID%_PB-%CC%OT16_R-2" Name="R2" Text="Zähler Einspeisung L2 (kWh)" />
-                              <Row Id="%AID%_PB-%CC%OT16_R-3" Name="R3" Text="Zähler Einspeisung L3 (kWh)" />
-                              <Row Id="%AID%_PB-%CC%OT16_R-4" Name="R4" Text="Zähler Einspeisung gesamt (64 Bit)" />
-                              <Row Id="%AID%_PB-%CC%OT16_R-5" Name="R5" Text="Zähler Netzbezug L1 (kWh)" />
-                              <Row Id="%AID%_PB-%CC%OT16_R-6" Name="R6" Text="Zähler Netzbezug L2 (kWh)" />
-                              <Row Id="%AID%_PB-%CC%OT16_R-7" Name="R7" Text="Zähler Netzbezug L3 (kWh)" />
-                              <Row Id="%AID%_PB-%CC%OT16_R-8" Name="R8" Text="Zähler Netzbezug gesamt (64 Bit)" />
-                            </Rows>
-                            <Columns>
-                              <Column Id="%AID%_PB-%CC%OT16_C-1" Name="C1" Text="aktiv" Width="20%" />
-                            </Columns>
-                            <ParameterRefRef RefId="%AID%_UP-%TT%%CC%334_R-%TT%%CC%33401" Cell="1,1" />
-                            <ParameterRefRef RefId="%AID%_UP-%TT%%CC%335_R-%TT%%CC%33501" Cell="2,1" />
-                            <ParameterRefRef RefId="%AID%_UP-%TT%%CC%336_R-%TT%%CC%33601" Cell="3,1" />
-                            <ParameterRefRef RefId="%AID%_UP-%TT%%CC%337_R-%TT%%CC%33701" Cell="4,1" />
-                            <ParameterRefRef RefId="%AID%_UP-%TT%%CC%338_R-%TT%%CC%33801" Cell="5,1" />
-                            <ParameterRefRef RefId="%AID%_UP-%TT%%CC%339_R-%TT%%CC%33901" Cell="6,1" />
-                            <ParameterRefRef RefId="%AID%_UP-%TT%%CC%340_R-%TT%%CC%34001" Cell="7,1" />
-                            <ParameterRefRef RefId="%AID%_UP-%TT%%CC%341_R-%TT%%CC%34101" Cell="8,1" />
-                          </ParameterBlock>
+                          <ParameterRefRef IndentLevel="1" RefId="%AID%_UP-%TT%%CC%334_R-%TT%%CC%33401" HelpContext="GDW-Objekte" />
+                          <ParameterRefRef IndentLevel="1" RefId="%AID%_UP-%TT%%CC%335_R-%TT%%CC%33501" HelpContext="GDW-Objekte" />
+                          <ParameterRefRef IndentLevel="1" RefId="%AID%_UP-%TT%%CC%336_R-%TT%%CC%33601" HelpContext="GDW-Objekte" />
+                          <ParameterRefRef IndentLevel="1" RefId="%AID%_UP-%TT%%CC%337_R-%TT%%CC%33701" HelpContext="GDW-Objekte" />
+                          <ParameterRefRef IndentLevel="1" RefId="%AID%_UP-%TT%%CC%338_R-%TT%%CC%33801" HelpContext="GDW-Objekte" />
+                          <ParameterRefRef IndentLevel="1" RefId="%AID%_UP-%TT%%CC%339_R-%TT%%CC%33901" HelpContext="GDW-Objekte" />
+                          <ParameterRefRef IndentLevel="1" RefId="%AID%_UP-%TT%%CC%340_R-%TT%%CC%34001" HelpContext="GDW-Objekte" />
+                          <ParameterRefRef IndentLevel="1" RefId="%AID%_UP-%TT%%CC%341_R-%TT%%CC%34101" HelpContext="GDW-Objekte" />
                         </when>
                       </choose>
                       <choose ParamRefId="%AID%_UP-%TT%%CC%010_R-%TT%%CC%01001">
                         <when test="1 2">
                           <ParameterSeparator Id="%AID%_PS-nnn" Text="BMS-Daten" UIHint="Headline" />
-                          <ParameterBlock Id="%AID%_PB-%CC%OT17" Name="OTbl17" Text="BMS-Daten" Inline="true" Layout="Table" HelpContext="GDW-Objekte">
-                            <Rows>
-                              <Row Id="%AID%_PB-%CC%OT17_R-1" Name="R1" Text="BMS 1 Version" />
-                              <Row Id="%AID%_PB-%CC%OT17_R-2" Name="R2" Text="BMS 1 Modulanzahl" />
-                              <Row Id="%AID%_PB-%CC%OT17_R-3" Name="R3" Text="BMS 1 Ladespannung max. (V)" />
-                              <Row Id="%AID%_PB-%CC%OT17_R-4" Name="R4" Text="BMS 1 Ladestrom max. (A)" />
-                              <Row Id="%AID%_PB-%CC%OT17_R-5" Name="R5" Text="BMS 1 Entladespannung min. (V)" />
-                              <Row Id="%AID%_PB-%CC%OT17_R-6" Name="R6" Text="BMS 1 Entladestrom max. (A)" />
-                              <Row Id="%AID%_PB-%CC%OT17_R-7" Name="R7" Text="BMS 1 Spannung (V)" />
-                              <Row Id="%AID%_PB-%CC%OT17_R-8" Name="R8" Text="BMS 1 Strom (A)" />
-                              <Row Id="%AID%_PB-%CC%OT17_R-9" Name="R9" Text="BMS 1 Ladezustand (%)" />
-                              <Row Id="%AID%_PB-%CC%OT17_R-10" Name="R10" Text="BMS 1 Gesundheitszustand (%)" />
-                              <Row Id="%AID%_PB-%CC%OT17_R-11" Name="R11" Text="BMS 1 Temperatur (°C)" />
-                              <Row Id="%AID%_PB-%CC%OT17_R-12" Name="R12" Text="BMS 1 Warnungscode" />
-                              <Row Id="%AID%_PB-%CC%OT17_R-13" Name="R13" Text="BMS 1 Alarmcode" />
-                              <Row Id="%AID%_PB-%CC%OT17_R-14" Name="R14" Text="BMS 1 Status" />
-                              <Row Id="%AID%_PB-%CC%OT17_R-15" Name="R15" Text="BMS 1 Kommunikationsverlust ignorieren" />
-                              <Row Id="%AID%_PB-%CC%OT17_R-16" Name="R16" Text="BMS 1 Strang-Nennspannung" />
-                              <Row Id="%AID%_PB-%CC%OT17_R-17" Name="R17" Text="BMS 2 Version" />
-                              <Row Id="%AID%_PB-%CC%OT17_R-18" Name="R18" Text="BMS 2 Modulanzahl" />
-                              <Row Id="%AID%_PB-%CC%OT17_R-19" Name="R19" Text="BMS 2 Ladespannung max. (V)" />
-                              <Row Id="%AID%_PB-%CC%OT17_R-20" Name="R20" Text="BMS 2 Ladestrom max. (A)" />
-                              <Row Id="%AID%_PB-%CC%OT17_R-21" Name="R21" Text="BMS 2 Entladespannung min. (V)" />
-                              <Row Id="%AID%_PB-%CC%OT17_R-22" Name="R22" Text="BMS 2 Entladestrom max. (A)" />
-                              <Row Id="%AID%_PB-%CC%OT17_R-23" Name="R23" Text="BMS 2 Spannung (V)" />
-                              <Row Id="%AID%_PB-%CC%OT17_R-24" Name="R24" Text="BMS 2 Strom (A)" />
-                              <Row Id="%AID%_PB-%CC%OT17_R-25" Name="R25" Text="BMS 2 Ladezustand (%)" />
-                              <Row Id="%AID%_PB-%CC%OT17_R-26" Name="R26" Text="BMS 2 Gesundheitszustand (%)" />
-                              <Row Id="%AID%_PB-%CC%OT17_R-27" Name="R27" Text="BMS 2 Temperatur (°C)" />
-                              <Row Id="%AID%_PB-%CC%OT17_R-28" Name="R28" Text="BMS 2 Warnungscode" />
-                              <Row Id="%AID%_PB-%CC%OT17_R-29" Name="R29" Text="BMS 2 Alarmcode" />
-                              <Row Id="%AID%_PB-%CC%OT17_R-30" Name="R30" Text="BMS 2 Status" />
-                              <Row Id="%AID%_PB-%CC%OT17_R-31" Name="R31" Text="BMS 2 Kommunikationsverlust ignorieren" />
-                              <Row Id="%AID%_PB-%CC%OT17_R-32" Name="R32" Text="BMS 2 Strang-Nennspannung" />
-                            </Rows>
-                            <Columns>
-                              <Column Id="%AID%_PB-%CC%OT17_C-1" Name="C1" Text="aktiv" Width="20%" />
-                            </Columns>
-                            <ParameterRefRef RefId="%AID%_UP-%TT%%CC%342_R-%TT%%CC%34201" Cell="1,1" />
-                            <ParameterRefRef RefId="%AID%_UP-%TT%%CC%343_R-%TT%%CC%34301" Cell="2,1" />
-                            <ParameterRefRef RefId="%AID%_UP-%TT%%CC%344_R-%TT%%CC%34401" Cell="3,1" />
-                            <ParameterRefRef RefId="%AID%_UP-%TT%%CC%345_R-%TT%%CC%34501" Cell="4,1" />
-                            <ParameterRefRef RefId="%AID%_UP-%TT%%CC%346_R-%TT%%CC%34601" Cell="5,1" />
-                            <ParameterRefRef RefId="%AID%_UP-%TT%%CC%347_R-%TT%%CC%34701" Cell="6,1" />
-                            <ParameterRefRef RefId="%AID%_UP-%TT%%CC%348_R-%TT%%CC%34801" Cell="7,1" />
-                            <ParameterRefRef RefId="%AID%_UP-%TT%%CC%349_R-%TT%%CC%34901" Cell="8,1" />
-                            <ParameterRefRef RefId="%AID%_UP-%TT%%CC%350_R-%TT%%CC%35001" Cell="9,1" />
-                            <ParameterRefRef RefId="%AID%_UP-%TT%%CC%351_R-%TT%%CC%35101" Cell="10,1" />
-                            <ParameterRefRef RefId="%AID%_UP-%TT%%CC%352_R-%TT%%CC%35201" Cell="11,1" />
-                            <ParameterRefRef RefId="%AID%_UP-%TT%%CC%353_R-%TT%%CC%35301" Cell="12,1" />
-                            <ParameterRefRef RefId="%AID%_UP-%TT%%CC%354_R-%TT%%CC%35401" Cell="13,1" />
-                            <ParameterRefRef RefId="%AID%_UP-%TT%%CC%355_R-%TT%%CC%35501" Cell="14,1" />
-                            <ParameterRefRef RefId="%AID%_UP-%TT%%CC%356_R-%TT%%CC%35601" Cell="15,1" />
-                            <ParameterRefRef RefId="%AID%_UP-%TT%%CC%357_R-%TT%%CC%35701" Cell="16,1" />
-                            <ParameterRefRef RefId="%AID%_UP-%TT%%CC%358_R-%TT%%CC%35801" Cell="17,1" />
-                            <ParameterRefRef RefId="%AID%_UP-%TT%%CC%359_R-%TT%%CC%35901" Cell="18,1" />
-                            <ParameterRefRef RefId="%AID%_UP-%TT%%CC%360_R-%TT%%CC%36001" Cell="19,1" />
-                            <ParameterRefRef RefId="%AID%_UP-%TT%%CC%361_R-%TT%%CC%36101" Cell="20,1" />
-                            <ParameterRefRef RefId="%AID%_UP-%TT%%CC%362_R-%TT%%CC%36201" Cell="21,1" />
-                            <ParameterRefRef RefId="%AID%_UP-%TT%%CC%363_R-%TT%%CC%36301" Cell="22,1" />
-                            <ParameterRefRef RefId="%AID%_UP-%TT%%CC%364_R-%TT%%CC%36401" Cell="23,1" />
-                            <ParameterRefRef RefId="%AID%_UP-%TT%%CC%365_R-%TT%%CC%36501" Cell="24,1" />
-                            <ParameterRefRef RefId="%AID%_UP-%TT%%CC%366_R-%TT%%CC%36601" Cell="25,1" />
-                            <ParameterRefRef RefId="%AID%_UP-%TT%%CC%367_R-%TT%%CC%36701" Cell="26,1" />
-                            <ParameterRefRef RefId="%AID%_UP-%TT%%CC%368_R-%TT%%CC%36801" Cell="27,1" />
-                            <ParameterRefRef RefId="%AID%_UP-%TT%%CC%369_R-%TT%%CC%36901" Cell="28,1" />
-                            <ParameterRefRef RefId="%AID%_UP-%TT%%CC%370_R-%TT%%CC%37001" Cell="29,1" />
-                            <ParameterRefRef RefId="%AID%_UP-%TT%%CC%371_R-%TT%%CC%37101" Cell="30,1" />
-                            <ParameterRefRef RefId="%AID%_UP-%TT%%CC%372_R-%TT%%CC%37201" Cell="31,1" />
-                            <ParameterRefRef RefId="%AID%_UP-%TT%%CC%373_R-%TT%%CC%37301" Cell="32,1" />
-                          </ParameterBlock>
+                          <ParameterRefRef IndentLevel="1" RefId="%AID%_UP-%TT%%CC%342_R-%TT%%CC%34201" HelpContext="GDW-Objekte" />
+                          <ParameterRefRef IndentLevel="1" RefId="%AID%_UP-%TT%%CC%343_R-%TT%%CC%34301" HelpContext="GDW-Objekte" />
+                          <ParameterRefRef IndentLevel="1" RefId="%AID%_UP-%TT%%CC%344_R-%TT%%CC%34401" HelpContext="GDW-Objekte" />
+                          <ParameterRefRef IndentLevel="1" RefId="%AID%_UP-%TT%%CC%345_R-%TT%%CC%34501" HelpContext="GDW-Objekte" />
+                          <ParameterRefRef IndentLevel="1" RefId="%AID%_UP-%TT%%CC%346_R-%TT%%CC%34601" HelpContext="GDW-Objekte" />
+                          <ParameterRefRef IndentLevel="1" RefId="%AID%_UP-%TT%%CC%347_R-%TT%%CC%34701" HelpContext="GDW-Objekte" />
+                          <ParameterRefRef IndentLevel="1" RefId="%AID%_UP-%TT%%CC%348_R-%TT%%CC%34801" HelpContext="GDW-Objekte" />
+                          <ParameterRefRef IndentLevel="1" RefId="%AID%_UP-%TT%%CC%349_R-%TT%%CC%34901" HelpContext="GDW-Objekte" />
+                          <ParameterRefRef IndentLevel="1" RefId="%AID%_UP-%TT%%CC%350_R-%TT%%CC%35001" HelpContext="GDW-Objekte" />
+                          <ParameterRefRef IndentLevel="1" RefId="%AID%_UP-%TT%%CC%351_R-%TT%%CC%35101" HelpContext="GDW-Objekte" />
+                          <ParameterRefRef IndentLevel="1" RefId="%AID%_UP-%TT%%CC%352_R-%TT%%CC%35201" HelpContext="GDW-Objekte" />
+                          <ParameterRefRef IndentLevel="1" RefId="%AID%_UP-%TT%%CC%353_R-%TT%%CC%35301" HelpContext="GDW-Objekte" />
+                          <ParameterRefRef IndentLevel="1" RefId="%AID%_UP-%TT%%CC%354_R-%TT%%CC%35401" HelpContext="GDW-Objekte" />
+                          <ParameterRefRef IndentLevel="1" RefId="%AID%_UP-%TT%%CC%355_R-%TT%%CC%35501" HelpContext="GDW-Objekte" />
+                          <ParameterRefRef IndentLevel="1" RefId="%AID%_UP-%TT%%CC%356_R-%TT%%CC%35601" HelpContext="GDW-Objekte" />
+                          <ParameterRefRef IndentLevel="1" RefId="%AID%_UP-%TT%%CC%357_R-%TT%%CC%35701" HelpContext="GDW-Objekte" />
+                          <ParameterRefRef IndentLevel="1" RefId="%AID%_UP-%TT%%CC%358_R-%TT%%CC%35801" HelpContext="GDW-Objekte" />
+                          <ParameterRefRef IndentLevel="1" RefId="%AID%_UP-%TT%%CC%359_R-%TT%%CC%35901" HelpContext="GDW-Objekte" />
+                          <ParameterRefRef IndentLevel="1" RefId="%AID%_UP-%TT%%CC%360_R-%TT%%CC%36001" HelpContext="GDW-Objekte" />
+                          <ParameterRefRef IndentLevel="1" RefId="%AID%_UP-%TT%%CC%361_R-%TT%%CC%36101" HelpContext="GDW-Objekte" />
+                          <ParameterRefRef IndentLevel="1" RefId="%AID%_UP-%TT%%CC%362_R-%TT%%CC%36201" HelpContext="GDW-Objekte" />
+                          <ParameterRefRef IndentLevel="1" RefId="%AID%_UP-%TT%%CC%363_R-%TT%%CC%36301" HelpContext="GDW-Objekte" />
+                          <ParameterRefRef IndentLevel="1" RefId="%AID%_UP-%TT%%CC%364_R-%TT%%CC%36401" HelpContext="GDW-Objekte" />
+                          <ParameterRefRef IndentLevel="1" RefId="%AID%_UP-%TT%%CC%365_R-%TT%%CC%36501" HelpContext="GDW-Objekte" />
+                          <ParameterRefRef IndentLevel="1" RefId="%AID%_UP-%TT%%CC%366_R-%TT%%CC%36601" HelpContext="GDW-Objekte" />
+                          <ParameterRefRef IndentLevel="1" RefId="%AID%_UP-%TT%%CC%367_R-%TT%%CC%36701" HelpContext="GDW-Objekte" />
+                          <ParameterRefRef IndentLevel="1" RefId="%AID%_UP-%TT%%CC%368_R-%TT%%CC%36801" HelpContext="GDW-Objekte" />
+                          <ParameterRefRef IndentLevel="1" RefId="%AID%_UP-%TT%%CC%369_R-%TT%%CC%36901" HelpContext="GDW-Objekte" />
+                          <ParameterRefRef IndentLevel="1" RefId="%AID%_UP-%TT%%CC%370_R-%TT%%CC%37001" HelpContext="GDW-Objekte" />
+                          <ParameterRefRef IndentLevel="1" RefId="%AID%_UP-%TT%%CC%371_R-%TT%%CC%37101" HelpContext="GDW-Objekte" />
+                          <ParameterRefRef IndentLevel="1" RefId="%AID%_UP-%TT%%CC%372_R-%TT%%CC%37201" HelpContext="GDW-Objekte" />
+                          <ParameterRefRef IndentLevel="1" RefId="%AID%_UP-%TT%%CC%373_R-%TT%%CC%37301" HelpContext="GDW-Objekte" />
                         </when>
                       </choose>
 
                       <ParameterSeparator Id="%AID%_PS-nnn" Text="Einstellungen" UIHint="Headline" />
                       <ParameterSeparator Id="%AID%_PS-nnn" Text="Diese Objekte schreiben in den Wechselrichter. Sie wirken erst, wenn ein Telegramm eintrifft; beim Start wird nichts geschrieben. Einstellungen ändern den Betrieb der Anlage - mit Bedacht verwenden." UIHint="Information" />
                       <ParameterSeparator Id="%AID%_PS-nnn" Text="Einstellungen allgemein" UIHint="Headline" />
-                      <ParameterBlock Id="%AID%_PB-%CC%OT18" Name="OTbl18" Text="Einstellungen allgemein" Inline="true" Layout="Table" HelpContext="GDW-Objekte">
-                        <Rows>
-                          <Row Id="%AID%_PB-%CC%OT18_R-1" Name="R1" Text="Einspeisebegrenzung aktiv" />
-                          <Row Id="%AID%_PB-%CC%OT18_R-2" Name="R2" Text="Einspeisebegrenzung" />
-                          <Row Id="%AID%_PB-%CC%OT18_R-3" Name="R3" Text="Uhr synchronisieren" />
-                        </Rows>
-                        <Columns>
-                          <Column Id="%AID%_PB-%CC%OT18_C-1" Name="C1" Text="aktiv" Width="20%" />
-                        </Columns>
-                        <ParameterRefRef RefId="%AID%_UP-%TT%%CC%403_R-%TT%%CC%40301" Cell="1,1" />
-                        <ParameterRefRef RefId="%AID%_UP-%TT%%CC%404_R-%TT%%CC%40401" Cell="2,1" />
-                        <ParameterRefRef RefId="%AID%_UP-%TT%%CC%418_R-%TT%%CC%41801" Cell="3,1" />
-                      </ParameterBlock>
+                      <ParameterRefRef IndentLevel="1" RefId="%AID%_UP-%TT%%CC%403_R-%TT%%CC%40301" HelpContext="GDW-Objekte" />
+                      <ParameterRefRef IndentLevel="1" RefId="%AID%_UP-%TT%%CC%404_R-%TT%%CC%40401" HelpContext="GDW-Objekte" />
+                      <ParameterRefRef IndentLevel="1" RefId="%AID%_UP-%TT%%CC%418_R-%TT%%CC%41801" HelpContext="GDW-Objekte" />
                       <choose ParamRefId="%AID%_UP-%TT%%CC%010_R-%TT%%CC%01001">
                         <when test="1 2">
                           <ParameterSeparator Id="%AID%_PS-nnn" Text="Einstellungen Hybrid" UIHint="Headline" />
-                          <ParameterBlock Id="%AID%_PB-%CC%OT19" Name="OTbl19" Text="Einstellungen Hybrid" Inline="true" Layout="Table" HelpContext="GDW-Objekte">
-                            <Rows>
-                              <Row Id="%AID%_PB-%CC%OT19_R-1" Name="R1" Text="Betriebsmodus" />
-                              <Row Id="%AID%_PB-%CC%OT19_R-2" Name="R2" Text="EMS-Modus" />
-                              <Row Id="%AID%_PB-%CC%OT19_R-3" Name="R3" Text="EMS-Leistung" />
-                              <Row Id="%AID%_PB-%CC%OT19_R-4" Name="R4" Text="Entladetiefe Netzbetrieb" />
-                              <Row Id="%AID%_PB-%CC%OT19_R-5" Name="R5" Text="Entladetiefe Inselbetrieb" />
-                              <Row Id="%AID%_PB-%CC%OT19_R-6" Name="R6" Text="SoC-Schutz" />
-                              <Row Id="%AID%_PB-%CC%OT19_R-7" Name="R7" Text="SoC-Obergrenze" />
-                              <Row Id="%AID%_PB-%CC%OT19_R-8" Name="R8" Text="Eco-Leistung" />
-                              <Row Id="%AID%_PB-%CC%OT19_R-9" Name="R9" Text="Eco-Ziel-SoC" />
-                              <Row Id="%AID%_PB-%CC%OT19_R-10" Name="R10" Text="Schnellladen" />
-                              <Row Id="%AID%_PB-%CC%OT19_R-11" Name="R11" Text="Schnellladen Ziel-SoC" />
-                              <Row Id="%AID%_PB-%CC%OT19_R-12" Name="R12" Text="Schnellladen Leistung" />
-                              <Row Id="%AID%_PB-%CC%OT19_R-13" Name="R13" Text="Backup-Versorgung" />
-                              <Row Id="%AID%_PB-%CC%OT19_R-14" Name="R14" Text="Entladetiefe halten" />
-                              <Row Id="%AID%_PB-%CC%OT19_R-15" Name="R15" Text="Lastregelung" />
-                            </Rows>
-                            <Columns>
-                              <Column Id="%AID%_PB-%CC%OT19_C-1" Name="C1" Text="aktiv" Width="20%" />
-                            </Columns>
-                            <ParameterRefRef RefId="%AID%_UP-%TT%%CC%400_R-%TT%%CC%40001" Cell="1,1" />
-                            <ParameterRefRef RefId="%AID%_UP-%TT%%CC%401_R-%TT%%CC%40101" Cell="2,1" />
-                            <ParameterRefRef RefId="%AID%_UP-%TT%%CC%402_R-%TT%%CC%40201" Cell="3,1" />
-                            <ParameterRefRef RefId="%AID%_UP-%TT%%CC%406_R-%TT%%CC%40601" Cell="4,1" />
-                            <ParameterRefRef RefId="%AID%_UP-%TT%%CC%407_R-%TT%%CC%40701" Cell="5,1" />
-                            <ParameterRefRef RefId="%AID%_UP-%TT%%CC%408_R-%TT%%CC%40801" Cell="6,1" />
-                            <ParameterRefRef RefId="%AID%_UP-%TT%%CC%409_R-%TT%%CC%40901" Cell="7,1" />
-                            <ParameterRefRef RefId="%AID%_UP-%TT%%CC%410_R-%TT%%CC%41001" Cell="8,1" />
-                            <ParameterRefRef RefId="%AID%_UP-%TT%%CC%411_R-%TT%%CC%41101" Cell="9,1" />
-                            <ParameterRefRef RefId="%AID%_UP-%TT%%CC%412_R-%TT%%CC%41201" Cell="10,1" />
-                            <ParameterRefRef RefId="%AID%_UP-%TT%%CC%413_R-%TT%%CC%41301" Cell="11,1" />
-                            <ParameterRefRef RefId="%AID%_UP-%TT%%CC%414_R-%TT%%CC%41401" Cell="12,1" />
-                            <ParameterRefRef RefId="%AID%_UP-%TT%%CC%415_R-%TT%%CC%41501" Cell="13,1" />
-                            <ParameterRefRef RefId="%AID%_UP-%TT%%CC%416_R-%TT%%CC%41601" Cell="14,1" />
-                            <ParameterRefRef RefId="%AID%_UP-%TT%%CC%417_R-%TT%%CC%41701" Cell="15,1" />
-                          </ParameterBlock>
+                          <ParameterRefRef IndentLevel="1" RefId="%AID%_UP-%TT%%CC%400_R-%TT%%CC%40001" HelpContext="GDW-Objekte" />
+                          <ParameterRefRef IndentLevel="1" RefId="%AID%_UP-%TT%%CC%401_R-%TT%%CC%40101" HelpContext="GDW-Objekte" />
+                          <ParameterRefRef IndentLevel="1" RefId="%AID%_UP-%TT%%CC%402_R-%TT%%CC%40201" HelpContext="GDW-Objekte" />
+                          <ParameterRefRef IndentLevel="1" RefId="%AID%_UP-%TT%%CC%406_R-%TT%%CC%40601" HelpContext="GDW-Objekte" />
+                          <ParameterRefRef IndentLevel="1" RefId="%AID%_UP-%TT%%CC%407_R-%TT%%CC%40701" HelpContext="GDW-Objekte" />
+                          <ParameterRefRef IndentLevel="1" RefId="%AID%_UP-%TT%%CC%408_R-%TT%%CC%40801" HelpContext="GDW-Objekte" />
+                          <ParameterRefRef IndentLevel="1" RefId="%AID%_UP-%TT%%CC%409_R-%TT%%CC%40901" HelpContext="GDW-Objekte" />
+                          <ParameterRefRef IndentLevel="1" RefId="%AID%_UP-%TT%%CC%410_R-%TT%%CC%41001" HelpContext="GDW-Objekte" />
+                          <ParameterRefRef IndentLevel="1" RefId="%AID%_UP-%TT%%CC%411_R-%TT%%CC%41101" HelpContext="GDW-Objekte" />
+                          <ParameterRefRef IndentLevel="1" RefId="%AID%_UP-%TT%%CC%412_R-%TT%%CC%41201" HelpContext="GDW-Objekte" />
+                          <ParameterRefRef IndentLevel="1" RefId="%AID%_UP-%TT%%CC%413_R-%TT%%CC%41301" HelpContext="GDW-Objekte" />
+                          <ParameterRefRef IndentLevel="1" RefId="%AID%_UP-%TT%%CC%414_R-%TT%%CC%41401" HelpContext="GDW-Objekte" />
+                          <ParameterRefRef IndentLevel="1" RefId="%AID%_UP-%TT%%CC%415_R-%TT%%CC%41501" HelpContext="GDW-Objekte" />
+                          <ParameterRefRef IndentLevel="1" RefId="%AID%_UP-%TT%%CC%416_R-%TT%%CC%41601" HelpContext="GDW-Objekte" />
+                          <ParameterRefRef IndentLevel="1" RefId="%AID%_UP-%TT%%CC%417_R-%TT%%CC%41701" HelpContext="GDW-Objekte" />
                         </when>
                       </choose>
                       <choose ParamRefId="%AID%_UP-%TT%%CC%010_R-%TT%%CC%01001">
                         <when test="1 3">
                           <ParameterSeparator Id="%AID%_PS-nnn" Text="Einstellungen netzgekoppelt" UIHint="Headline" />
-                          <ParameterBlock Id="%AID%_PB-%CC%OT20" Name="OTbl20" Text="Einstellungen netzgekoppelt" Inline="true" Layout="Table" HelpContext="GDW-Objekte">
-                            <Rows>
-                              <Row Id="%AID%_PB-%CC%OT20_R-1" Name="R1" Text="Einspeisebegrenzung (%)" />
-                              <Row Id="%AID%_PB-%CC%OT20_R-2" Name="R2" Text="Wechselrichter starten" />
-                              <Row Id="%AID%_PB-%CC%OT20_R-3" Name="R3" Text="Wechselrichter stoppen" />
-                            </Rows>
-                            <Columns>
-                              <Column Id="%AID%_PB-%CC%OT20_C-1" Name="C1" Text="aktiv" Width="20%" />
-                            </Columns>
-                            <ParameterRefRef RefId="%AID%_UP-%TT%%CC%405_R-%TT%%CC%40501" Cell="1,1" />
-                            <ParameterRefRef RefId="%AID%_UP-%TT%%CC%419_R-%TT%%CC%41901" Cell="2,1" />
-                            <ParameterRefRef RefId="%AID%_UP-%TT%%CC%420_R-%TT%%CC%42001" Cell="3,1" />
-                          </ParameterBlock>
+                          <ParameterRefRef IndentLevel="1" RefId="%AID%_UP-%TT%%CC%405_R-%TT%%CC%40501" HelpContext="GDW-Objekte" />
+                          <ParameterRefRef IndentLevel="1" RefId="%AID%_UP-%TT%%CC%419_R-%TT%%CC%41901" HelpContext="GDW-Objekte" />
+                          <ParameterRefRef IndentLevel="1" RefId="%AID%_UP-%TT%%CC%420_R-%TT%%CC%42001" HelpContext="GDW-Objekte" />
                         </when>
                       </choose>
                     </ParameterBlock>

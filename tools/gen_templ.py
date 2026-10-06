@@ -117,10 +117,16 @@ def function_text(dpt, unit, label):
     raise ValueError(d)
 
 
-# Alle Aktiv-Bits: (Bitnummer, Name, Anzeigetext, Familie)
+def with_unit(label, unit):
+    """Anzeigetext der Zeile: Einheit anhaengen, wenn sie nicht schon im Text steht."""
+    return label + (" (%s)" % unit if unit and "(" not in label else "")
+
+
+# Alle Aktiv-Bits: (Bitnummer, Name, Anzeigetext, Familie). Der Anzeigetext steht im
+# Parameter selbst - jedes Objekt ist eine normale ETS-Zeile mit Text und Haekchen.
 BITS = []
 for k, s in enumerate(SENSORS):
-    BITS.append((k, s[0], s[1], s[4]))
+    BITS.append((k, s[0], with_unit(s[1], s[2]), s[4]))
 for n, st in enumerate(SETTINGS):
     BITS.append((SENSOR_CAPACITY + n, st[0], st[1], st[2]))
 
@@ -342,53 +348,43 @@ A('                      <ParameterSeparator Id="%s" Text="Messwerte" UIHint="He
 A('                      <ParameterSeparator Id="%s" Text="Angehakt wird als KO angelegt und gesendet. &quot;Wechselrichter auslesen&quot; hakt alle Objekte an, die das Gerät liefert. Netzleistung, Bezug, Einspeisung und Hausverbrauch sind nur mit angeschlossenem GoodWe-Zähler gültig." UIHint="Information" />' % PS)
 
 
-def emit_table(gi, title, rows, fam):
-    """rows: Liste (Bitnummer, Anzeigetext)."""
+# Je Objekt eine normale Parameterzeile unter einer Gruppenueberschrift. Bewusst KEINE
+# Tabelle: ein Layout="Table" mit nur einer Spalte zeigt in der ETS die Haekchen nicht an
+# (die Zeilenkoepfe verdraengen die Spalte), und ohne weitere Spalten bringt es nichts.
+def emit_list(title, bits, fam):
+    """bits: Liste der Bitnummern in Anzeigereihenfolge."""
     pad = " " * 22
     if FAM_TEST[fam]:
         A(pad + '<choose ParamRefId="%s">' % TYPEREF)
         A(pad + '  <when test="%s">' % FAM_TEST[fam])
         pad = pad + "    "
-    tid = P + 'AID' + P + '_PB-%sCC%sOT%d' % (P, P, gi)
     A(pad + '<ParameterSeparator Id="%s" Text="%s" UIHint="Headline" />' % (PS, xml(title)))
-    A(pad + '<ParameterBlock Id="%s" Name="OTbl%d" Text="%s" Inline="true" Layout="Table" HelpContext="GDW-Objekte">' % (tid, gi, xml(title)))
-    A(pad + '  <Rows>')
-    for j, (_, label) in enumerate(rows, start=1):
-        A(pad + '    <Row Id="%s_R-%d" Name="R%d" Text="%s" />' % (tid, j, j, xml(label)))
-    A(pad + '  </Rows>')
-    A(pad + '  <Columns>')
-    A(pad + '    <Column Id="%s_C-1" Name="C1" Text="aktiv" Width="20%s" />' % (tid, P))
-    A(pad + '  </Columns>')
-    for j, (k, _) in enumerate(rows, start=1):
-        A(pad + '  <ParameterRefRef RefId="%s" Cell="%d,1" />' % (uref(bit_param(k)), j))
-    A(pad + '</ParameterBlock>')
+    for k in bits:
+        A(pad + '<ParameterRefRef IndentLevel="1" RefId="%s" HelpContext="GDW-Objekte" />' % uref(bit_param(k)))
     if FAM_TEST[fam]:
         A(" " * 22 + '  </when>')
         A(" " * 22 + '</choose>')
 
 
 k = 0
-for gi, (title, group) in enumerate(SENSOR_GROUPS):
-    rows = []
+for title, group in SENSOR_GROUPS:
+    bits = []
     fams = set()
     for s in group:
-        unit = (" (%s)" % s[2]) if s[2] and ("(" not in s[1]) else ""
-        rows.append((k, s[1] + unit))
+        bits.append(k)
         fams.add(s[4])
         k += 1
     assert len(fams) == 1, "Gruppe %s mischt Familien" % title
-    emit_table(gi, title, rows, fams.pop())
+    emit_list(title, bits, fams.pop())
 assert k == len(SENSORS)
 
 A('')
 A('                      <ParameterSeparator Id="%s" Text="Einstellungen" UIHint="Headline" />' % PS)
 A('                      <ParameterSeparator Id="%s" Text="Diese Objekte schreiben in den Wechselrichter. Sie wirken erst, wenn ein Telegramm eintrifft; beim Start wird nichts geschrieben. Einstellungen ändern den Betrieb der Anlage - mit Bedacht verwenden." UIHint="Information" />' % PS)
-gi = len(SENSOR_GROUPS)
 for fam, title in (("C", "Einstellungen allgemein"), ("E", "Einstellungen Hybrid"), ("D", "Einstellungen netzgekoppelt")):
-    rows = [(SENSOR_CAPACITY + n, st[1]) for n, st in enumerate(SETTINGS) if st[2] == fam]
-    if rows:
-        emit_table(gi, title, rows, fam)
-        gi += 1
+    bits = [SENSOR_CAPACITY + n for n, st in enumerate(SETTINGS) if st[2] == fam]
+    if bits:
+        emit_list(title, bits, fam)
 
 A('                    </ParameterBlock>')
 A('                  </when>')

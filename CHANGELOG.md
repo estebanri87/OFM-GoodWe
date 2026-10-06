@@ -10,3 +10,6 @@
   verfügbare Objekte.
 - Kanalauswahl als eigener Tab (Typ-Variante mit `BASE_SyncChannelType`).
 - Ohne Testgerät entwickelt, Register ungeprüft.
+- ETS-Darstellung der Objektauswahl korrigiert: je Objekt eine normale Parameterzeile mit
+  Text und Häkchen statt einer Tabelle mit nur einer Spalte, in der die Häkchen unsichtbar
+  waren. Einheiten stehen jetzt im Zeilentext.
